@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://axum-on-workers.redham28.workers.dev/"
+base_url = "http://127.0.0.1:1111/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -18,4 +18,5 @@ definition_list = true
 bottom_footnotes = true
 
 [extra]
+# Put all your custom variables here
 turnstile_key = "0x4AAAAAAEFi_qR0j4UNXBCX"

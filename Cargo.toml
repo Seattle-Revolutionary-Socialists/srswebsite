@@ -13,16 +13,15 @@ crate-type = ["cdylib"]
 worker = { version = "0.8.5", features = ["http", "axum"] }
 worker-macros = { version = "0.8.5", features = ["http"] }
 
-axum = { version = "0.8", default-features = false, features = ['json', 'macros'] }
+axum = { version = "0.8", default-features = false, features = ['json', 'macros', 'form'] }
 tower-service = "0.3.3"
 wasm-bindgen-futures = "0.4"
 wasm-bindgen = "0.2"
 serde = { version = "1.0", features = ["derive"] }
 tower-http = { version = "0.7.0" }
 tower = "0.5.3"
-# this leaves us a bit more open to a supply chain attack
-axum-embed = { git = "https://github.com/informationsea/axum-embed.git" }
-rust-embed = "8.12.0"
+dotenvy = "0.15.7"
+serde_json = "1.0.151"
 
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false

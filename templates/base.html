@@ -5,30 +5,32 @@
   <meta charset="utf-8">
   <title>Seattle Revolutionary Socialists</title>
   <link rel="stylesheet" href="{{ get_url(path='out.css', ) }}">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <script src="https://kit.fontawesome.com/a2aa0616f7.js" crossorigin="anonymous"></script>
   <!-- I owe Gwen cover fire during the revolution -->
   <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+  <!-- for captchas, we can switch to another captcha solution at any time, so we are not locked in -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 
 <body>
   <nav style="font-size: 1.5rem; font-family: 'Anton'">
     <div class="mx-auto flex max-w-6xl items-bottom justify-between px-4 py-3">
       <img src="{{ get_url(path='srs.svg', ) }}" style="width: calc(.35 * 474px); height: calc(.35 * 243px);"
-            alt="Seattle Revolutionary Socialists Logo">
-      <button class="sm:hidden" aria-label="Open menu">
+        alt="Seattle Revolutionary Socialists Logo">
+      <button onclick="document.getElementById('mobileNav').classList.toggle('hidden');" class="sm:hidden text-5xl" aria-label="Open menu">
         ☰
       </button>
       <div class="hidden gap-6 sm:flex items-baseline-last">
-        <!-- TODO: find some way to get this piped in correctly -->
         <span><a href="{{ config.base_url }}" class="btn">Home</a></span>
         <div class="z-2 relative inline-block">
           <button class="btn peer">About Us</button>
 
           <div class="opacity-100 absolute left-0 top-full hidden w-52 flex-col bg-white shadow-lg
            peer-hover:flex hover:flex">
-            <a class="btn hover:underline px-5 py-3 text-black" href="{{ get_url(path='@/pages/wherewestand.md') }}">Where We Stand</a>
-            <a class="btn hover:underline px-5 py-3 text-black" href="{{ get_url(path='@/pages/codeofconduct.md') }}">Code of Conduct</a>
+            <a class="btn hover:underline px-5 py-3 text-black"
+              href="{{ get_url(path='@/pages/wherewestand.md') }}">Where We Stand</a>
+            <a class="btn hover:underline px-5 py-3 text-black"
+              href="{{ get_url(path='@/pages/codeofconduct.md') }}">Code of Conduct</a>
           </div>
         </div>
         </span>
@@ -41,6 +43,21 @@
         <!-- <a href="{{ get_url(path='@/system/_index.md') }}">Design System</a> -->
       </div>
     </div>
+    <div id='mobileNav' style="height: calc(100vh - calc(.35 * 243px) - 6 * var(--spacing))" class="hidden flex justify-around flex-col py-4">
+      <div class="mobile-nav"><a href="{{ config.base_url }}" class="btn">Home</a></div>
+      <div class="mobile-nav"><a class="btn hover:underline" href="{{ get_url(path='@/pages/wherewestand.md') }}">Where
+          We Stand</a></div>
+      <div class="mobile-nav"><a class="btn hover:underline" href="{{ get_url(path='@/pages/codeofconduct.md') }}">Code
+          of Conduct</a></div>
+      <div class="mobile-nav">
+        <a href="{{ get_url(path='@/events/_index.md') }}" class="btn">Events Calendar</a>
+      </div>
+      <div class="mobile-nav"> <a href="{{ get_url(path='@/perspectives/_index.md') }}" class="btn">Perspectives</a>
+      </div>
+      <div class="mobile-nav"> <a href="{{ get_url(path='@/pages/contact.md') }}" class="btn">Contact</a>
+      </div>
+    </div>
+
   </nav>
   {% block content %} {% endblock content %}
   <section class="text-black text-center" style="background-color: var(--primary-bg-color);">

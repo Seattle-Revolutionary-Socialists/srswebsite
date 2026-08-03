@@ -1,7 +1,7 @@
 # SRS Design System
 
 ## TODO
-- add tailwindcss contact form + 2 captcha endpoints (get captcha + submit captcha (requires some POW code))
+- add tailwindcss contact form
 - generalize into template that makes instantiating national website easy
 - national website
 
@@ -55,11 +55,13 @@ For basic developer flow, run `zola serve` in one terminal tab and `npm run styl
 
 If you want to run the web server locally, then run the static file server via `npm run dev`. This will generate events, build styles and build the markdown into html
 
+You can also run `npm run zsrv` but we aware that this does not use the local zola config (thus captchas are broken) due to shortsightedness of the developers of `zola`. This can be fixed upstream but not worth it at the time.
+
 #### Security
 
 DO NOT EVER HAVE A PHYSICAL `.env` file on the worker.
 
-DO NOT LEAK SQSP API KEY
+DO NOT LEAK DISCORD API KEY
 
 ANY NEW DEPS WILL GET YOUR PR REJECTED
 

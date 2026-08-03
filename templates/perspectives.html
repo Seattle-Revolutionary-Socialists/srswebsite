@@ -11,8 +11,8 @@
     {% for page in section.pages %}
     <section class="p-8 flex acc-flex-dir justify-center items-center align-center md:w-3/4" style="margin: 0 auto;">
         <div class="m-2 p-4 flex items-center min-size-lg-screen-article-image-container"><a class="block" href="{{ page.permalink | safe }}">
-            <img width="400" class="article-image"
-                    style="max-width: none; max-height: none;" src="{{ config.base_url }}/perspectives/{{page.extra.image}}"
+            <img width="300" class="article-image"
+                    style="max-width: none; max-height: none;" src="{{ config.base_url }}perspectives/{{page.extra.image}}"
                     alt="{{page.extra.imageAlt}}" />
         </a></div>
         <div class="m-2 p-4 article-image text-center">

@@ -1,7 +1,9 @@
 FROM node:26-slim
 
 ARG WORKER_BUILD_VERSION=0.8.5
+ARG RUST_VERSION=1.97.1
 ENV WORKER_BUILD_VERSION="${WORKER_BUILD_VERSION}"
+
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates curl git build-essential pkg-config libssl-dev \
@@ -9,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN npm i -g pnpm@latest
 
-RUN curl -fsSL https://sh.rustup.rs | sh -s -- -y --profile complete
+RUN curl -fsSL https://sh.rustup.rs | sh -s -- -y --default-toolchain "${RUST_VERSION}"
 ENV PATH="/root/.cargo/bin:${PATH}"
 
 RUN npm install -g @tailwindcss/cli
@@ -28,6 +30,10 @@ RUN set -eux; \
         --version "${WORKER_BUILD_VERSION}" \
         worker-build; \
     worker-build --version
+
+RUN apt-get install -y just
+
+RUN curl https://wasm-bindgen.github.io/wasm-pack/installer/init.sh -sSf | sh
 
 WORKDIR /work
 

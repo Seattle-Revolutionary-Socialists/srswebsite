@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --spacing: 0.25rem;
+    --spacing: 0.25rem;
 }
 
 h1 {
-  @apply font-bold text-4xl tracking-tight leading-tight mb-6;
+    @apply font-bold text-4xl tracking-tight leading-tight mb-6;
 }
 
 .block-auto {
@@ -20,10 +20,13 @@ img {
 }
 
 /* tolerate if they add another line */
-img + em, p:has(img) + p em {
+img+em,
+p:has(img)+p em {
     @apply block-auto text-center;
 }
-blockquote + em, blockquote + p em {
+
+blockquote+em,
+blockquote+p em {
     @apply block-auto text-center;
 }
 
@@ -46,19 +49,19 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    @apply text-3xl md:text-6xl;
     font-family: 'Anton';
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 3rem;
+    @apply text-2xl md:text-5xl;
     font-family: 'PoppinsBold';
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 2.5rem;
+    @apply text-lg md:text-4xl;
     font-family: 'PoppinsBold';
 }
 
@@ -106,6 +109,7 @@ strong {
         @apply flex-col;
     }
 }
+
 @media only screen and (min-width: 641px) {
     .acc-flex-dir {
         @apply flex-row;
@@ -117,6 +121,7 @@ strong {
         @apply flex-row;
     }
 }
+
 @media only screen and (min-width: 641px) {
     .acc-flex-dir-rev {
         @apply flex-col;
@@ -132,17 +137,20 @@ strong {
 
 @media only screen and (min-width: 720px) {
     .min-size-lg-screen-article-image-container {
-        width: 500px; height: 500px;
+        width: 500px;
+        height: 500px;
     }
 }
+
 @media only screen and (min-width: 720px) {
     .min-size-lg-screen-article-image-container-small {
-        width: 75px; height: 75px;
+        width: 75px;
+        height: 75px;
     }
 }
 
 :root {
-  --primary-bg-color: #f2161e;
+    --primary-bg-color: #f2161e;
 }
 
 .btn:hover {
@@ -155,7 +163,20 @@ strong {
     color: white;
 }
 
-.single-column div, .single-column h2 {
+.single-column div,
+.single-column h2 {
     @apply p-4 md:w-3/4;
     margin: 0 auto;
+}
+
+.mobile-nav {
+    @apply block-auto text-center;
+}
+
+input {
+    color: black;
+}
+
+label, .form-button {
+    @apply text-lg md:text-2xl;
 }

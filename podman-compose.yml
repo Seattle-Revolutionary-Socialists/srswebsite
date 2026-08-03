@@ -5,6 +5,8 @@ services:
     container_name: devenv
     volumes:
       - ./:/work
+      # Seems lazy but I could grab your ssh keys in a much subtler way if I wanted
+      - ~/.ssh:/work/.ssh
     working_dir: /work
     command: sleep infinity
     tty: true
