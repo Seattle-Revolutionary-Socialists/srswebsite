@@ -3,7 +3,7 @@ use axum::http::StatusCode;
 use axum::response::Redirect;
 use axum::{
     extract::Form,
-    response::Html,
+    extract::Path,
     routing::{get, post},
     Router,
 };
@@ -107,7 +107,7 @@ pub async fn validate_turnstile(
 
 async fn router(env: Env) -> Router {
     Router::new()
-        .route("/api/contacts", post(accept_form))
+        .route("/api/contacts/{group_location}", post(accept_form))
         .route("/", get(Redirect::permanent("/index.html")))
         .layer(Extension(env))
 }
@@ -126,8 +126,8 @@ struct Input {
 }
 
 #[worker::send]
-async fn accept_form(Extension(env): Extension<Env>, Form(input): Form<Input>) -> Result<Redirect, (StatusCode, Json<TurnstileResult>)> {
-    console_log!("{:#?}", &input);
+async fn accept_form(Extension(env): Extension<Env>, Path(group_location): Path<String>, Form(input): Form<Input>) -> Result<Redirect, (StatusCode, Json<TurnstileResult>)> {
+    console_log!("{:#?} {}", &input, &group_location);
     let validation =
         validate_turnstile( env, &input.cf_turnstile_response).await;
 

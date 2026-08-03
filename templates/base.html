@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Seattle Revolutionary Socialists</title>
+  <title>{{config.extra.group_name}}</title>
   <link rel="stylesheet" href="{{ get_url(path='out.css', ) }}">
   <script src="https://kit.fontawesome.com/a2aa0616f7.js" crossorigin="anonymous"></script>
   <!-- I owe Gwen cover fire during the revolution -->
@@ -15,8 +15,8 @@
 <body>
   <nav style="font-size: 1.5rem; font-family: 'Anton'">
     <div class="mx-auto flex max-w-6xl items-bottom justify-between px-4 py-3">
-      <img src="{{ get_url(path='srs.svg', ) }}" style="width: calc(.35 * 474px); height: calc(.35 * 243px);"
-        alt="Seattle Revolutionary Socialists Logo">
+      <img src="{{ config.base_url }}/{{config.extra.brand_img}}" style="width: calc(.35 * 474px); height: calc(.35 * 243px);"
+        alt="{{config.extra.group_name}} Logo">
       <button onclick="document.getElementById('mobileNav').classList.toggle('hidden');" class="sm:hidden text-5xl" aria-label="Open menu">
         ☰
       </button>
@@ -63,13 +63,13 @@
   <section class="text-black text-center" style="background-color: var(--primary-bg-color);">
     <div class="p-10 pb-16">
       <h2 style="font-family: 'Anton';">Let's Get Social(ist)</h2>
-      <div style="color: white;"> <a href="https://www.facebook.com/seattlerevolutionarysocialists">Like and follow us
+      <div style="color: white;"> <a href="{{config.extra.facebook_link}}">Like and follow us
           on
           <strong class="btn">Facebook</strong>!</a>
       </div>
-      <div style="color: white;"><a href="https://www.instagram.com/seattlerevolutionarysocialists/">Or find us on
+      <div style="color: white;"><a href="{{config.extra.instagram_link}}">Or find us on
           <strong class="btn">Instagram</strong>:
-          @seattlerevolutionarysocialists</a></div>
+          @{{config.extra.instagram_handle}}</a></div>
     </div>
   </section>
 </body>

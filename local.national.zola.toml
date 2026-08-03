@@ -1,0 +1,35 @@
+# The URL the site will be built for
+base_url = "http://127.0.0.1:1111/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+generate_feeds = true
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+smart_punctuation = true
+definition_list = true
+bottom_footnotes = true
+
+[extra]
+# Put all your custom variables here
+turnstile_key = "0x4AAAAAAEFi_qR0j4UNXBCX"
+brand_img = "REDSPARK_LOGO.svg"
+facebook_link = "https://www.facebook.com/redsparkcommunists"
+instagram_link = "https://www.instagram.com/redsparkcommunists/"
+instagram_handle = "redsparkcommunists"
+twitter_link="https://twitter.com/redsparkcommunists"
+group_name="Red Spark Communists"
+group_type="national"
+group_shorthand="RSC"
+group_blurb="started in 2026 to expand the class struggle nationally. We have branches in Seattle, New York City and Boston."
+contact_img="srssign.jpeg"
+contact_img_alt="A protest sign bearing the text 'SEATTLE REVOLUTIONARY SOCIALISTS', defiant fists and the sickle and hammer"
+group_location="national"
+meeting_location="We meet 1:00 PM PST every other Sunday at https://bit.ly/srszoomlink unless otherwise stated."

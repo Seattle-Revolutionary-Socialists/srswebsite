@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      powchallenge_client:
-        specifier: ^1.0.3
-        version: 1.0.3
     devDependencies:
       '@tailwindcss/cli':
         specifier: ^4.0.0
@@ -596,9 +592,6 @@ packages:
     resolution: {integrity: sha512-z8ZgnzX8gdNoWLBLqBPoh/sjnxkwvf9ZuWjnO0l0yIzbLa5/9S+eC5QxGZKRobVHIC3/1BoMWjHblqWjcgFgag==}
     engines: {node: '>= 20'}
 
-  argon2-browser@1.18.0:
-    resolution: {integrity: sha512-ImVAGIItnFnvET1exhsQB7apRztcoC5TnlSqernMJDUjbc/DLq3UEYeXFrLPrlaIl8cVfwnXb6wX2KpFf2zxHw==}
-
   blake3-wasm@2.1.5:
     resolution: {integrity: sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==}
 
@@ -768,9 +761,6 @@ packages:
   picomatch@2.3.2:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
-
-  powchallenge_client@1.0.3:
-    resolution: {integrity: sha512-uB7QQ3GHOna40EM12PZ0FUyKVcxvjdfF6oLly9i4+Z1yq5j/xw+ol7RWvwaHGfHhf//EA4UU0mlixKqHUld0mA==}
 
   semver@7.8.5:
     resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
@@ -1222,8 +1212,6 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.3.2
       '@tailwindcss/oxide-win32-x64-msvc': 4.3.2
 
-  argon2-browser@1.18.0: {}
-
   blake3-wasm@2.1.5: {}
 
   braces@3.0.3:
@@ -1374,10 +1362,6 @@ snapshots:
   picocolors@1.1.1: {}
 
   picomatch@2.3.2: {}
-
-  powchallenge_client@1.0.3:
-    dependencies:
-      argon2-browser: 1.18.0
 
   semver@7.8.5: {}
 

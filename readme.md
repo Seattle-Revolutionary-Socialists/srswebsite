@@ -1,13 +1,9 @@
 # SRS Design System
 
-## TODO
-- add tailwindcss contact form
-- generalize into template that makes instantiating national website easy
-- national website
-
-Note: This is not to be used directly by any non developer, as this functionality will be exposed via markdown templates.
-
 Half assed PRs will piss me off.
+
+## TODO
+- national website
 
 ## Design Principles
 
@@ -53,7 +49,7 @@ To generate events from the source events (historical), run `./scripts/generate-
 
 For basic developer flow, run `zola serve` in one terminal tab and `npm run styles` in another terminal tab. These respectively watch and build templates, markdown and styles to enable rapid iteration. Visit [http://127.0.0.1:1111/](http://127.0.0.1:1111/) to see the website update as you edit files. I recommend you have the `build-styles` tab active as your browser will tell you where the non-style build fails.
 
-If you want to run the web server locally, then run the static file server via `npm run dev`. This will generate events, build styles and build the markdown into html
+If you want to run the web server locally, then run the static file server via `npm run dev` (specify branch with `BRANCH=seattle npm run dev`). This will generate events, build styles and build the markdown into html
 
 You can also run `npm run zsrv` but we aware that this does not use the local zola config (thus captchas are broken) due to shortsightedness of the developers of `zola`. This can be fixed upstream but not worth it at the time.
 

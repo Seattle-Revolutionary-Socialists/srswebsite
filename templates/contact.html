@@ -18,22 +18,20 @@
 
         <div>We welcome new members who share our political orientation and aspirations!
         </div>
-        <div><strong>We meet on Tuesday evenings from 7–9 pm PST on Zoom (bit.ly/srszoomlink) and in person at Christ
-                Episcopal
-                Church (4548 Brooklyn Ave NE, Seattle, WA 98105), unless otherwise stated. For confirmation, please
+        <div><strong>{{config.extra.meeting_location}} For confirmation, please
                 see</strong> <a href="{{ get_url(path='@/events/_index.md') }}"
                 class="btn underline underline-offset-4">our
                 calendar</a>.
         </div>
         <div>Typically, the first half of our general meeting consists of presentations and discussions on topics
-            relevant to revolutionary socialism, while the second half is our business meeting in which we discuss local
+            relevant to revolutionary socialism, while the second half is our business meeting in which we discuss
             organizing efforts, engage in democratic decision-making, and hear reports from comrades, committees, and
             work groups. We welcome participation from anyone else interested in socialism or changing the world.
         </div>
-        <div>If you’re interested in joining our organization or just our mailing list, fill out the form below and
-            we’ll get back to you as soon as possible.
+        <div>If you're interested in joining our organization or just our mailing list, fill out the form below and
+            we'll get back to you as soon as possible.
         </div>
-        <form action="/api/contacts" method="POST">
+        <form action="/api/contacts/{{config.extra.group_location}}" method="POST">
 
             <div class="border-b border-gray-900/10 pb-12 center-text">
 
@@ -103,8 +101,8 @@
                 </div>
         </form>
 
-        <img style="margin: 0 auto; display: block;" src="{{ get_url(path='srssign.jpeg', ) }}"
-            alt="A protest sign bearing the text 'SEATTLE REVOLUTIONARY SOCIALISTS', defiant fists and the sickle and hammer">
+        <img style="margin: 0 auto; display: block;" src="{{ config.base_url }}/{{config.extra.contact_img}}"
+            alt="{{config.extra.contact_img_alt}}">
     </section>
 </main>
 
