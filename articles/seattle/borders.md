@@ -5,6 +5,7 @@ authors = ["Steve Leigh"]
 [extra]
 image = "borders.webp"
 imageAlt = "A brutalist wall restricting movement of people marked with a defiant message: 'NO ONE IS ILLEGAL'"
+branch="seattle"
 +++
 
 **The Border Crossed Us : The Case for Opening the US Mexico BorderJustin Akers Chacon**, *Haymarket 2021*

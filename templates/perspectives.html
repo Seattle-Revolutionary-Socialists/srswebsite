@@ -9,10 +9,11 @@
                 necessarily the views of the {{config.extra.group_shorthand}} as a whole, unless stated otherwise.</div>
     </section>
     {% for page in section.pages %}
+    {% if page.extra.branch == config.extra.group_location %}
     <section class="p-8 flex acc-flex-dir justify-center items-center align-center md:w-3/4" style="margin: 0 auto;">
         <div class="m-2 p-4 flex items-center min-size-lg-screen-article-image-container"><a class="block" href="{{ page.permalink | safe }}">
             <img width="300" class="article-image"
-                    style="max-width: none; max-height: none;" src="{{ config.base_url }}/perspectives/{{page.extra.image}}"
+                    style="max-width: none; max-height: none;" src="{{ config.base_url }}/perspectives/{{config.extra.group_location}}-{{page.extra.image}}"
                     alt="{{page.extra.imageAlt}}" />
         </a></div>
         <div class="m-2 p-4 article-image text-center">
@@ -23,6 +24,7 @@
             </div>
         </div>
     </section>
+    {% endif %}
     {% endfor %}
 </main>
 

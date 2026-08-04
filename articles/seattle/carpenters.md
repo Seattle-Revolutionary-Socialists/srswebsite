@@ -5,6 +5,7 @@ authors = ["Steve Leigh"]
 [extra]
 image = "carpenters.webp"
 imageAlt = "Roughly 80 carpenters in the street bearing signs declaring their strike"
+branch="seattle"
 +++
 
 On Sept. 16, carpenters went on strike against the Associated General Contractors (AGC) in the Seattle area. The carpenters had rejected four separate contract offers from the AGC that the union negotiators agreed to. The key issues are better wage increases, more contributions to pensions and health care, and full payment for parking as well as health and safety and freedom from sexual harassment on the job.

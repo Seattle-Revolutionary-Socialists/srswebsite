@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+
+mkdir -p ./content/perspectives
+
+find ./content/perspectives \
+  -mindepth 1 \
+  -maxdepth 1 \
+  ! -name '_index.md' \
+  -exec rm -rf -- {} +
+
+find ./static/perspectives \
+  -mindepth 1 \
+  -maxdepth 1 \
+  -exec rm -rf -- {} +
+
+  find ./static/events \
+  -mindepth 1 \
+  -maxdepth 1 \
+  -exec rm -rf -- {} +
+
+# create flattened symlinks for articles
+find ./articles \
+  -type f \
+  -name '*.md' \
+  -print0 |
+while IFS= read -r -d '' src; do
+  relative_path="${src#./articles/}"
+  flattened_name="${relative_path//\//-}"
+
+  ln -s \
+    "../../articles/${relative_path}" \
+    "./content/perspectives/${flattened_name}"
+done
+
+# create flattened symlinks for article images
+find ./article-images \
+  -type f \
+  -name '*.*' \
+  -print0 |
+while IFS= read -r -d '' src; do
+  relative_path="${src#./article-images/}"
+  flattened_name="${relative_path//\//-}"
+  echo \
+    "../../article-images/${relative_path}" \
+    "./static/perspectives/${flattened_name}"
+  ln -s \
+    "../../article-images/${relative_path}" \
+    "./static/perspectives/${flattened_name}"
+done
+
+# create flattened symlinks for event images
+find ./event-images \
+  -type f \
+  -name '*.*' \
+  -print0 |
+while IFS= read -r -d '' src; do
+  relative_path="${src#./event-images/}"
+  flattened_name="${relative_path//\//-}"
+  echo \
+    "../../event-images/${relative_path}" \
+    "./static/events/${flattened_name}"
+  ln -s \
+    "../../event-images/${relative_path}" \
+    "./static/events/${flattened_name}"
+done

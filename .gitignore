@@ -17,3 +17,7 @@ dist
 harper
 *.env
 *.ssh
+content/perspectives/*.md
+!content/perspectives/_index.md
+static/perspectives/*.*
+static/events/*.*

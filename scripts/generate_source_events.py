@@ -2,6 +2,7 @@ import json
 from time import gmtime,strftime
 from copy import deepcopy
 from datetime import date, timedelta
+import sys
 
 res = []
 
@@ -27,7 +28,7 @@ def next_weekdays(day_name: str, n: int):
         for i in range(n)
     ]
 
-with open("./source-events.json", "r") as f:
+with open(f"./events/source-events-{sys.argv[1]}.json", "r") as f:
     data = json.load(f)
     for event in data['events']:
         # TODO: remove "flavored instances" of event (tuesday events)

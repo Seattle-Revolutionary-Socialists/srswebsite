@@ -5,6 +5,7 @@ authors = ["Steve Leigh"]
 [extra]
 image = "sawant.webp"
 imageAlt = "A poster with revolutionary Kshama Sawant calling the reader to send Sawant to congress"
+branch="seattle"
 +++
 
 The Seattle Revolutionary Socialists hereby announces its endorsement of Kshama Sawant's campaign to represent Washington's 9th district in the U.S. House of Representatives. Normally, our organization does not endorse political candidates for electoral office, even so-called "socialist" ones, because invariably they run in the Democratic Party and end up disappointing the activists who put them in office. Figures like Brandon Johnson, Alexandria Ocasio-Cortez, Bernie Sanders, Zohran Mamdani and others come to mind as prominent examples of politicians who put forth a progressive veneer on the campaign trail, only to break strikes, expand police budgets, and send more bombs to Israel once they're in office. Even our local "socialist" mayor Katie Wilson, whom we declined to support, predictably ended up coming out in support of surveillance cameras and engaged in apologetics for sweeps not even a year into her tenure.

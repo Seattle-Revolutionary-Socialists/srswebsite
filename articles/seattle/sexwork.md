@@ -5,6 +5,7 @@ authors = ["Steve Leigh"]
 [extra]
 image = "sexwork.webp"
 imageAlt = "A picture of the book 'Revolting Prositutes: The Fight for Sex Workers Rights' by Juno Mac and Molly Smith"
+branch="seattle"
 +++
 
 **Book Review:Revolting Prostitutes: The Fight for Sex Worker Rights, Molly Smith and Juno Mac**, *Verso 2020*
