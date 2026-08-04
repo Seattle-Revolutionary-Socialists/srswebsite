@@ -18,9 +18,11 @@ Some of our critics have argued that we’re premature. Mamdani, after all, has 
 
 No doubt once hedge-fund managers and billionaires stop [losing their minds](https://www.forbes.com/sites/saradorn/2025/06/25/billionaires-ackman-and-musk-blast-zohran-mamdanis-nyc-primary-win-catsimatidis-predicts-adams-could-win/) over Mamdani’s upset victory — and stop mourning the loss of the $25 million they threw down the drain into Andrew Cuomo’s campaign — they’ll fund someone they hope can beat him. In desperation they’re even considering backing current mayor [Eric Adams](https://nymag.com/intelligencer/article/eric-adams-launches-reelection-after-zohran-mamdani-win.html), who has been disgraced by a bribery probe and was holding a 20 percent approval rating as of March.
 
-> **Any involvement with the Democratic Party, no matter the intentions, leads the left down a dark path in service of capital.**
+{% highlight() %}
 
-**Any involvement with the Democratic Party, no matter the intentions, leads the left down a dark path in service of capital.**
+Any involvement with the Democratic Party, no matter the intentions, leads the left down a dark path in service of capital.
+
+{% end %}
 
 Should Mamdani win the mayoral election and remain dedicated to his campaign promises, the matter will be far from settled. We will see the capitalist class and its state apparatus go into overdrive to curtail and crush any attempts at reform from above. In order for Mamdani to get key campaign planks funded, he’ll need to get an income-tax hike past a potentially intransigent [neoliberal state governor](https://gothamist.com/news/zohran-mamdanis-policies-face-a-big-obstacle-gov-kathy-hochul) and fellow Democrat, Kathy Hochul. Donald Trump may try to strip New York City of its [federal funds](https://www.foxnews.com/politics/trump-vows-save-new-york-city-from-zohran-mamdani-i-hold-all-levers) or even Mamdani of his citizenship.
 
@@ -38,13 +40,13 @@ The party surrogate model, meanwhile, has envisioned building an independent par
 
 > “Working within the Democratic Party” has been the prevailing model of progressive political action for decades now, and it suffers from a fundamental limitation: it cedes all real agency to professional politicians.
 
-“Working within the Democratic Party” has been the prevailing model of progressive political action for decades now, and it suffers from a fundamental limitation: it cedes all real agency to professional politicians.
-
 Both strategies accept that the two-party system is fundamentally hostile to socialist politics. Both are also presented as bolder and more left-wing alternatives to the DSA’s long-standing strategy to realign the Democratic Party.
 
-> **Then, as now, the realigners naively believed that the Democrats were actually democratic.**
+{% highlight() %}
 
-**Then, as now, the realigners naively believed that the Democrats were actually democratic.**
+Then, as now, the realigners naively believed that the Democrats were actually democratic.
+
+{% end %}
 
 Since the 1960s, realignment has sought to refashion the Democrats into a social-democratic or labor party — during [the Civil Rights era](https://jacobin.com/2016/02/democratic-party-realignment-civil-rights-mcgovern-meany-rustin-sanders/) by kicking out the Dixiecrats, now by building up an [amorphous “progressive” wing](https://sfarchive.dsausa.org/issues/fall-2022/the-case-for-realignment/) of politicians and a [multiracial voting base](https://prospect.org/politics/organizing-the-multiracial-working-class/).
 
@@ -68,8 +70,6 @@ Among the tasks of the new party was to determine its relationship to elections 
 
 > Let labor, the farmers, the Negro [sic] people and other minorities, the liberal and peace forces, come together in a party of our own; and let the forces of conservatism and big business, the militarists and nationalists, the stand-patters, come together in a political party of their own.
 
-Let labor, the farmers, the Negro [sic] people and other minorities, the liberal and peace forces, come together in a party of our own; and let the forces of conservatism and big business, the militarists and nationalists, the stand-patters, come together in a political party of their own.
-
 [Shachtman](https://dn790000.ca.archive.org/0/items/ilovepdf_merged15/ilovepdf_merged%2815%29_text.pdf) argued that a mass base of newly enfranchised Black voters and white workers; the labor, civil rights, and “liberal” movements; and the progressive wing of the Democratic Party could drive the Southern Dixiecrats out of the party.
 
 In the new liberal-labor party that would result, the Socialist Party would serve “as a loyal and honest democratic socialist wing.”
@@ -78,15 +78,11 @@ As the Eugene Debs Caucus of the Socialist Party of America reflected in a [1970
 
 > [T]he basic argument was Marxian: Labor is the motor for social change, labor will not come to the Socialist Party, therefore the Socialist Party must go to labor, which means going into the Democratic Party, either directly or as a by-product of labor involvements.
 
-[T]he basic argument was Marxian: Labor is the motor for social change, labor will not come to the Socialist Party, therefore the Socialist Party must go to labor, which means going into the Democratic Party, either directly or as a by-product of labor involvements.
-
 They further recounted, “It was also argued that in view of restricted ballot access, Democratic Party primaries were perhaps a better forum for electoral activities than direct candidacies.”
 
 Likewise, as one realignment advocate [put it in 1962](https://archive.org/details/ilovepdf_merged14/page/3/mode/1up):
 
 > The absence of an independent mass working class political party dictates the necessity of working in the arenas of politics that will raise political action to a higher plane and thereby increase the effectiveness and influence of socialists.
-
-The absence of an independent mass working class political party dictates the necessity of working in the arenas of politics that will raise political action to a higher plane and thereby increase the effectiveness and influence of socialists.
 
 None of these arguments should be new to anyone familiar with debates on socialist electoral strategy and the Democratic Party. DSA members, as well as aged New Left Maoists like [Liberation Road](https://liberationroad.substack.com/p/the-cornel-west-campaign-third-parties), argue the same today: our audience, ballot restrictions, and the lack of a powerful existing labor party mean the Democratic Party is where we should be.
 
@@ -94,27 +90,23 @@ Yet when realignment was first presented, it did not mean a rejection of buildin
 
 > but understood it as meaning, for instance, that if one ran in a Democratic Primary, one did so openly as a Socialist. Suppression of Socialist identity was no part of the thinking of the bulk of the membership at that time.
 
-but understood it as meaning, for instance, that if one ran in a Democratic Primary, one did so openly as a Socialist. Suppression of Socialist identity was no part of the thinking of the bulk of the membership at that time.
-
 This assumption bears out when examining internal Socialist Party documents. As the adopted resolution from the [1960 SP-SDF convention](https://archive.org/details/ProceedingsNationalConventionSocialistParty-socialDemocraticFederation/page/n19/mode/2up) reads:
 
 > We are for a political realignment of labor and liberals. However, we are not liberals promoting some new form of liberalism; we are socialists seeking democratic socialism… We are for labor candidates regardless of their formal party ties only when their candidacies involve a real break with the bureaucratic machinery and political attitudes of the capitalist parties.
-
-We are for a political realignment of labor and liberals. However, we are not liberals promoting some new form of liberalism; we are socialists seeking democratic socialism… We are for labor candidates regardless of their formal party ties only when their candidacies involve a real break with the bureaucratic machinery and political attitudes of the capitalist parties.
 
 And a 1961 Socialist Party resolution [clearly states](https://archive.org/details/ilovepdf_merged15/page/n1/mode/1up):
 
 > Support for one or another major party candidate can only be based on the fact that his candidacy represents a real break towards independent political action away from the present two-party stalemate situation… We reject the concept of subordinating the clear socialist positions of the Party to closer collaboration with the official liberal and labor bureaucracy.
 
-Support for one or another major party candidate can only be based on the fact that his candidacy represents a real break towards independent political action away from the present two-party stalemate situation… We reject the concept of subordinating the clear socialist positions of the Party to closer collaboration with the official liberal and labor bureaucracy.
-
 Yet just like with the dirty break and party surrogate models, the gravitational pull of the Democratic Party turned stated intentions into distorted actions.
 
 Then, as now, the realigners naively believed that the Democrats were actually democratic. While restricted ballot access was indeed an impediment, activists like those in the Mississippi Freedom Democratic Party encountered plenty of additional impediments in attempting to work through the Democratic Party machine.
 
-> **More than blocking or sabotaging left Democrats like Mamdani, an equal or greater danger is the party’s ability to absorb them. Once caught in the party’s web, few movements ever leave.**
+{% highlight() %}
 
-**More than blocking or sabotaging left Democrats like Mamdani, an equal or greater danger is the party’s ability to absorb them. Once caught in the party’s web, few movements ever leave.**
+More than blocking or sabotaging left Democrats like Mamdani, an equal or greater danger is the party’s ability to absorb them. Once caught in the party’s web, few movements ever leave.
+
+{% end %}
 
 The realigners also failed to account for how wedded labor leadership was to the Democratic Party bureaucracy — a result of the movement’s previous co-optation in the 1930s, 40s, and 50s. The unions had endorsed Roosevelt’s [no-strike pledge](https://files.libcom.org/files/Martin_Glaberman_-_Wartime_Strikes_1_2_0.pdf) during the Second World War. The CIO’s Political Action Committee (PAC) [had united](https://archive.nytimes.com/www.nytimes.com/library/politics/camp/440722convention-dem-ra.html) with big-city machines to support Truman as 1944 Democratic vice-president nominee. McCarthyism and the Smith Act had thrown out the labor radicals. By 1960, union leaders had firmly linked their futures to the Democratic Party apparatus.
 
@@ -124,11 +116,7 @@ As the Debs Caucus described:
 
 > “Going where labor is” turned out to mean, in practice, toning down everything… Thus at the riotous Democratic Party convention in 1968, Debs Caucus Socialists were on the streets with the demonstrators, but Realignment Socialists were in the convention, with Bayard Rustin acting in effect as black floor manager for Hubert Humphrey…
 
-“Going where labor is” turned out to mean, in practice, toning down everything… Thus at the riotous Democratic Party convention in 1968, Debs Caucus Socialists were on the streets with the demonstrators, but Realignment Socialists were in the convention, with Bayard Rustin acting in effect as black floor manager for Hubert Humphrey…
-
 > Realignment people are opposed to anything that separates labor from liberals, so in practice they oppose the entire New Left.
-
-Realignment people are opposed to anything that separates labor from liberals, so in practice they oppose the entire New Left.
 
 Working with the Democrats ultimately meant constraining socialist politics, a process we have seen play out again today. Alexandria Ocasio-Cortez and Bernie Sanders have run [interference](https://www.thewrap.com/alexandria-ocasio-cortez-aoc-biden-gaza-war/) for [Biden’s support](https://apnews.com/article/sanders-biden-gaza-election-trump-ea2720446481f1e77cd7b79b28ca4abe) for genocide; contorted [“Abolish ICE”](https://www.nybooks.com/online/2018/10/10/abolish-ice-beyond-a-slogan/) to mean a [kinder, gentler deportation machine](https://x.com/AOC/status/1031926879752802304?lang=en); and invoked [Martin Luther King, Jr.](https://x.com/BernieSanders/status/1932148252800905415) to finger-wag anti-ICE resistance in Los Angeles. Once-celebrated state senator and DSA member [Julia Salazar](https://www.socialistalternative.org/2022/06/06/julia-salazar-gives-left-cover-to-nycha-privatization-how-to-address-dsas-accountability-crisis/) has twice backed New York City Housing Authority privatization plans.
 
@@ -148,17 +136,15 @@ Marx, at the 1871 London Congress of the International Workingmen’s Associatio
 
 > [T]he working class cannot act, as a class, except by constituting itself into a political party, distinct from, and opposed to, all old parties formed by the propertied classes…
 
-[T]he working class cannot act, as a class, except by constituting itself into a political party, distinct from, and opposed to, all old parties formed by the propertied classes…
-
 > [T]his constitution of the working class into a political party is indispensable in order to ensure the triumph of the social revolution.
-
-[T]his constitution of the working class into a political party is indispensable in order to ensure the triumph of the social revolution.
 
 Being determines consciousness. Political ideas, products as they are of struggles between classes, can only crystalize into a lasting form through organization and leadership. Only a collective project, a party, can ultimately contend with capitalist ideology.
 
-> **One of the most pernicious and long-lasting forms of capitalist subordination of workers in this country is through the two-party system — especially the Democratic Party.**
+{% highlight() %}
 
-**One of the most pernicious and long-lasting forms of capitalist subordination of workers in this country is through the two-party system — especially the Democratic Party.**
+One of the most pernicious and long-lasting forms of capitalist subordination of workers in this country is through the two-party system — especially the Democratic Party.
+
+{% end %}
 
 Workers are constantly bombarded with ruling-class ideas. Our daily experiences sometimes encourage class solidarity (working, living, and being forced to fight the boss side by side) and other times encourage competition between us (fighting for the same jobs, housing, etc.). Therefore, even when periods of struggle and crisis make radical solutions, slogans, and actions popular among many, that mass feeling can remain fragmented and quickly recede, whether under capitalist reaction or just plain daily living.
 
@@ -174,17 +160,17 @@ Though the Democratic Party no longer relies on the same urban patronage machine
 
 More than blocking or sabotaging left Democrats like Mamdani, an equal or greater danger is the party’s ability to absorb them. Once caught in the party’s web, few movements ever leave. And “party surrogate” or not, it’s already starting to happen.
 
-> **Political ideas, products as they are of struggles between classes, can only crystalize into a lasting form through organization and leadership. Only a collective project, a party, can ultimately contend with capitalist ideology.**
+{% highlight() %}
 
-**Political ideas, products as they are of struggles between classes, can only crystalize into a lasting form through organization and leadership. Only a collective project, a party, can ultimately contend with capitalist ideology.**
+Political ideas, products as they are of struggles between classes, can only crystalize into a lasting form through organization and leadership. Only a collective project, a party, can ultimately contend with capitalist ideology.
+
+{% end %}
 
 As detailed by [Politico](https://www.politico.com/newsletters/new-york-playbook-pm/2025/06/30/cuomo-allies-back-mamdani-mayor-new-york-city-election-00433595), the political consulting firm Tusk Strategies, which ran Cuomo’s campaign, have made overtures to Mamdani. Business leaders have also called his office since his win, though his spokesman “would not say who has been on the phone.”
 
 The Democrats have many ways to co-opt would-be radicals like Mamdani. As [AOC herself](https://youtu.be/0HbS65oiN18?t=6263) has said,
 
 > Behind closed doors, your arm is twisted… Political pressure gets put on you, and every trick in the book — psychological and otherwise — is used to get us to abandon the working class.
-
-Behind closed doors, your arm is twisted… Political pressure gets put on you, and every trick in the book — psychological and otherwise — is used to get us to abandon the working class.
 
 So long as these socialists remain tied up in the Democratic Party, the Democrats are easily positioned to coax, pressure, and paralyze. In the words of Sam Bell, Rhode Island state senator and DSA member, “It takes an enormous amount of emotional strength to stand against a political establishment, to stand against the group of people you’re spending time with all the time.”
 
@@ -196,9 +182,11 @@ Identifying with the Democratic Party has a clearly negative effect on class con
 
 The lack of our own party makes it more difficult, if not impossible, for workers to hold a Biden, AOC, or Mamdani to their campaign promises. Such politicians are not dependent on a democratically organized working-class party for their credibility and future success. Not only do we not have a party to mobilize our power on the streets and in workplaces independently of politicians. Many workers instead identify with the interests and accept the horizons of the capitalist party to whom they’ve been told to pledge loyalty.
 
-> **The Mamdani campaign and the DSA’s attachment to the Democratic Party do little to build, and in fact hamper, the independent organization of the working class.**
+{% highlight() %}
 
-**The Mamdani campaign and the DSA’s attachment to the Democratic Party do little to build, and in fact hamper, the independent organization of the working class.**
+The Mamdani campaign and the DSA’s attachment to the Democratic Party do little to build, and in fact hamper, the independent organization of the working class.
+
+{% end %}
 
 We cannot remain neutral on how someone votes, let alone call for a vote for a Democrat, no matter how strategic the reasoning may seem. Even unconsciously, most workers solidify their loyalty and link their interests with a party like the Democrats through the act of voting.
 
@@ -211,8 +199,6 @@ Mamdani’s primary win and the excitement it generates is a moment — only a m
 Things aren’t looking good on that front. As one revolutionary in New York described:
 
 > I’m close with many comrades in DSA and JVP [Jewish Voice for Peace] actively involved in Mamdani’s campaign and I’ve talked with him myself — Zohran is accessible in the streets — and there is zero discussion about what, how, and whether to build the infrastructures of dissent needed to actually win the things Zohran is talking about. Outside of far leftists like myself raising these issues — which are often met with abstract agreement — there’s zero talk of planning and building beyond electoral work.
-
-I’m close with many comrades in DSA and JVP [Jewish Voice for Peace] actively involved in Mamdani’s campaign and I’ve talked with him myself — Zohran is accessible in the streets — and there is zero discussion about what, how, and whether to build the infrastructures of dissent needed to actually win the things Zohran is talking about. Outside of far leftists like myself raising these issues — which are often met with abstract agreement — there’s zero talk of planning and building beyond electoral work.
 
 Change is not going to happen through the Democratic Party or managing the capitalist state, even at the city level. Only mass struggle and an independent working-class political movement can do that. How many people can be convinced by this argument will be directly related to the size and strength of revolutionary organizations in New York and their ability to influence wider layers. Unfortunately many revolutionaries and would-be revolutionaries have not yet committed to build them.
 

@@ -30,17 +30,17 @@ In the *Critique of the Gotha Program*, Marx defined communism this way:
 
 > In the higher stage of communist society, after the enslaving subordination of individuals under the division of labor and therewith also the antithesis between mental and manual labor, has vanished; after labor, from a mere means of life, has itself become the prime necessity of life; after the productive forces have also increased with the all-round development of the individual, and all the springs of co-operative wealth flow more abundantly — only then can the narrow horizon of bourgeois rights be fully left behind and society inscribe on its banners: from each according to his ability, to each according to his needs.
 
-In the higher stage of communist society, after the enslaving subordination of individuals under the division of labor and therewith also the antithesis between mental and manual labor, has vanished; after labor, from a mere means of life, has itself become the prime necessity of life; after the productive forces have also increased with the all-round development of the individual, and all the springs of co-operative wealth flow more abundantly — only then can the narrow horizon of bourgeois rights be fully left behind and society inscribe on its banners: from each according to his ability, to each according to his needs.
-
 It’s important to point out that Marx’s goal of communism was not something that he and Engels invented out of whole cloth. They saw the goal of communism as the ultimate result of successful class struggles. Workers fight to limit exploitation. A successful fight against exploitation could finally eliminate it. This would involve the elimination of the exploiting class and the complete democratization of the economy and society. This is the core of communism or scientific socialism. It was scientific because it was based on the actual conditions developing within capitalist society.
 
 This “socialism from below” (as Hal Draper put it) differentiates the “real Marxist tradition” (per John Molyneux) from those who use some of Marx’s ideas as a justification for elite rule of one sort or another.
 
 The two main forms of ruling class distortion of Marxism are Stalinism and social democracy. Each of these societies were or are in fact variations of capitalism. Both distortions of Marx’s ideas made use of their own modified concept of socialism as a justification for their societies.
 
-> **Karl Marx was a revolutionary. His goal was the replacement of capitalism by communism, not the superficial modification of capitalism, but the final replacement of capitalism by communism.**
+{% highlight() %}
 
-**Karl Marx was a revolutionary. His goal was the replacement of capitalism by communism, not the superficial modification of capitalism, but the final replacement of capitalism by communism.**
+Karl Marx was a revolutionary. His goal was the replacement of capitalism by communism, not the superficial modification of capitalism, but the final replacement of capitalism by communism.
+
+{% end %}
 
 In the case of Stalinism, the bureaucratic ruling class controlled industry through the state and paid the working class as a whole less than the full value of what it produced — i.e. it exploited the working class. The surplus created by the working class was controlled by the ruling class to accumulate capital and, secondarily, attain a luxurious lifestyle at the expense of workers. Social democracy left most of the economy in private hands and left workers exploited by private capitalists.
 
@@ -48,27 +48,19 @@ The Socialist and Labor parties in Europe and around the world identified the so
 
 > To secure for the workers by hand or by brain the full fruits of their industry and the most equitable distribution thereof that may be possible upon the basis of the common ownership of the means of production, distribution, and exchange, and the best obtainable system of popular administration and control of each industry or service.
 
-To secure for the workers by hand or by brain the full fruits of their industry and the most equitable distribution thereof that may be possible upon the basis of the common ownership of the means of production, distribution, and exchange, and the best obtainable system of popular administration and control of each industry or service.
-
 The real goal of social democrats in preserving the essence of capitalism was expressed by Labor Party leader, Anthony Crossland:
 
 > The socialist sees a distribution of rewards, status and privileges egalitarian enough to minimize social resentment…to weaken the existing deep-seated class stratification, with its concomitant feelings of envy and inferiority… (quoted in Ian Birchall’s *Bailing Out the System: Reformist Socialism in Europe, 1944–1985*)
 
-The socialist sees a distribution of rewards, status and privileges egalitarian enough to minimize social resentment…to weaken the existing deep-seated class stratification, with its concomitant feelings of envy and inferiority… (quoted in Ian Birchall’s *Bailing Out the System: Reformist Socialism in Europe, 1944–1985*)
-
 CERES, a left-wing group in the French Socialist Party, defined social democracy as:
 
 > a mass party bringing together… the working class and the middle classes so as to defend their interests without challenging the structures of capitalism.
-
-a mass party bringing together… the working class and the middle classes so as to defend their interests without challenging the structures of capitalism.
 
 As these statements show, all the social democrats meant by socialism was capitalism modified by nationalization of some industry under the still capitalist state, and an expansion of social programs. Social democracy has been in power off and on in Europe for nearly 100 years. In that time, it has shown in practice what it meant by socialism. In no country in the last hundred years has social democracy even seriously attempted to overthrow capitalism.
 
 The social democratic and Stalinist goals were a far cry from the radical revolutionary concept of Marx. The Stalinists talked of the possibility of “socialism in one country”. They rejected a fundamental tenet of Marxism, internationalism. Likewise, they watered down socialism from self-emancipation of the working class to bureaucratic nationalization of the economy. As Trotsky explained in *The Revolution Betrayed*, the Seventh Congress of the Communist International, which took place in August 1935, declared “the final and irrevocable triumph of socialism…is achieved in the Soviet Union.” As Stalin put it in an interview with journalist Roy Howard in 1936:
 
 > Our Soviet society is a socialist society, because private ownership of the factories, works, the land, banks and the transport system has been abolished and public ownership put in its place. The foundation of this society is public property…
-
-Our Soviet society is a socialist society, because private ownership of the factories, works, the land, banks and the transport system has been abolished and public ownership put in its place. The foundation of this society is public property…
 
 The Stalinists claimed that their bureaucratic distortion was the first stage of the transition to communism. There was a distinct phase, with its own mode of production, which they called “socialism.” The invention of a separate phase between capitalism and the “higher stage of communism” (per Marx) by the Stalinists was a justification for an oppressive and exploitative society. As with the social democrats, inventing a separate mode of production between capitalism and communism, and freezing the transition as its own form of economy, played a counterrevolutionary role.
 
@@ -78,15 +70,15 @@ Unfortunately, some ambiguity in Marx’s writing helped lay the basis for the m
 
 > Between capitalist and communist society lies the period of the revolutionary transformation of the one into the other. There corresponds to this also a political transition period in which the state can be nothing but *the revolutionary dictatorship of the proletariat*.
 
-Between capitalist and communist society lies the period of the revolutionary transformation of the one into the other. There corresponds to this also a political transition period in which the state can be nothing but *the revolutionary dictatorship of the proletariat*.
-
 Engels reinforced this view of the post-insurrectionary society as a period of revolutionary transformation, and not socialist, when he said: “with the introduction of the socialist order of society, the state will of itself dissolve and disappear.”
 
 This means that we cannot speak of socialism or communism until after the withering away of the workers’ state.
 
-> **The two main forms of this ruling class distortion of Marxism were Stalinism and social democracy. Each of these societies were or are in fact variations of capitalism.**
+{% highlight() %}
 
-**The two main forms of this ruling class distortion of Marxism were Stalinism and social democracy. Each of these societies were or are in fact variations of capitalism.**
+The two main forms of this ruling class distortion of Marxism were Stalinism and social democracy. Each of these societies were or are in fact variations of capitalism.
+
+{% end %}
 
 However, on many other occasions Marx talked of “the lower stage of communism,” implying that this was a separate type of society.
 
@@ -110,9 +102,11 @@ None of these modes of production exist in isolation. They are all conditioned b
 
 However, in non-capitalist modes of production, the full-scale domination of the drive for profit is limited by the lack of wage labor. Wage labor is the most adequate basis for the drive for profit. Only when owners can freely replace workers with machines does accumulation become the “Moses and the prophets” of the system (as Marx put it). Other relations of production only partially promote the drive for profit even when they are embedded in the capitalist mode of production.
 
-> **Even after the bourgeois revolutions, remnants of feudalism remained for many years and sometimes decades. Understanding these societies takes concrete historical analysis, and not just slapping a label upon them. In fact, much of human history has been lived in transitional eras.**
+{% highlight() %}
 
-**Even after the bourgeois revolutions, remnants of feudalism remained for many years and sometimes decades. Understanding these societies takes concrete historical analysis, and not just slapping a label upon them. In fact, much of human history has been lived in transitional eras.**
+Even after the bourgeois revolutions, remnants of feudalism remained for many years and sometimes decades. Understanding these societies takes concrete historical analysis, and not just slapping a label upon them. In fact, much of human history has been lived in transitional eras.
+
+{% end %}
 
 This economic eclecticism in social formations is especially pronounced in transitional economies. For example, the transition between feudalism and capitalism took hundreds of years. In all areas outside of Europe, the transition to capitalism was thwarted and pre-capitalist modes re-established their hegemony. Finally, European capitalism imposed itself through imperialism on the rest of the world.
 
@@ -122,9 +116,11 @@ During the transition, the new capitalist mode of production ran up against the 
 
 Unfortunately, there has been some confusion on this point even among revolutionary socialists (“scientific socialists,” or communists in Marx’s sense). Within the Trotskyist tradition, there has been a debate between “orthodox Trotskyists,” who believe that Russia under Stalin was a “degenerated workers’ state,” and those in the International Socialist tradition that saw Stalin’s Russia as “bureaucratic state capitalist.” This is mixing apples and oranges. Trotsky recognized this in *The Revolution Betrayed*. “Soviets are a form of state, and socialism is a social regime. These designations are not identical.” One is political. The other is economic and social.
 
-> **There is a dialectical relation between the political structure and the economy of any society. This is as true in the post-revolutionary society as in any other. A workers’ democracy is essential to the production of communism. No other class in power has the interest in producing communism. However, the transition can be derailed for any number of reasons.**
+{% highlight() %}
 
-**There is a dialectical relation between the political structure and the economy of any society. This is as true in the post-revolutionary society as in any other. A workers’ democracy is essential to the production of communism. No other class in power has the interest in producing communism. However, the transition can be derailed for any number of reasons.**
+There is a dialectical relation between the political structure and the economy of any society. This is as true in the post-revolutionary society as in any other. A workers’ democracy is essential to the production of communism. No other class in power has the interest in producing communism. However, the transition can be derailed for any number of reasons.
+
+{% end %}
 
 In a working-class socialist revolution, as happened in Russia in 1917, workers overthrow the government, smash the old state, and create their own institutions of power. Dual power during the revolutionary process gives way after the insurrection to the sole domination of the working class. The workers’ councils, or soviets in Russian, take complete political power. They “win the battle of democracy” (per T*he Communist Manifesto*). Workers are then able to use that political power to make inroads on the capitalist economy to “wrest capital by degrees” from the capitalists. There is a series of economic changes and processes that have to take place to turn this newly seized capitalist economy into a communist one, which this essay will discuss more in the next sections.
 
@@ -145,8 +141,6 @@ In fact, the two aspects of society, though directly related, are also separate.
 As Trotsky said in *The Revolution Betrayed*:
 
 > The state assumes directly and from the beginning a dual character: socialistic insofar as it defends social property in the means of production; bourgeois, insofar as the distribution of life’s goods is carried out with a capitalist measure of value and all the consequences ensuing therefrom.
-
-The state assumes directly and from the beginning a dual character: socialistic insofar as it defends social property in the means of production; bourgeois, insofar as the distribution of life’s goods is carried out with a capitalist measure of value and all the consequences ensuing therefrom.
 
 This state-capitalist industry can only attain fully communist relations of production when the law of value is finally extinguished by successful international revolution. Bourgeois rights can only be ended when the economy is productive enough to provide “from each according to their ability, to each according to their needs.”
 
@@ -172,27 +166,23 @@ There is a general misunderstanding of Lenin’s view of the transition. Lenin i
 
 > Our Soviet Russia remains a solitary suburb of the whole capitalist world, during that time to think of our complete economic independence…would be an utterly ridiculous fantasy and utopianism…. We live not in a State but in a system of states and the existence of the Soviet Republic side by side with the imperialist states for an extended period is unthinkable.
 
-Our Soviet Russia remains a solitary suburb of the whole capitalist world, during that time to think of our complete economic independence…would be an utterly ridiculous fantasy and utopianism…. We live not in a State but in a system of states and the existence of the Soviet Republic side by side with the imperialist states for an extended period is unthinkable.
-
 Especially with the onset of the New Economic Policy, Lenin was clear that socialism had not arrived in his lifetime in the Soviet Union. For example, in a speech in January 1918, Lenin declared:
 
 > We know very little about socialism … We are not in a position to give a description of socialism … The bricks of which socialism will be composed have not yet been made. We cannot say anything further.
-
-We know very little about socialism … We are not in a position to give a description of socialism … The bricks of which socialism will be composed have not yet been made. We cannot say anything further.
 
 And again:
 
 > Nor is it difficult to visualize advanced socialist society. This problem has also been settled. But the most difficult task of all is how, in practice, to effect the transition from the old, customary, familiar capitalism to the new socialism, as yet unborn and without any firm foundations. At best this transition will take many years, in the course of which our policy will be divided into a. number of even smaller stages. And the whole difficulty of the task which falls to our lot, the whole difficulty of politics and the art of politics, lies in the ability to take into account the specific tasks of each of these transitions
 
-Nor is it difficult to visualize advanced socialist society. This problem has also been settled. But the most difficult task of all is how, in practice, to effect the transition from the old, customary, familiar capitalism to the new socialism, as yet unborn and without any firm foundations. At best this transition will take many years, in the course of which our policy will be divided into a. number of even smaller stages. And the whole difficulty of the task which falls to our lot, the whole difficulty of politics and the art of politics, lies in the ability to take into account the specific tasks of each of these transitions
-
 Lenin stressed the lengthy nature of the transition: “Even the more developed generation of the immediate future will hardly achieve the complete transition to socialism.”
 
 Over and over Lenin argued that state capitalism under a workers’ state would be a good thing: “Reality tells us that State Capitalism would be a step forward. If in a small space of time we could achieve state capitalism in Russia, it would be a victory.”
 
-> **Until the market is finally overcome on a world scale, workers’ democracy will be limited. Even when workers make decisions democratically, the democratic choices on offer will be limited by continual market competition on a world scale. This will resemble what workers’ co-ops under capitalism face today — the necessity of self-exploitation.**
+{% highlight() %}
 
-**Until the market is finally overcome on a world scale, workers’ democracy will be limited. Even when workers make decisions democratically, the democratic choices on offer will be limited by continual market competition on a world scale. This will resemble what workers’ co-ops under capitalism face today — the necessity of self-exploitation.**
+Until the market is finally overcome on a world scale, workers’ democracy will be limited. Even when workers make decisions democratically, the democratic choices on offer will be limited by continual market competition on a world scale. This will resemble what workers’ co-ops under capitalism face today — the necessity of self-exploitation.
+
+{% end %}
 
 Trotsky, of course, is known for his denunciation of the doctrine of socialism in one country. He called such an idea a “reactionary utopia.” Most people who support Trotsky’s position have focused on the “reactionary” part of his denunciation. This is of course an important part of Trotsky’s critique. Socialism in one country was the theoretical justification for a reactionary internal regime under Stalin — bureaucratic authoritarianism at the expense of workers’ power. Likewise, in foreign policy, it justified alliances with bourgeois states at the expense of workers’ revolution in China, Spain, and other places.
 

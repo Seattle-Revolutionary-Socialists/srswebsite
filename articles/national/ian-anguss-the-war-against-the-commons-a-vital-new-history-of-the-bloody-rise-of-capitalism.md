@@ -26,9 +26,11 @@ But in return for that exploitation, peasants were allowed the collective use of
 
 Beginning with the rise of the market economy in the 15th century, landlords were under more pressure to raise revenue. As Angus writes, “Landed families which stuck to the old ways, left rents as they were and continued to grant long leases soon found themselves trapped between static incomes and rising prices.”
 
-> **The peasant class did not just go along with these land grabs and forcible changes to the previous social arrangement. They continually resisted these attacks that denied their livelihood, and peasant revolts broke out from time to time throughout this entire process.**
+{% highlight() %}
 
-**The peasant class did not just go along with these land grabs and forcible changes to the previous social arrangement. They continually resisted these attacks that denied their livelihood, and peasant revolts broke out from time to time throughout this entire process.**
+The peasant class did not just go along with these land grabs and forcible changes to the previous social arrangement. They continually resisted these attacks that denied their livelihood, and peasant revolts broke out from time to time throughout this entire process.
+
+{% end %}
 
 There were several related strategies employed by the landlords during this period of primitive accumulation: raising rents, enclosing the commons and adding it to their demesnes, consolidating farms into larger units, and replacing farming with sheep raising. The latter required less labor and created higher profits. Overt time, the economic differentiation of the peasantry — some peasants growing more wealthy while others slipped further into poverty — aided the landlords’ efforts.
 
@@ -46,9 +48,11 @@ Thus, the Crown passed laws to slow down the enclosure process. But landlords, w
 
 Angus also examines the role of the “commonwealth men” who were theoretically against capitalist development, but also opposed peasant resistance to the rising power of capitalism. They were similar to the “feudal socialists” whom Marx and Engels denounced in the *Communist Manifesto* — the aristocrats who railed against the exploitation of the new capitalist order and attempted to sway the proletariat to their side, while still holding deeply reactionary views. “What they upbraid the bourgeoisie with is not so much that it creates a proletariat,” they wrote, “as that it creates a *revolutionary* proletariat.”
 
-> **The creation of capitalism was based on the horrific oppression of ordinary people.**
+{% highlight() %}
 
-**The creation of capitalism was based on the horrific oppression of ordinary people.**
+The creation of capitalism was based on the horrific oppression of ordinary people.
+
+{% end %}
 
 Despite the peasant revolts, the dominant trend was toward enclosure and consolidation as rural residents were expelled from the land. Many became vagabonds who tried to survive by begging and stealing. Over time, the peasants who were kicked off the land became the basis of the working class that capitalism needed in industry. Thus, primitive accumulation created the proletarian class even as it destroyed feudalism.
 
@@ -64,9 +68,11 @@ A new class of wage-laborers was born in England when great masses of men were s
 
 Under feudalism, they had largely controlled their own labor. The work day was governed by the weather, seasons, and other natural conditions. Under capitalism, labor was controlled by the clock and working hours were longer.
 
-> **Marx made it clear that capitalists stole their wealth from others rather than amassing it through hard work or intelligence, as the capitalist myth would have it. When workers no longer have access to the means of production, they end up having to work for those who stole it from them.**
+{% highlight() %}
 
-**Marx made it clear that capitalists stole their wealth from others rather than amassing it through hard work or intelligence, as the capitalist myth would have it. When workers no longer have access to the means of production, they end up having to work for those who stole it from them.**
+Marx made it clear that capitalists stole their wealth from others rather than amassing it through hard work or intelligence, as the capitalist myth would have it. When workers no longer have access to the means of production, they end up having to work for those who stole it from them.
+
+{% end %}
 
 To enforce wage labor, the state now dominated by capitalism used draconian methods, including actual slavery. “Poaching” was outlawed for the poor who needed food, but hunting was allowed for the rich who did not need it. For a period, England enforced the death penalty for hundreds of offenses, including poaching and petty theft, and also made regular use of transportation to the colonies in Australia and elsewhere.
 
@@ -92,8 +98,6 @@ He goes on:
 
 > The discovery of gold and silver in America, the extirpation, enslavement and entombment in mines of the indigenous population of that continent, the beginnings of the conquest and looting of India, and the conversion of Africa into a preserve for the commercial hunting of blackskins, are all things which characterize the rosy dawn of the era of capitalist production.
 
-The discovery of gold and silver in America, the extirpation, enslavement and entombment in mines of the indigenous population of that continent, the beginnings of the conquest and looting of India, and the conversion of Africa into a preserve for the commercial hunting of blackskins, are all things which characterize the rosy dawn of the era of capitalist production.
-
 Thus the issues raised by this history are directly relevant to anticolonial and antiracist struggles today.
 
 #### Debates on the left and the ongoing relevance of the history of accumulation
@@ -108,9 +112,11 @@ Modern-day peasant resistance to being forced off their land is certainly a stru
 
 Nor does Marx’s attitude mean that Marxists support the preservation of peasant property even after the working-class revolution. The goal is still collective control of the whole economy, including land, by the population as a whole.
 
-> **Contra Harvey, the main emphasis of anticapitalists today needs to be resistance against the exploitation of workers and opposition to the oppression that divides workers. Defense of peasants should be integrated into working-class revolution rather than being seen as a separate struggle.**
+{% highlight() %}
 
-**Contra Harvey, the main emphasis of anticapitalists today needs to be resistance against the exploitation of workers and opposition to the oppression that divides workers. Defense of peasants should be integrated into working-class revolution rather than being seen as a separate struggle.**
+Contra Harvey, the main emphasis of anticapitalists today needs to be resistance against the exploitation of workers and opposition to the oppression that divides workers. Defense of peasants should be integrated into working-class revolution rather than being seen as a separate struggle.
+
+{% end %}
 
 In spite of the need for Marxists to defend the remaining commons, the current context is important. In the period that Angus focuses on in early modern England, capitalism was still forming. Most of the world was pre-capitalist. The seizure of the commons was absolutely essential to the rise of capitalism.
 

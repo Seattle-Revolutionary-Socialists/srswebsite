@@ -20,9 +20,11 @@ I was a member of the Boston branch of the International Socialist Organization 
 
 Through the capitol occupation in Madison, WI, the Middle East and North Africa revolutions and Occupy, I saw how the ISO could act wonderfully as a disciplined unit. I saw the necessity for this kind of organization to be the “red wedge” to help lead the class struggle on the ground. When the police tried to shut down Boston’s Occupy encampment, we sprung into action. We went out into the crowd, arguing with other occupiers about defending the encampment and marching to precincts to free those arrested. From Trayvon Martin to Mike Brown to Freddie Gray, we were active in organizing emergency protests, bringing together loose networks of activists for mass marches, and contributing to the politics of the movement.
 
-> **“A Bolshevik is not merely a disciplined person; he is a person who in each case and on each question forges a firm opinion of his own and defends it courageously and independently, not only against his enemies, but inside his own party.”—Trotsky**
+{% highlight() %}
 
-**“A Bolshevik is not merely a disciplined person; he is a person who in each case and on each question forges a firm opinion of his own and defends it courageously and independently, not only against his enemies, but inside his own party.”—Trotsky**
+“A Bolshevik is not merely a disciplined person; he is a person who in each case and on each question forges a firm opinion of his own and defends it courageously and independently, not only against his enemies, but inside his own party.”—Trotsky
+
+{% end %}
 
 I saw the proof of why we needed revolutionary cadre everywhere. Unfortunately, for all our dynamism and principled revolutionary politics, we failed at building the very independent-minded Marxists that I had hoped for.
 
@@ -32,27 +34,19 @@ I’ll spare my entire ISO biography from 2011-2019. Suffice to say, I had been 
 
 > “[I]n order to grow in this period we must work to develop the kind of culture that turns the branch into confident political activists. We feel confident when we feel our contributions and collaborations can shape the direction of the organization — and we learn how to debate and defend these contributions…
 
-“[I]n order to grow in this period we must work to develop the kind of culture that turns the branch into confident political activists. We feel confident when we feel our contributions and collaborations can shape the direction of the organization — and we learn how to debate and defend these contributions…
-
 For new comrades like myself, we can tend to at various times defer to [leading comrade]’s perspective being the most experienced comrade, the branch coordinator and (in some sense) our mentor. We can also feel frustrated when we feel we’re being told what to say/do/etc rather than engaged with. [Leading comrade] has also at different times substituted himself for the work and development of other comrades.”
 
 In that, I’ve been joined by other comrades. This is what two other members wrote, also in November 2012:
 
 > “Are comrades underconfident? Possibly. But there is a reason why. There is a branch culture of people not saying what they really think; it may have been easy to miss because this did not happen overnight. Comrades who raise alternative assessments or even comrades who agree with assessments but propose a different plan of action are often told, “they don’t yet truly understand” the ISO’s project and that is the reason why they have their own assessment.”
 
-“Are comrades underconfident? Possibly. But there is a reason why. There is a branch culture of people not saying what they really think; it may have been easy to miss because this did not happen overnight. Comrades who raise alternative assessments or even comrades who agree with assessments but propose a different plan of action are often told, “they don’t yet truly understand” the ISO’s project and that is the reason why they have their own assessment.”
-
 This is me in August of 2012, again arguing for “a branch culture that builds confidence:”
 
 > “We are not remotely close to a revolutionary situation in this country — nor would [we] be ready for it if it came. As a result, newer comrades (and even close contacts) should be given more space to make mistakes and learn from them. Branch leadership should focus on: charting a general way forward for our work, giving comrades space to creatively implement that perspective, and facilitating assessment for comrades to learn from.”
 
-“We are not remotely close to a revolutionary situation in this country — nor would [we] be ready for it if it came. As a result, newer comrades (and even close contacts) should be given more space to make mistakes and learn from them. Branch leadership should focus on: charting a general way forward for our work, giving comrades space to creatively implement that perspective, and facilitating assessment for comrades to learn from.”
-
 This is one of the above comrades, writing separately in May 2013:
 
 > “I feel discussions on perspectives can be done totally backwards, instead of people coming together to form a perspective it seems more like the purpose of the discussion is to “win” anyone in the branch who has disagreements with the perspective being presented. When people try to address that aspects of a perspective are overblown or don’t match what Boston is like right now it’s always because the comrades raising stuff are dismissive, demoralized, sectarian or don’t understand that the ISO is a distinct project, ultraleft or too conservative, or they just don’t understand. In order to prove they aren’t any of those things comrades go along with or go overboard with agreeing with the perspective and things become really overblown.”
-
-“I feel discussions on perspectives can be done totally backwards, instead of people coming together to form a perspective it seems more like the purpose of the discussion is to “win” anyone in the branch who has disagreements with the perspective being presented. When people try to address that aspects of a perspective are overblown or don’t match what Boston is like right now it’s always because the comrades raising stuff are dismissive, demoralized, sectarian or don’t understand that the ISO is a distinct project, ultraleft or too conservative, or they just don’t understand. In order to prove they aren’t any of those things comrades go along with or go overboard with agreeing with the perspective and things become really overblown.”
 
 Having only four or five comrades, and only one “leader” (who recruited and trained all of us), the UMass Boston branch was suffocating. If you raised any alternative proposals or ideas, you would need to be ready for a sometimes 3-hour-long call from the branch organizer, until he won either by overconfidence or attrition. This was especially damaging for the woman comrade of color in the branch, who left the organization after a few years.
 
@@ -68,9 +62,11 @@ After 2012, the top-down leadership culture continued in a combined Boston branc
 
 For the last few years of the ISO I had been consciously isolated from the branch by leadership. Branch leaders freely admitted to *other* comrades that they were trying to push me out of the organization.
 
-> **The “pile-on” was one method: did you raise a disagreement? Be prepared for the leadership to come in on stack one after another to tell you why you’re wrong! The other method was the “razor.” We’ll pick apart your ideas and your membership in the most mean-spirited way, or we’ll misquote your argument back to you and set up an easy strawman to cut down.**
+{% highlight() %}
 
-**The “pile-on” was one method: did you raise a disagreement? Be prepared for the leadership to come in on stack one after another to tell you why you’re wrong! The other method was the “razor.” We’ll pick apart your ideas and your membership in the most mean-spirited way, or we’ll misquote your argument back to you and set up an easy strawman to cut down.**
+The “pile-on” was one method: did you raise a disagreement? Be prepared for the leadership to come in on stack one after another to tell you why you’re wrong! The other method was the “razor.” We’ll pick apart your ideas and your membership in the most mean-spirited way, or we’ll misquote your argument back to you and set up an easy strawman to cut down.
+
+{% end %}
 
 I continued to raise different perspectives and ideas, and faced a wall. The “pile-on” was one method: did you raise a disagreement? Be prepared for the leadership to come in on stack one after another to tell you why you’re wrong! The other method was the “razor.” We’ll pick apart your ideas and your membership in the most mean-spirited way, or we’ll misquote your argument back to you and set up an easy strawman to cut down.
 
@@ -104,9 +100,11 @@ This isn’t to say that everything we did was bad. Partly in spite of, partly b
 
 However, this cadre had its limitations. It failed to act independently and often deferred to national leadership. When cadre members served on disciplinary and appeals committees to hear the fateful sexual assault case of 2013, when they saw the national leadership unethically intervene into the investigation, they followed “organizational discipline” and kept the situation under wraps.
 
-> **Nationally, we built a cadre that (if not for the sexual assault coverup) could have replaced the old leadership. However, this cadre had its limitations. It failed to act independently and often deferred to national leadership.**
+{% highlight() %}
 
-**Nationally, we built a cadre that (if not for the sexual assault coverup) could have replaced the old leadership. However, this cadre had its limitations. It failed to act independently and often deferred to national leadership.**
+Nationally, we built a cadre that (if not for the sexual assault coverup) could have replaced the old leadership. However, this cadre had its limitations. It failed to act independently and often deferred to national leadership.
+
+{% end %}
 
 It was only after a split in the top national leadership (on the Steering Committee between the “SC Majority” and the “minority” trend of longer-standing national leaders) that a healthy discussion of perspectives could finally take place. For years, I had witnessed alternate perspectives raised in the pre-convention period either be ignored, tolerated (with no realistic space for democratically adopting these) or dismissed (sometimes with forceful expulsion).
 
@@ -115,7 +113,5 @@ This time was different. Once the door was open at the top, the cadre ran right 
 As we reflect on the mistakes of the ISO and the type of organization we need to build today, all of us need to take to heart what Trotsky (in *The New Course*) called the model Bolshevik:
 
 > “A Bolshevik is not merely a disciplined person; he is a person who in each case and on each question forges a firm opinion of his own and defends it courageously and independently, not only against his enemies, but inside his own party. Today, perhaps, he will be in the minority in his organization. He will submit, because it is his party. But this does not always signify that he is in the wrong. Perhaps he saw or understood before the other did a new task or the necessity of a turn. He will persistently raise the question a second, a third, a tenth time, if need be. Thereby he will render his party a service, helping it to meet the new task fully armed or to carry out the necessary turn without organic upheavals, without factional convulsions.”
-
-“A Bolshevik is not merely a disciplined person; he is a person who in each case and on each question forges a firm opinion of his own and defends it courageously and independently, not only against his enemies, but inside his own party. Today, perhaps, he will be in the minority in his organization. He will submit, because it is his party. But this does not always signify that he is in the wrong. Perhaps he saw or understood before the other did a new task or the necessity of a turn. He will persistently raise the question a second, a third, a tenth time, if need be. Thereby he will render his party a service, helping it to meet the new task fully armed or to carry out the necessary turn without organic upheavals, without factional convulsions.”
 
 Without sacrificing firm revolutionary leadership, we can create a party that can build these model Bolsheviks everywhere. If we drop the triumphalism, the bureaucratic distortion of authentic Leninism, and the suffocating rigidity that plagued even an organization like the ISO, we can build something bigger and stronger than we ever had before.

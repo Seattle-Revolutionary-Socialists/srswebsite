@@ -20,9 +20,11 @@ What is our purpose as a revolutionary organization? It’s not to “support”
 
 We want to overthrow the entire system of exploitation and oppression. We must get rid of capitalism and build a socialist society.
 
-> **As the global history of class struggle teaches us, it’s been precisely the failure to develop parties and politics of sufficient size and depth that have doomed explosions, rebellions, and revolutions in the past. So any work — in movements, in mutual aid projects — has to be approached in a way that supports that central goal.**
+{% highlight() %}
 
-**As the global history of class struggle teaches us, it’s been precisely the failure to develop parties and politics of sufficient size and depth that have doomed explosions, rebellions, and revolutions in the past. So any work — in movements, in mutual aid projects — has to be approached in a way that supports that central goal.**
+As the global history of class struggle teaches us, it’s been precisely the failure to develop parties and politics of sufficient size and depth that have doomed explosions, rebellions, and revolutions in the past. So any work — in movements, in mutual aid projects — has to be approached in a way that supports that central goal.
+
+{% end %}
 
 We do that by forging revolutionary *organization*, raising the political consciousness of the working class, and otherwise preparing *politically* — both in the realms of ideas and institutions. As the global history of class struggle teaches us, it’s been precisely the failure to develop parties and politics of sufficient size and depth that have doomed explosions, rebellions, and revolutions in the past.
 
@@ -34,11 +36,7 @@ In 1971, Duncan Hallas wrote in “Towards a Revolutionary Socialist Party”:
 
 > “That hoary red herring, the question of whether socialist consciousness arises “spontaneously” amongst workers or is imposed by intellectuals from the “outside” has absolutely no relevance to modern conditions… It is rather ridiculous to argue about whether one should bring ideas from “outside” to workers who own television sets. Certainly most workers and especially the activists see things rather differently than the denizens of the stockbroker belt. Their whole life experience ensures this. But workers are not automata responding passively to the environment. Everyone has to have some picture of the world, some frame of reference into which data [is] fitted, some assumptions about society.
 
-“That hoary red herring, the question of whether socialist consciousness arises “spontaneously” amongst workers or is imposed by intellectuals from the “outside” has absolutely no relevance to modern conditions… It is rather ridiculous to argue about whether one should bring ideas from “outside” to workers who own television sets. Certainly most workers and especially the activists see things rather differently than the denizens of the stockbroker belt. Their whole life experience ensures this. But workers are not automata responding passively to the environment. Everyone has to have some picture of the world, some frame of reference into which data [is] fitted, some assumptions about society.
-
 > The whole vast apparatus of mass communications, educational institutions and the rest have, as one of their principal functions, what sociologists call “socialization” and what the old Wobblies called head-fixing. The assumptions convenient to the ruling class are the daily diet of all of us. Individuals, whether bus drivers or lecturers in aesthetics, can resist the conditioning process to a point. Only a collective can develop a systematic alternative worldview, can overcome to some degree the alienation of manual and mental work that imposes on everyone… a partial and fragmented view of reality. What Rosa Luxemburg called “the fusion of science and the workers” is unthinkable outside a revolutionary party.”
-
-The whole vast apparatus of mass communications, educational institutions and the rest have, as one of their principal functions, what sociologists call “socialization” and what the old Wobblies called head-fixing. The assumptions convenient to the ruling class are the daily diet of all of us. Individuals, whether bus drivers or lecturers in aesthetics, can resist the conditioning process to a point. Only a collective can develop a systematic alternative worldview, can overcome to some degree the alienation of manual and mental work that imposes on everyone… a partial and fragmented view of reality. What Rosa Luxemburg called “the fusion of science and the workers” is unthinkable outside a revolutionary party.”
 
 Or, as Marx and Engels wrote, the ruling ideas of every age are the ideas of the ruling class. The capitalists have control of not just the means of material production, but also the means of mental production. Their ideas are imposed as the “common sense” of our epoch. And so, we must deliberately and actively fight for socialist consciousness.
 
@@ -46,17 +44,11 @@ As Lenin wrote in *What Is to Be Done?*:
 
 > “Since there can be no talk of an independent ideology formulated by the working masses themselves in the process of their movement, the only choice is either bourgeois or socialist ideology… The spontaneous development of the working-class movement leads to its subordination to bourgeois ideology… Hence our task is to divert the working-class movement from this spontaneous trade unionist striving.”
 
-“Since there can be no talk of an independent ideology formulated by the working masses themselves in the process of their movement, the only choice is either bourgeois or socialist ideology… The spontaneous development of the working-class movement leads to its subordination to bourgeois ideology… Hence our task is to divert the working-class movement from this spontaneous trade unionist striving.”
-
 In this classic pamphlet, Lenin is fighting with other socialists from a trend known as Economism who saw the movement’s main task as supporting the immediate economic struggles of workers without raising the question of socialism. They would go to the factories, listen to workers, and write “exposure” leaflets to agitate for higher wages, better working conditions, etc. They were trying to do the “good work” of supporting workers directly without talking about socialism or fighting the czar. This is what Lenin had to say:
 
 > “The overwhelming majority of Russian Social-Democrats have of late been almost entirely absorbed by this work of organizing the exposure of factory conditions… so much so, indeed, that they have lost sight of the fact that this, *taken by itself*, is in essence still not Social-Democratic work, but merely trade union work… These exposures could have served (if properly utilized by an organization of revolutionaries) as a beginning and a component part of Social-Democratic activity; but they could also have led (and, given a worshipful attitude, were bound to lead) to a ‘purely trade union’ struggle and to a non-Social-Democratic working-class movement…
 
-“The overwhelming majority of Russian Social-Democrats have of late been almost entirely absorbed by this work of organizing the exposure of factory conditions… so much so, indeed, that they have lost sight of the fact that this, *taken by itself*, is in essence still not Social-Democratic work, but merely trade union work… These exposures could have served (if properly utilized by an organization of revolutionaries) as a beginning and a component part of Social-Democratic activity; but they could also have led (and, given a worshipful attitude, were bound to lead) to a ‘purely trade union’ struggle and to a non-Social-Democratic working-class movement…
-
 > Social Democracy leads the struggle of the working class, not only for better terms for the sale of labor-power, but for the abolition of the social system that compels the propertyless to sell themselves to the rich… Hence it follows that not only must Social-Democrats not confine themselves exclusively to the economic struggles, but that they must not allow the organization of economic exposures to become the predominant part of their activities. We must take up actively the political education of the working class and the development of its political consciousness.”
-
-Social Democracy leads the struggle of the working class, not only for better terms for the sale of labor-power, but for the abolition of the social system that compels the propertyless to sell themselves to the rich… Hence it follows that not only must Social-Democrats not confine themselves exclusively to the economic struggles, but that they must not allow the organization of economic exposures to become the predominant part of their activities. We must take up actively the political education of the working class and the development of its political consciousness.”
 
 Today, we can see mutual aid, along with movement work, as replacing the factory exposures and economism of *What Is to Be Done*’s time.
 
@@ -80,8 +72,6 @@ As John Berger wrote in “The Nature of Mass Demonstrations”:
 
 > “Mass demonstrations are rehearsals for revolution: not strategic or even tactical ones, but rehearsals in revolutionary awareness… Those who take part become more positively aware of how they belong to a class. Belonging to that class ceases to imply a common fate, and implies a common opportunity.”
 
-“Mass demonstrations are rehearsals for revolution: not strategic or even tactical ones, but rehearsals in revolutionary awareness… Those who take part become more positively aware of how they belong to a class. Belonging to that class ceases to imply a common fate, and implies a common opportunity.”
-
 Or as Marx and Engels wrote: a revolution is necessary in part because only in a practical movement can workers rid themselves of the “muck of the ages” and be ready to found society anew.
 
 Mutual aid doesn’t share this feature with mass demonstrations. In fact, it keeps people’s experience on a much more *individual scale*: I need this, so I reach out to the mutual aid project to get it. This is even more clear and obvious from the most atomized version of “mutual aid”: the countless “mutual aid” requests one sees posted and shared every week on social media.
@@ -92,9 +82,11 @@ As we have seen since 2020, an inherent danger in this is turning to mutual aid 
 
 That doesn’t mean mutual aid can’t serve a purpose. It just means we have to recognize the limitations and shape our tactics and approach with that in mind.
 
-> **Only when organizers deliberately cultivate political education does a mutual aid project even begin to scratch at the revolutionary awareness that’s baked into strikes, mass demonstrations, etc. Only when a collective experience is deliberately fostered does mutual aid truly approach the “solidarity, not charity” slogan it popularizes.**
+{% highlight() %}
 
-**Only when organizers deliberately cultivate political education does a mutual aid project even begin to scratch at the revolutionary awareness that’s baked into strikes, mass demonstrations, etc. Only when a collective experience is deliberately fostered does mutual aid truly approach the “solidarity, not charity” slogan it popularizes.**
+Only when organizers deliberately cultivate political education does a mutual aid project even begin to scratch at the revolutionary awareness that’s baked into strikes, mass demonstrations, etc. Only when a collective experience is deliberately fostered does mutual aid truly approach the “solidarity, not charity” slogan it popularizes.
+
+{% end %}
 
 Before I flesh some proposed tactics out, I want to return to what I said earlier. While mutual aid has its particular limitations, direct action and mass demonstrations are not automatically more socialist, either. Here, [the Gus Breslauer piece](https://web.archive.org/web/20220121104703/https://regenerationmag.org/mutual-aid-a-factor-of-liberalism/) from *Regeneration* also operates on fundamentally a wrong foundation. Its approach is still the same economism that Lenin fought against — only direct action and “marching on the boss” is set above mutual aid.
 

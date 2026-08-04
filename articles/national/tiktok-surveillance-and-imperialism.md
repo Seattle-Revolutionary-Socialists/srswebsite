@@ -16,9 +16,11 @@ Many people probably know about the proposed ban on TikTok. Biden, the Democrats
 
 In 2014, former CIA analyst Edward Snowden revealed the extent of government spying. The US government has agreements with all major tech companies — Microsoft, Meta/Facebook, Apple, Comcast, Verizon, etc. They share all your private data with the US government, which then stores that data for future use. Private communications aren’t private.
 
-> **The TikTok ban is not only an attack on our free speech rights, not only an attack on our privacy from government spying. It’s fundamentally another step in the road to open military conflict between the US, China and Russia.**
+{% highlight() %}
 
-**The TikTok ban is not only an attack on our free speech rights, not only an attack on our privacy from government spying. It’s fundamentally another step in the road to open military conflict between the US, China and Russia.**
+The TikTok ban is not only an attack on our free speech rights, not only an attack on our privacy from government spying. It’s fundamentally another step in the road to open military conflict between the US, China and Russia.
+
+{% end %}
 
 For that truth-telling, Snowden had to flee from the US into exile. Meanwhile, some privacy experts believe the bill in Congress that would ban TikTok, known as the RESTRICT Act, would also ban the very tools we can use to keep our data protected from surveillance — foreign or domestic. They believe the bill would ban things like VPNs, encrypted chats, or any tool that broadly threatens “national security.” So, if it’s not about our privacy and protecting our data, what’s it about? Well, this may shock you, but it’s actually very connected to what’s happening in Ukraine and Taiwan right now. And it gets back to Biden’s demands on TikTok: sell the Chinese app to an American company, or it’ll be banned. Since the end of the Cold War, the US has been the number one superpower in the world. Through free trade agreements and NATO, the US built an interconnected world market with itself at the center. The US maintains over 700 military bases around the world, and plenty of close allies, to police its interests. But over the past twenty years, the world situation hasn’t been frozen in place. Even as the US has tried to maintain its dominance, new rivals have emerged… And its two most serious challengers are China and Russia.
 

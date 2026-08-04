@@ -12,11 +12,7 @@ branch="national"
 
 > “We don’t have a mass revolutionary party. If we did, I would join. Once upon a time, a revolutionary vanguard existed. After the defeat of the New Left*, the vanguard has to be rebuilt*. We need to knit together activists. Without soviets there would have been no Bolshevik victory. The party has to be rebuilt from below. The temptation of arrogance is strong. It is not just a question of replacing leaders. As C.L.R. James said, ‘Revolution comes like a thief in the night.’” - David McNally, *Spectre* editor, speaker at *Global Crisis and Global Revolts*, Socialism Conference 2023
 
-“We don’t have a mass revolutionary party. If we did, I would join. Once upon a time, a revolutionary vanguard existed. After the defeat of the New Left*, the vanguard has to be rebuilt*. We need to knit together activists. Without soviets there would have been no Bolshevik victory. The party has to be rebuilt from below. The temptation of arrogance is strong. It is not just a question of replacing leaders. As C.L.R. James said, ‘Revolution comes like a thief in the night.’” - David McNally, *Spectre* editor, speaker at *Global Crisis and Global Revolts*, Socialism Conference 2023
-
 > “The answer is not to say ‘join my organization.’” - Ashley Smith, *Spectre* editor from the floor, Socialism 2023
-
-“The answer is not to say ‘join my organization.’” - Ashley Smith, *Spectre* editor from the floor, Socialism 2023
 
 *Spectre*has contributed a tremendous amount to a Marxist analysis of the world. At the recent Socialism 2023 conference in Chicago, in the meeting on *Global Crisis and Global Revolts*, the speakers Shireen Akram-Boshar and David McNally continued this tradition. They gave excellent and optimistic overviews of revolts around the world. They made the important case for struggles against racism, sexism, anti-LGBTQ+ bigotry and more as an integral part of class struggle. They stressed seeing all the crises in the world today as rooted in capitalism. In saying this, they rejected the notion of the “polycrisis” which sees all the crises as disconnected.
 
@@ -38,9 +34,11 @@ In fact, in the Bolshevik case, there was an interaction between revolutionary o
 
 When class struggle dipped and there was no appreciable vanguard of struggle from 1906–1912, the Bolsheviks maintained their organization. In fact, Lenin waged a strong polemical campaign against the liquidationists who wanted to dissolve the underground organization. The *Spectre*approach would have favored the liquidationists. In 1898, they would have urged Marxists not to start specifically Marxist organizing because there was not yet a vanguard.
 
-> **If we do not create enough organized revolutionary cadre soon enough, the organization will not be strong enough to help build an actual revolutionary party before the time of revolution. The lack of a revolutionary party was crucial to the defeat of revolutions throughout the 20th and 21st centuries. The problem has *not* been the lack of struggle, or even the lack of vanguards of struggle. In stressing Marxist support of movements over the building of revolutionary organization, *Spectre*emphasizes the wrong task.**
+{% highlight() %}
 
-**If we do not create enough organized revolutionary cadre soon enough, the organization will not be strong enough to help build an actual revolutionary party before the time of revolution. The lack of a revolutionary party was crucial to the defeat of revolutions throughout the 20th and 21st centuries. The problem has *not* been the lack of struggle, or even the lack of vanguards of struggle. In stressing Marxist support of movements over the building of revolutionary organization, *Spectre*emphasizes the wrong task.**
+If we do not create enough organized revolutionary cadre soon enough, the organization will not be strong enough to help build an actual revolutionary party before the time of revolution. The lack of a revolutionary party was crucial to the defeat of revolutions throughout the 20th and 21st centuries. The problem has *not* been the lack of struggle, or even the lack of vanguards of struggle. In stressing Marxist support of movements over the building of revolutionary organization, *Spectre*emphasizes the wrong task.
+
+{% end %}
 
 The *Spectre* argument is also wrong about the role of Marxists. As Hal Draper said, workers do not need to be Marxists to engage in class struggle. To imply otherwise is condescending to workers. It is also pessimistic in implying that without Marxist intervention class struggle won’t be effective.
 
@@ -66,9 +64,11 @@ Some of the arguments against building revolutionary organization are made of st
 
 *“Revolutionary cadre can exist without revolutionary organization*.” As James Radek of the Denver Communists [has argued, “How can](https://firebrand.red/2023/06/in-defense-of-revolutionary-organization/) you build cadre without socialist organization?” Cadre-building is a collective process. The purpose is to build a stronger Marxist current that can intervene and influence events. Being a lone cadre is like being a socialist in your own mind.
 
-> **If the future of humanity rests on having strong revolutionary parties at the time of revolution, we cannot hold back from building toward a party now.**
+{% highlight() %}
 
-**If the future of humanity rests on having strong revolutionary parties at the time of revolution, we cannot hold back from building toward a party now.**
+If the future of humanity rests on having strong revolutionary parties at the time of revolution, we cannot hold back from building toward a party now.
+
+{% end %}
 
 *“We shouldn’t claim to have all the answers.”* Obviously, any group arrogant enough to take this stand is self-delusional. However, few if any Marxist groups say or imply this. Socialist revolution is a learning process from start to finish. We don’t have all the answers, but we do have some of them! There are lessons from history that have been synthesized in theory. As Lenin said, “Without revolutionary theory, there is no revolutionary movement.” The *Spectre* editors put forward their revolutionary analysis and try to convince people of certain propositions. They claim to have some answers. They just reject solidifying these answers in an organization that focuses on convincing others.
 

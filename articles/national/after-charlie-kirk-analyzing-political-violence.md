@@ -26,9 +26,11 @@ Nor was there much sincerity to the right’s adulations for Kirk and cries over
 
 However the biggest grift, the most odious opportunism, has not been the t-shirts sold. It has been the right’s seizing on the shootings for their own goals. No matter either shooters’ actual motives — and at least one was steeped far more in Internet memes than Marx — that doesn’t matter to Trump or his lackeys. They are leaping at the chance to silence any and all opposition to their regime.
 
-> **The stakes are high. The right’s stretches towards despotism, their efforts to eliminate us, are real. But the right is not yet all powerful.**
+{% highlight() %}
 
-**The stakes are high. The right’s stretches towards despotism, their efforts to eliminate us, are real. But the right is not yet all powerful.**
+The stakes are high. The right’s stretches towards despotism, their efforts to eliminate us, are real. But the right is not yet all powerful.
+
+{% end %}
 
 Thus, more important than who Kirk was in life is what his death and the shootings mean for us now. How should revolutionaries and the working class we hope to organize approach this moment?
 
@@ -50,9 +52,11 @@ A system based on the rule of a minority of billionaires and corporations depend
 
 In normal times, the full scale of this violence is deliberately hidden. Terror and oppression against Black or trans people get justified through racist or transphobic ideas. The “protect and serve” narrative obscures the true nature and brutality of the police. Capitalism [manufactures ideas](https://www.marxists.org/archive/marx/works/1845/german-ideology/ch01b.htm) essential for capitalism’s functioning.
 
-> **These capitalist politicians fear not so much Trump’s promises of the stick but the resistance it will spark without a suitable carrot to hide it… Instability and chaos, not violence, give state managers anxiety.**
+{% highlight() %}
 
-**These capitalist politicians fear not so much Trump’s promises of the stick but the resistance it will spark without a suitable carrot to hide it… Instability and chaos, not violence, give state managers anxiety.**
+These capitalist politicians fear not so much Trump’s promises of the stick but the resistance it will spark without a suitable carrot to hide it… Instability and chaos, not violence, give state managers anxiety.
+
+{% end %}
 
 As part of that, capitalists reserve the “political violence” label for those outsiders who muck up the smooth operation of their system, often to justify a crackdown. Protests get reframed as riots; strikes morph into insurrections. Sometimes the label and its consequences get deployed against the far right, as it did against Hitler’s [“Beer Hall Putsch”](https://www.marxists.org/history/etol/writers/bambery/1993/xx/fascism.html) in the 1920s or the US militia movement [in the 1990s](https://archive.nytimes.com/roomfordebate.blogs.nytimes.com/2010/03/30/the-new-militias-vs-government/). Most often it’s reserved for [insurgent workers](https://socialistworker.org/2009/05/21/using-the-courts-against-unions), [liberation movements](https://workersvoiceus.org/2025/05/11/the-move-bombing-at-40/) of the oppressed, and [the left](https://revolutionsnewsstand.com/2025/09/18/iot-by-louis-c-fraina-from-revolutionary-age-vol-1-no-31-may-17-1919/).
 
@@ -84,9 +88,11 @@ Dr. Mustafa Barghouti, a leader of the progressive Palestinian National Initiati
 
 If we go beyond abstract condemnations and understand violence as a product of historical developments, we can analyze and evaluate each act of violence separately. In United States history, for example, certain violence has emerged when no other path was available to those seeking freedom, whether the [Boston Tea Party](https://www.americanrevolution.org/boston-tea-party/) or Tecumseh’s [Indigenous resistance](https://www.nps.gov/articles/tecumseh.htm) to westward expansion. Yet this history is also stained in blood from horrible and reactionary violence by those trying to deny freedom to others.
 
-> **Only in a system without classes and without class conflict, only where true democracy reigns, can we be free of political violence… To call for an end to political violence without addressing the system that creates that violence is at best utopian and misguided.**
+{% highlight() %}
 
-**Only in a system without classes and without class conflict, only where true democracy reigns, can we be free of political violence… To call for an end to political violence without addressing the system that creates that violence is at best utopian and misguided.**
+Only in a system without classes and without class conflict, only where true democracy reigns, can we be free of political violence… To call for an end to political violence without addressing the system that creates that violence is at best utopian and misguided.
+
+{% end %}
 
 [“Bleeding Kansas,”](https://www.history.com/articles/bleeding-kansas-civil-war) [John Brown’s assault](https://youtu.be/zVEM6gAy21c?si=DBLtL09HsMw-Jk8M) on Harper’s Ferry, Virginia, and later the [US Civil War](https://firebrand.red/2024/09/the-civil-war-in-the-united-states-marx-and-engels-on-the-revolution-against-slavery/) can’t be separated from the decades of [political struggle](https://www.socialistworker.org/2015/04/15/the-road-to-the-civil-war) between abolitionists and pro-slavery forces — and the political system’s inability to appease either side. Likewise, Black enslaved people had no means to [resist their enslavement](https://isreview.org/issue/78/slavery-and-origins-civil-war/index.html) outside of escaping or [violent revolt](https://socialistworker.org/2008/09/18/Black-Jacobins). That violence was fundamentally different from slave catchers’ or the Ku Klux Klan’s violence to keep Black people down.
 
@@ -112,9 +118,11 @@ The modern working class can only labor and organize itself en masse. [Democracy
 
 The right’s main goal, however, is for the majority on the bottom of society to accept exploitation, oppression, and degradation. As the name “conservative” implies, the right means to conserve the power of a small minority of capitalists. The democracy and solidarity that working-class struggle encourages are in direct conflict with this minority rule. Since the right can’t rely on the power of the majority, it must rely on the power of weapons.
 
-> **The democracy and solidarity that working-class struggle encourages are in direct conflict with capitalist minority rule. Since the right can’t rely on the power of the majority, it must rely on the power of weapons.**
+{% highlight() %}
 
-**The democracy and solidarity that working-class struggle encourages are in direct conflict with capitalist minority rule. Since the right can’t rely on the power of the majority, it must rely on the power of weapons.**
+The democracy and solidarity that working-class struggle encourages are in direct conflict with capitalist minority rule. Since the right can’t rely on the power of the majority, it must rely on the power of weapons.
+
+{% end %}
 
 Even as the one percent has tended to prefer a balance of repression and manufactured mass consent over the past 100 years, the liberal and right wings of this ruling class differ on their exact strategy and tactics. On the whole, the right draws strength from, and in turn aims to strengthen, the police and other violent arms of the state. Its dominant approach is repression.
 
@@ -138,9 +146,11 @@ The recent shootings of Charlie Kirk and at the Texas ICE facility have ignited 
 
 The right is perhaps the most “honest” of our adversaries. It is more than willing to use both the state and extra-institutional violence to enforce capitalism’s inequalities. Yet unsurprisingly, Trump and his ilk claim the mantle of safety to repress the Left.
 
-> **Every digital lynch mob against a teacher was a teaser for the violence Kirk sought to enact. His political methods were the pursuit and promise of future violence by other means.**
+{% highlight() %}
 
-**Every digital lynch mob against a teacher was a teaser for the violence Kirk sought to enact. His political methods were the pursuit and promise of future violence by other means.**
+Every digital lynch mob against a teacher was a teaser for the violence Kirk sought to enact. His political methods were the pursuit and promise of future violence by other means.
+
+{% end %}
 
 Liberals ignore the violence hidden behind capitalism’s usual functioning. In fact they sometimes are more afraid of that violence being uncovered and resisted than the violence itself. Democratic socialists ape the liberals in ignoring the system’s very usual violence, and believe violence is separate or even a threat to the limited democracy afforded under capitalism. This leads some, where they acknowledge state violence at all, to create a false equivalence between it and struggles of the oppressed to gain their freedom.
 

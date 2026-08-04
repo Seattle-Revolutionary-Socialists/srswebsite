@@ -14,8 +14,6 @@ branch="national"
 
 > “Trotsky considers the opportunist current and its leaders somewhat as victims of circumstances… There is no doubt that opportunism, like all else in the world has its objective causes in external conditions. But in politics more than anywhere else, to understand is not to forgive.”– Gregor Zinoviev, 1916, *Lenin’s Struggle for a Revolutionary International*[1]
 
-“Trotsky considers the opportunist current and its leaders somewhat as victims of circumstances… There is no doubt that opportunism, like all else in the world has its objective causes in external conditions. But in politics more than anywhere else, to understand is not to forgive.”– Gregor Zinoviev, 1916, *Lenin’s Struggle for a Revolutionary International*[1]
-
 For nearly a decade, I worked in the restaurant industry. I used to see hundreds of people every month, but it wasn’t often I met a fellow socialist.
 
 One Monday in mid-2019, I was serving a table out on the patio. “I like your button,” a thin customer with bushy hair told me. He was motioning to the white pin I had fastened to my apron, just above my pocket. It was emblazoned with the signature red fist of the International Socialist Organization. I had worn it proudly for so long — you do that after eight years in an organization. Now, after the organization had dissolved that spring, it was there more from habit.
@@ -26,9 +24,11 @@ The self-destruction of the ISO was a loss for the revolutionary movement. It wa
 
 Leading into and since the dissolution, some commentators and former members have drifted away from revolutionary socialism. Some have blamed Leninism and cadre-building for its downfall, from both the left and the right. Some have said it was too sectarian, shutting us out of relevancy. Others say it was too “centrist,” torn apart by the pulls between the group’s left and the right poles. Some former ISO members have washed towards anarchism, others towards social democracy.
 
-> **We need a revolutionary organization moving forward. It will have to look different from what came before, but we still need a vessel to sail an independent course.**
+{% highlight() %}
 
-**We need a revolutionary organization moving forward. It will have to look different from what came before, but we still need a vessel to sail an independent course.**
+We need a revolutionary organization moving forward. It will have to look different from what came before, but we still need a vessel to sail an independent course.
+
+{% end %}
 
 There are merits to some of these analyses; a common sense underpins the drift one way or the other. But this series will argue the following: The ISO was a product of its time — four decades of ruling-class assault. It operated as a propaganda group, an often necessary stage of development for revolutionary movements. But the ISO was hampered; its development was arrested. Partly the long downturn deformed it. But it also inherited a commandist model of Leninism, passed down from its British and American parents. In emancipating itself from the British Socialist Workers Party (SWP-UK) and the American International Socialists (IS-US) it failed to fully break from that past. In trying to keep revolutionary socialism alive until the next upswing, the leadership came to see those politics expressed in a single organization, in a single perspective, in a single leadership. This explains not only the abuse of dissidents, but the abuse of oppressed identities and the coverup of “inconvenient” realities — alleged threats to both its politics and its organization.
 
@@ -36,7 +36,11 @@ At its best, the ISO sought to train a cadre — a collective body of revolution
 
 #### The myth of the “micro-sect”: propaganda group as stage of development
 
-> “The assertion has, therefore, repeatedly been made, that the men of the Socialist Labor Party were a set of querulous individuals who wasted their time in mutual recriminations and accomplished little for their cause. Nothing can be more unjust…For almost a generation they plodded at their self-imposed task in the face of adversities which have no parallel in the history of the socialist movement in any other country. Their internal strifes were only the natural echo of great struggles with hostile surroundings, and may be easily pardoned; their courage, perseverance, and devotion to the cause cannot fail to arouse admiration.In the socialist movement they performed a great mission. Through their trials and failure they evolved working methods of socialist activity, and through their ceaseless propaganda they prepared the ground for a genuine American movement of socialism.”— Morris Hilquit, *History of Socialism in the United States*[2]“But because our movement is a mass movement and because the dangers menacing it are not derived from the human brain but from social conditions, Marxist doctrine could not assure us, in advance and once for always, against the anarchist and opportunist tendencies. The latter can be overcome only as we pass from the domain of theory to the domain of practice but only with the help of the arms furnished us by Marx.”— Rosa Luxemburg, *Reform or Revolution*[3]“Just as in our first days we had rejected the premature demand that we — with our little handful of people — drop everything and jump into the mass movement, so now, toward the end of 1933, having completed our preliminary work and prepared ourselves, we adopted the slogan: ‘Turn from a propaganda circle to mass work.’”— James P. Cannon, *The History of American Trotskyism*[4]
+> “The assertion has, therefore, repeatedly been made, that the men of the Socialist Labor Party were a set of querulous individuals who wasted their time in mutual recriminations and accomplished little for their cause. Nothing can be more unjust…For almost a generation they plodded at their self-imposed task in the face of adversities which have no parallel in the history of the socialist movement in any other country. Their internal strifes were only the natural echo of great struggles with hostile surroundings, and may be easily pardoned; their courage, perseverance, and devotion to the cause cannot fail to arouse admiration.In the socialist movement they performed a great mission. Through their trials and failure they evolved working methods of socialist activity, and through their ceaseless propaganda they prepared the ground for a genuine American movement of socialism.”— Morris Hilquit, *History of Socialism in the United States*[2]
+
+> “But because our movement is a mass movement and because the dangers menacing it are not derived from the human brain but from social conditions, Marxist doctrine could not assure us, in advance and once for always, against the anarchist and opportunist tendencies. The latter can be overcome only as we pass from the domain of theory to the domain of practice but only with the help of the arms furnished us by Marx.”— Rosa Luxemburg, *Reform or Revolution*[3]
+
+> “Just as in our first days we had rejected the premature demand that we — with our little handful of people — drop everything and jump into the mass movement, so now, toward the end of 1933, having completed our preliminary work and prepared ourselves, we adopted the slogan: ‘Turn from a propaganda circle to mass work.’”— James P. Cannon, *The History of American Trotskyism*[4]
 
 “The assertion has, therefore, repeatedly been made, that the men of the Socialist Labor Party were a set of querulous individuals who wasted their time in mutual recriminations and accomplished little for their cause. Nothing can be more unjust…For almost a generation they plodded at their self-imposed task in the face of adversities which have no parallel in the history of the socialist movement in any other country. Their internal strifes were only the natural echo of great struggles with hostile surroundings, and may be easily pardoned; their courage, perseverance, and devotion to the cause cannot fail to arouse admiration.In the socialist movement they performed a great mission. Through their trials and failure they evolved working methods of socialist activity, and through their ceaseless propaganda they prepared the ground for a genuine American movement of socialism.”— Morris Hilquit, *History of Socialism in the United States*[2]
 
@@ -52,19 +56,17 @@ Are sects and propaganda groups the same? In Draper’s 1971 article “Towards 
 
 > “A mere discussion group, by definition, either has no group program, line or policy on the questions it discusses, or — if a vote is taken — considers the majority view merely an advisory or recorded expression of opinion, in any case involving no discipline or obligation to act. In any case also, it feels no obligation to adopt any view on the important questions before it, nor to integrate whatever views it expresses. A propaganda group is based on a program — namely, the program for which its members are obligated to propagandize actively.”[7]
 
-“A mere discussion group, by definition, either has no group program, line or policy on the questions it discusses, or — if a vote is taken — considers the majority view merely an advisory or recorded expression of opinion, in any case involving no discipline or obligation to act. In any case also, it feels no obligation to adopt any view on the important questions before it, nor to integrate whatever views it expresses. A propaganda group is based on a program — namely, the program for which its members are obligated to propagandize actively.”[7]
-
 As it states further:
 
 > “The main difference [between a propaganda group and a party], perhaps, revolves around our attitude toward types of activity like agitational campaigns, election campaigns, demonstrations, etc. By no means must it be understood that these are excluded; in particular, a demonstration may at times be a useful propaganda medium, and an election campaign under favorable circumstances can be carried on as an intensive period of propaganda. Nor is there anything in the nature of a group which is primarily a propaganda group which prohibits it from even carrying through strictly agitational activities, again especially under favorable circumstances.”[8]
 
-“The main difference [between a propaganda group and a party], perhaps, revolves around our attitude toward types of activity like agitational campaigns, election campaigns, demonstrations, etc. By no means must it be understood that these are excluded; in particular, a demonstration may at times be a useful propaganda medium, and an election campaign under favorable circumstances can be carried on as an intensive period of propaganda. Nor is there anything in the nature of a group which is primarily a propaganda group which prohibits it from even carrying through strictly agitational activities, again especially under favorable circumstances.”[8]
-
 For Draper in 1971, this Independent Socialist League declaration was honest in stating “that all the socialist groups, including ours, were in reality sects — at best ‘propaganda groups’; that one could only hope to be a good sect, a sensible sect, rather than a stupid, fantasmagorical and self-deceiving sect.”[9]
 
-> **The propaganda group is not a “blind alley,” but an often necessary stage of development. It serves to bring together the first cadres and constructors of a movement. That movement can only be built from interacting with the masses in motion, but that movement requires ideas, organization, and initial human material for construction to begin.**
+{% highlight() %}
 
-**The propaganda group is not a “blind alley,” but an often necessary stage of development. It serves to bring together the first cadres and constructors of a movement. That movement can only be built from interacting with the masses in motion, but that movement requires ideas, organization, and initial human material for construction to begin.**
+The propaganda group is not a “blind alley,” but an often necessary stage of development. It serves to bring together the first cadres and constructors of a movement. That movement can only be built from interacting with the masses in motion, but that movement requires ideas, organization, and initial human material for construction to begin.
+
+{% end %}
 
 A propaganda group is not a party, as the 1949 document makes clear. But it is not aloof to struggle either. What is most important is how a propaganda group orients to struggle: to win a smaller number of people to its ideas. Unlike a discussion group, a propaganda group has discipline among its members: a discipline based on politics. But it often isn’t able to agitate and organize among the masses yet, either. Here is the organizational form of the ISO, as we were for 40 years. Yes, we agitated, but we mostly participated in movements to find the “ones and twos” to build the group. While propaganda always has a place in a revolutionary movement, propagandism is a bridge — often necessary but necessarily temporary.
 
@@ -78,13 +80,13 @@ In 1876, the SLP formed out of a merger of several propaganda groups: the North 
 
 > “The Federation will not enter into a political campaign or election movement before being strong enough to exercise a perceptible influence, and then… always in conformity with the Congress Resolutions.”[12]
 
-“The Federation will not enter into a political campaign or election movement before being strong enough to exercise a perceptible influence, and then… always in conformity with the Congress Resolutions.”[12]
-
 Meanwhile, the Social-Democratic Workingmen’s Party had a defined political program, an elected “control committee” (the equivalent of a Central Committee) for party administration, and a newspaper. Over their existence, these groups fought amongst and within themselves. The longest war was between the electoral-minded followers of Ferdinand Lassalle and the trade-union Marxists. The former pooh-poohed protest movements and any work to build unions; the latter saw the mass movement of workers and the oppressed as the key arena to build first, with independent electoral campaigns coming later. Though this rivalry continued well into the SLP, the party’s formation and the merging of these factions marked a major advance for the American socialist movement.
 
-> **Albert Parsons, later an 1886 Haymarket martyr, joined the Social-Democratic Workingmen’s Party out of a couple of public forums. This hero of our movement became a socialist thanks to a flyer, two speeches, and one answered question at a meeting — all thanks to a “micro-sect.”**
+{% highlight() %}
 
-**Albert Parsons, later an 1886 Haymarket martyr, joined the Social-Democratic Workingmen’s Party out of a couple of public forums. This hero of our movement became a socialist thanks to a flyer, two speeches, and one answered question at a meeting — all thanks to a “micro-sect.”**
+Albert Parsons, later an 1886 Haymarket martyr, joined the Social-Democratic Workingmen’s Party out of a couple of public forums. This hero of our movement became a socialist thanks to a flyer, two speeches, and one answered question at a meeting — all thanks to a “micro-sect.”
+
+{% end %}
 
 Yet that’s not to say the four original groups that formed the SLP weren’t important or influential. Though “micro-parties,” they took action and built modest ties with the labor movement. Many had been local sections of the First International, which had a combined membership of nearly 5,000 in the U.S. in 1872.[13] These parties fought successfully to get Black workers admitted to the central labor body in New York, organized solidarity protests for Parisian Communards, and built mass meetings for visiting Irish freedom fighters. After the market crash of 1873, these groups led unemployed movements, including a 20,000-person protest in frigid late-December Chicago, to demand aid from city governments. They didn’t just participate in movements either; these “sects” recruited and educated crucial cadres. Albert Parsons, later an 1886 Haymarket martyr, joined the Social-Democratic Workingmen’s Party out of a couple of public forums. This hero of our movement became a socialist thanks to a flyer, two speeches, and one answered question at a meeting — all thanks to a “micro-sect”.[14]
 
@@ -100,9 +102,11 @@ Due to the electoral-minded Lassalleans’ leadership, the Workingmen’s Party 
 
 In Chicago, the WPUS drew out 20,000 people to a mass meeting, where Albert Parsons and other party cadres spoke. Once the rail strike reached the city, a party committee and rank-and-file party activists among cigar makers and furniture workers helped the movement spread to a four-day general strike. Police and Board of Trade-organized “citizen patrols” fought pitched battles with armed worker brigades, ultimately ending with the strike’s repression. Though their strike was defeated, hundreds of workers joined the WPUS through the struggle.[19]
 
-> **The state of their organization mirrored the volatility of late-19th century American capitalism, class struggle, and the politics within the movement. After it had grown to 10,000 at the start of 1879, the party had disintegrated by that December’s convention.**
+{% highlight() %}
 
-**The state of their organization mirrored the volatility of late-19th century American capitalism, class struggle, and the politics within the movement. After it had grown to 10,000 at the start of 1879, the party had disintegrated by that December’s convention.**
+The state of their organization mirrored the volatility of late-19th century American capitalism, class struggle, and the politics within the movement. After it had grown to 10,000 at the start of 1879, the party had disintegrated by that December’s convention.
+
+{% end %}
 
 In St. Louis, the WPUS’s activity in the strikes reached its zenith. The WPUS brought out several thousand to a July 22 mass meeting in support of the national strike. The meeting turned into a mass delegation to visit rail workers in East St. Louis, who, steeled with the support, voted to walk off and created a strike committee. The strike committee organized on a citywide basis, sending delegations to other worksites to get workers to join them. Starting July 29, Black and white workers united in shutting down the entire city for an entire week, directed by WPUS cadres leading the general-strike executive committee. Again, though, the strike was brutally repressed by armed vigilantes and the National Guard.[20]
 
@@ -118,15 +122,15 @@ In large part, the SLP’s membership disintegrated thanks to two painful splits
 
 Abandoning the party, members like Albert Parsons and August Spies set up the Revolutionary Socialist Party and later joined the anarchist International Working People’s Association (IWPA). When we learn about the Haymarket Martyrs, keep in mind the IWPA would not exist but for their exit from the SLP. The SLP, in turn, lost cadres that would contribute immensely, in life and death, to the movement. Here, the SLP’s opportunism, not “micro-partyism,” was to blame. And after conducting a sustained propaganda campaign against anarchism and shifting to the left, the party had surged again to 7,000 members and eighty branches across the country by 1885.[29]
 
-> **If we are to take Hal Draper and others’ thesis at face value, both the SLP and the micro-sects should have been incapable from the start of relating to the broader working class.**
+{% highlight() %}
 
-**If we are to take Hal Draper and others’ thesis at face value, both the SLP and the micro-sects should have been incapable from the start of relating to the broader working class.**
+If we are to take Hal Draper and others’ thesis at face value, both the SLP and the micro-sects should have been incapable from the start of relating to the broader working class.
+
+{% end %}
 
 Amid these swings in membership, the SLP consistently struggled with rooting itself in the English-speaking majority of the working class — “Americanizing” as the party called it. On the one hand, the party had itself to blame. Its membership often looked down on the American labor movement. When the Eight-Hour League emerged, Chicago SLP leader Tom Morgan debated Albert Parsons on whether the SLP should support the movement. Morgan argued the demand for an eight-hour day “was not fundamental enough, that only a revolutionary change… could better the economic status of workers.”[30] The party was also heavily based in immigrant communities, especially German ones. Partly, this was a boon, given the millions of immigrants that had flowed into the U.S. But in Friedrich Engels’s words, the SLP would “have to doff every remnant of foreign garb” to become a truly mass force in society:
 
 > They cannot expect the Americans to come to them, they, the minority and the immigrants, must go to the Americans, the vast majority and the natives. And to do that, they must above all things learn English.[31]
-
-They cannot expect the Americans to come to them, they, the minority and the immigrants, must go to the Americans, the vast majority and the natives. And to do that, they must above all things learn English.[31]
 
 Engels’s advice on language was no exaggeration. By the time Daniel De Leon joined in 1890, only 17 of the party’s 77 sections used English as their common language. Just two of the party’s National Executive Committee spoke English fluently.[32] Though the party did have mass influence at times, including within the American-born population like during the 1877 strikes, it did have some significant blindspots as well.
 
@@ -136,13 +140,9 @@ Despite advances, the SLP failed to connect its politics with the working-class 
 
 > “From the birth of the People’s Party, the SLP, dominated by Daniel De Leon, refused to see anything of value to labor in the new movement. De Leon argued that the farmer and the political expression of his discontent, the People’s Party, was essentially reactionary… Therefore, De Leon urged all local sections of the SLP to have nothing to do with the ‘middle class corruption’ of the Populist Party.”[35]
 
-“From the birth of the People’s Party, the SLP, dominated by Daniel De Leon, refused to see anything of value to labor in the new movement. De Leon argued that the farmer and the political expression of his discontent, the People’s Party, was essentially reactionary… Therefore, De Leon urged all local sections of the SLP to have nothing to do with the ‘middle class corruption’ of the Populist Party.”[35]
-
 The SLP’s 1896 convention was an important turning point, and revealed how out of touch the party was. In the party’s convention manifesto, it correctly predicted Populism’s decline as it “will have the wind taken out of its sails by the silver development in the Democratic camp” in the form of William Jennings Bryan. But the party leadership considered that cooptation a good thing:
 
 > “It will cease to stand in our way and hinder the growth of our party in Western States… The lines will be drawn much clearer and more distinct, and it will be easier for men to know on what side of the fence they really belong.”[36]
-
-“It will cease to stand in our way and hinder the growth of our party in Western States… The lines will be drawn much clearer and more distinct, and it will be easier for men to know on what side of the fence they really belong.”[36]
 
 The party had little success in drawing people away from the Democratic-Populist movement to vote for its own presidential ticket. Instead, some socialists who bucked De Leon’s orders were drawn into Bryan’s campaign.
 
@@ -152,19 +152,17 @@ In short, the SLP had an overblown perspective of the period. Frustrated at the 
 
 > “A relentless war was opened on everything within and without the party that did not strictly conform to their conception of orthodox socialist principles and tactics. The columns of the official party paper… were filled from week to week with violent tirades against the ‘corrupt pure and simple labor-unions’ and their ‘ignorant and dishonest leaders,’ and against the Populist, Nationalist, and other reform ‘fakirs.’Side by side with this crusade against the ‘fakirs’ outside of the party a process of ‘purification’ of the party members was begun. Had the party officers heretofore been strict disciplinarians, they now became intolerant fanatics.”[38]
 
-“A relentless war was opened on everything within and without the party that did not strictly conform to their conception of orthodox socialist principles and tactics. The columns of the official party paper… were filled from week to week with violent tirades against the ‘corrupt pure and simple labor-unions’ and their ‘ignorant and dishonest leaders,’ and against the Populist, Nationalist, and other reform ‘fakirs.’Side by side with this crusade against the ‘fakirs’ outside of the party a process of ‘purification’ of the party members was begun. Had the party officers heretofore been strict disciplinarians, they now became intolerant fanatics.”[38]
-
 Or in De Leon’s words in 1896, presaging other future party authoritarians:
 
 > “No organization will inspire the outside masses with respect that will not insist upon and enforce discipline within its own ranks. If you allow your own members to play monkeyshines with the party, the lookers-on, who belong in this camp, will justly believe that you will at some critical moment allow capitalism to play monkeyshines with you; they will not respect you, and their accession to your ranks will be delayed.”[39]
 
-“No organization will inspire the outside masses with respect that will not insist upon and enforce discipline within its own ranks. If you allow your own members to play monkeyshines with the party, the lookers-on, who belong in this camp, will justly believe that you will at some critical moment allow capitalism to play monkeyshines with you; they will not respect you, and their accession to your ranks will be delayed.”[39]
-
 Hillquit argues that the party’s “highly centralized form of organization” and dogmatism didn’t attract masses of newly converted socialists. Times dictated a new form of organization. Thus, in 1900, the party suffered a major split. Hilquit’s forces left the SLP and later joined with Eugene Debs’ and Victor Berger’s followers, ultimately creating the Socialist Party of America (SPA). On the one hand, Hilquit made the right move. The SLP that remained deteriorated further and further into a sect – where it remains even today, with a few souls that still preach the word of Daniel De Leon. On the other hand, those like Hilquit quickly moved to the right once inside the SPA. Despite important left-wing expressions like the Industrial Workers of the World, it would take another 20 years for a really revolutionary party to develop in the United States.
 
-> **Despite advances, the SLP failed to connect its politics with the working-class upsurge. It failed the test of sailing between the rocks of sectarianism and opportunism.**
+{% highlight() %}
 
-**Despite advances, the SLP failed to connect its politics with the working-class upsurge. It failed the test of sailing between the rocks of sectarianism and opportunism.**
+Despite advances, the SLP failed to connect its politics with the working-class upsurge. It failed the test of sailing between the rocks of sectarianism and opportunism.
+
+{% end %}
 
 In reality, the problem with the SLP wasn’t so much the form of organization but that form in relation to the politics and methods employed. Amid the crises and resistance of the late-19th century, its leadership swung between crass opportunism (alienating Parsons and the revolutionaries in 1880) and vulgar sectarianism (alienating a potential mass audience). Though local branches and rank-and-file members made major contributions to the movement over the SLP’s life, the party often failed to profit from these few relations with broader forces. After being burned too many times trying to “bore from within,” the party fully embraced substituting its own organization for the broader movement.
 
@@ -190,9 +188,11 @@ A similar process played out on the other side of the world, in the Middle East 
 
 In Egypt, socialism came from two sources. Egyptian students in Europe in the early 20th century joined associations friendly with the social-democratic parties of the Second International. When the students returned home, they brought their interest in Marx, Lasalle and the Fabians with them.[43] Meanwhile, cells of migrant-worker and emigré socialists (mainly Greek and Russian), agitated among their fellow countrymen in Cairo and Alexandria and stayed connected to their radical movements back home. While the former explored socialist thought in Arabic-language intellectual treatises, the foreign-born socialist circles were often short-lived.[44]
 
-> **The Egyptian Communist Party, the Iraqi Communist Party and the Chinese Communist Party were all born from small intellectual circles.**
+{% highlight() %}
 
-**The Egyptian Communist Party, the Iraqi Communist Party and the Chinese Communist Party were all born from small intellectual circles.**
+The Egyptian Communist Party, the Iraqi Communist Party and the Chinese Communist Party were all born from small intellectual circles.
+
+{% end %}
 
 This changed after the anticolonial revolt of 1919. Joseph Rosenthal, a Russian Jew with links to the Bolsheviks and perhaps the most important migrant in Egyptian radical history, established the first socialist discussion circle among native Arab intellectuals. This circle of a dozen or so members formed the initial nucleus of the Egyptian Socialist Party, established in August of 1921. Building links with workers and supporting a series of major strikes, the party was able to quickly grow to 1,500 by late 1922.[45]
 

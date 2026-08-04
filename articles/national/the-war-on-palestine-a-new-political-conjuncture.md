@@ -18,9 +18,11 @@ In the wake of this operation, the leadership of the Zionist entity was caught c
 
 The backers of Israel, chiefly the United States, also went ballistic. President Biden sent in the Navy’s Sixth Fleet and promised any needed military support. From left to right, US politicians have sworn allegiance to Israel.
 
-> **The need to oppose the whole ruling class in order to support Palestine creates the potential for more radicalization than exists around other issues.**
+{% highlight() %}
 
-**The need to oppose the whole ruling class in order to support Palestine creates the potential for more radicalization than exists around other issues.**
+The need to oppose the whole ruling class in order to support Palestine creates the potential for more radicalization than exists around other issues.
+
+{% end %}
 
 Self-proclaimed socialists in the Democratic Party have been as rabid as Republicans. This has created tensions and backpedaling in the Democratic Socialists of America, as DSA politicians like Alexandria Ocasio-Cortez have criticized the DSA for not being Zionist enough.
 
@@ -54,9 +56,11 @@ One reason for this is that this crisis comes after years of neoliberal attacks 
 
 The need to oppose the whole ruling class in order to support Palestine creates the potential for more radicalization than exists around other issues. Supporters of abortion can be seduced into supporting “pro-choice” Democrats. Supporters of Black history, critical race theory, LGBTQ+ rights and embattled libraries and public school districts often see their opponents as primarily right-wing Republicans. The same is true of voting rights and many other issues. For supporters of Palestine, there is no ruling-class option.
 
-> **For many in the Palestine liberation movement, the goal is dismantlement of the occupation. Support for a two-state solution has waned as Israel has become more aggressive and right-wing. Supporters of Palestine are pushed by circumstances to question both ruling-class parties that defend Zionism, as well as the capitalist and imperialist system they represent.**
+{% highlight() %}
 
-**For many in the Palestine liberation movement, the goal is dismantlement of the occupation. Support for a two-state solution has waned as Israel has become more aggressive and right-wing. Supporters of Palestine are pushed by circumstances to question both ruling-class parties that defend Zionism, as well as the capitalist and imperialist system they represent.**
+For many in the Palestine liberation movement, the goal is dismantlement of the occupation. Support for a two-state solution has waned as Israel has become more aggressive and right-wing. Supporters of Palestine are pushed by circumstances to question both ruling-class parties that defend Zionism, as well as the capitalist and imperialist system they represent.
+
+{% end %}
 
 The closest analogy to the current Palestine issue is the Vietnam war. On that issue, opposition built slowly and only slowly radicalized. By the time there was a mass anti-war movement with a radical wing, even sections of the ruling class were beginning to have doubts about the war. Some politicians began to sound dovish — supporting negotiations, for example, even when they were still substantively pro-war. But ruling class support for the war was mostly unified, , especially at first. This meant that the movement had to be against the whole ruling class. This caused the movement against the war to result in mass radicalization — at one point over a million Americans described themselves as revolutionaries. Revolutionary groups grew rapidly in this period. We can derive hope from this. As the saying goes, history doesn’t repeat itself, but it does rhyme.
 

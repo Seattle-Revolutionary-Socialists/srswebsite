@@ -46,9 +46,11 @@ Despite their sometimes placid appearance, all human societies are riven by cont
 
 Capitalism is particularly contradictory, since it is based on the exploitation of one class by another (workers are not paid the full value of what they produce by capitalists). Under capitalism, socialized production is combined with privatized appropriation — the resources created by the vast majority collectively are taken by a tiny minority privately. Limited democracy in the public sphere is contradicted by dictatorship at work. Underneath the appearance of legal labor relations, the class struggle continues — “now open, now concealed,” as Marx put it in *Capital*.
 
-> **Dialectics is foundational to Marxism as a philosophy, and must be understood at some level by Marxists before we attempt to analyze and change social relations.**
+{% highlight() %}
 
-**Dialectics is foundational to Marxism as a philosophy, and must be understood at some level by Marxists before we attempt to analyze and change social relations.**
+Dialectics is foundational to Marxism as a philosophy, and must be understood at some level by Marxists before we attempt to analyze and change social relations.
+
+{% end %}
 
 In capitalist society, every political battle is ultimately based on class struggle. Who gets which resources created by the working class? The balance of class forces that derive from this struggle influences all aspects of economics and politics. The ruling class responds politically with both the carrot and the stick. The working class moves to counter these responses, and that drives further responses.
 
@@ -74,9 +76,11 @@ Societies also change through struggles against other contradictions — racism,
 
 Clarity of ideas helps to create clarity of goals and effective strategies for transformation. However, it is ultimately struggle that transforms. Ideas become a social force only when they grip large numbers of people and motivate struggle. Oppositional ideas develop because of material contradictions. Workers oppose being exploited not primarily because they have read about it, but because they experience it.
 
-> **Reformists do not see modes of production as coherent wholes which are transformed through struggling over contradictions within the economy and society. They believe capitalist society can be transformed into socialism a little at a time.**
+{% highlight() %}
 
-**Reformists do not see modes of production as coherent wholes which are transformed through struggling over contradictions within the economy and society. They believe capitalist society can be transformed into socialism a little at a time.**
+Reformists do not see modes of production as coherent wholes which are transformed through struggling over contradictions within the economy and society. They believe capitalist society can be transformed into socialism a little at a time.
+
+{% end %}
 
 One example of the interaction between material change, struggle, and ideas is the movement for the abolition of slavery before the US Civil War. In these years, the slave economy of the South became increasingly competitive with Northern capitalism. Northern employers of free labor had growing clashes of economic interest with the Southern slaveocracy. The new economic contradictions created openings for abolitionist ideas to resonate more widely.
 
@@ -124,9 +128,11 @@ Dialectical analysis is the best way to understand the world. However, most huma
 
 This means that particular ideologies are not analogous to modes of production or social formations. They are not necessarily a coherent totality. They are made up of ruling ideas mixed with oppositional ideas, formal logic with dialectics. We need to approach them differently than we do modes of production. We can confront the negative aspects of a certain set of ideas and help change those aspects. By the same token we can learn from their positive aspects.
 
-> **There are Marxists who refuse to accept ideological contributions from other schools of thought. They argue that Marxism is sufficient unto itself, and fear that any contribution to a Marxist understanding from outside Marxism will pollute it. This contradicts Marx’s method.**
+{% highlight() %}
 
-**There are Marxists who refuse to accept ideological contributions from other schools of thought. They argue that Marxism is sufficient unto itself, and fear that any contribution to a Marxist understanding from outside Marxism will pollute it. This contradicts Marx’s method.**
+There are Marxists who refuse to accept ideological contributions from other schools of thought. They argue that Marxism is sufficient unto itself, and fear that any contribution to a Marxist understanding from outside Marxism will pollute it. This contradicts Marx’s method.
+
+{% end %}
 
 Often a particular author (say, a liberal historian such as Corey Robin or Eric Foner) will have a relatively trenchant analysis of an issue. The author will demonstrate, and may even say openly that capitalism causes a particular problem or injustice. In the end, they will often recoil from the logical conclusion of their own analysis — the need to overthrow capitalism!
 
@@ -150,9 +156,11 @@ One example of dogmatism is the wholesale [rejection of feminism](https://www.ma
 
 Feminism stems from an important contradiction of capitalism. Bourgeois ideology says all people are equal in the marketplace; yet at the same time, in capitalist society women are subjected to institutional oppression. The questioning of these contradictions and the resistance to this oppression yields various forms of feminism. Feminist struggle throws up new ideas and means of struggle that can usefully be incorporated into Marxist analysis.
 
-> **Society is dynamic. Political programs must be dynamic as well. Life and struggle create new opportunities, new methods, and new ideas. The dialectics of society has impacts on the development of ideas.**
+{% highlight() %}
 
-**Society is dynamic. Political programs must be dynamic as well. Life and struggle create new opportunities, new methods, and new ideas. The dialectics of society has impacts on the development of ideas.**
+Society is dynamic. Political programs must be dynamic as well. Life and struggle create new opportunities, new methods, and new ideas. The dialectics of society has impacts on the development of ideas.
+
+{% end %}
 
 Some Marxists reject settler-colonial theory. This theory seeks to analyze societies that are based on the dispossession of natives by colonial settlers. Unfortunately, this theory is often used to reject American, Canadian, and Australian workers in the modern era as counterrevolutionary “settlers.” Though this is an anti-Marxist application of the theory, at the same time settler-colonial theory can be used fruitfully to analyze Israel, South Africa under apartheid, and the earlier phases of US, Canadian and Australian history. Some aspects of the colonial settler origins of these societies still persist. Those who dogmatically reject settler-colonial theory*in toto* because of some negative applications of it will miss its important insights.
 

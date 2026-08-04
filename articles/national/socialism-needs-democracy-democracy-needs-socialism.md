@@ -22,9 +22,11 @@ Unfortunately, this link between revolutionary democracy and socialism is reject
 
 Even the collapse of Stalinist states from 1989 onward has not killed off the Stalinist distortion of Marxism. Many young people in the U.S. rightly want to oppose U.S. imperialism and capitalism. They turn to what they think are its enemies: the remnants of the Eastern Bloc and its allies. They become campists, extolling the virtues of the supposedly anti-U.S. camp — China, Russia, Iran, and Assad’s Syria. In many cases this leads them back to support of the gravedigger of the Russian Revolution, Stalin himself.
 
-> **We cannot sneak someone into power and achieve what we want. We cannot lie to workers or go behind their backs. We cannot move toward socialism by bureaucratically manipulating a union or a coalition to achieve the political stance we want. We cannot substitute ourselves or any would-be leader for the working class. We cannot win things for workers without workers’ direct involvement.**
+{% highlight() %}
 
-**We cannot sneak someone into power and achieve what we want. We cannot lie to workers or go behind their backs. We cannot move toward socialism by bureaucratically manipulating a union or a coalition to achieve the political stance we want. We cannot substitute ourselves or any would-be leader for the working class. We cannot win things for workers without workers’ direct involvement.**
+We cannot sneak someone into power and achieve what we want. We cannot lie to workers or go behind their backs. We cannot move toward socialism by bureaucratically manipulating a union or a coalition to achieve the political stance we want. We cannot substitute ourselves or any would-be leader for the working class. We cannot win things for workers without workers’ direct involvement.
+
+{% end %}
 
 This is a tragedy and something that actual Marxists must continually confront. We need to explain over and over the direct connection of democracy and socialism. This is a difficult but necessary road, and there are no shortcuts. We cannot sneak someone into power and achieve what we want. We cannot lie to workers or go behind their backs. We cannot move toward socialism by bureaucratically manipulating a union or a coalition to achieve the political stance we want. We cannot substitute ourselves or any would-be leader for the working class. We cannot win things for workers without workers’ direct involvement.
 

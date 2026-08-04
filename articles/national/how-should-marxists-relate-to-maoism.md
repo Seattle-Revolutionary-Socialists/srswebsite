@@ -21,9 +21,11 @@ In the early 1900s, China was still ruled by a corrupt feudal aristocracy, the Q
 
 The CCP was originally small, but was quite influential among the working class in its early years. It was officially founded in July 1921 with help from the Soviet Union and the Communist or Third International (Comintern). At the time, the strategy of the Comintern was international socialist revolution. This changed after Lenin died in 1924 and Stalin rose to power, managing to consolidate power in both the Soviet Union and the Comintern by 1925. The Kuomintang (KMT), the rival Chinese Nationalist Party, had been working with the Comintern since the 1920s, but Stalin’s rise to power led to a rightward shift in the policy of the Comintern towards support for “progressive” bourgeois nationalism abroad. Against this, Trotsky argued for class independence and international revolution. This rightward turn led to the Comintern arguing for a policy of alliance between the CCP and the KMT to defeat the Qing aristocracy. At the time, Wang Ming was the most well-respected member of the CCP and carried forth this perspective from Moscow.
 
-> **The new regime which rose to power under Mao’s command resulted in the expropriation of the former landowning gentry and land back to the peasants. This was essentially a bourgeois revolution.**
+{% highlight() %}
 
-**The new regime which rose to power under Mao’s command resulted in the expropriation of the former landowning gentry and land back to the peasants. This was essentially a bourgeois revolution.**
+The new regime which rose to power under Mao’s command resulted in the expropriation of the former landowning gentry and land back to the peasants. This was essentially a bourgeois revolution.
+
+{% end %}
 
 Unfortunately, in April 1927, Chiang Kai-shek, leader of the KMT, ordered the KMT military to mass-murder members of the CCP. Due to this disastrous alliance, the CCP was driven out to the countryside and forced to adapt. Rather than organizing the working class, which was overwhelmingly concentrated in the cities, they would organize the peasants in the countryside into a guerrilla army. In this period, Mao demonstrated himself most up to the task of organizing a guerrilla army, and began to grow in power.
 
@@ -39,9 +41,11 @@ In reality, the CCP was thoroughly in control of all economic questions. Private
 
 Mao then attempted to apply Stalin’s policies of rapid industrial development in China with the “Great Leap Forward.” This policy led to the redirection of peasant labor away from agricultural food production towards industrial production. Due to the low productivity of China’s agriculture and low levels of industrial development, this policy resulted in widespread famines in the countryside with little to show for it. The failure of this policy led to Mao being sidelined in the CCP in 1961.
 
-> **If the masses already possess a germ of revolutionary consciousness, why can’t they just form their own party? If they don’t have revolutionary consciousness, what is the point of the mass line?**
+{% highlight() %}
 
-**If the masses already possess a germ of revolutionary consciousness, why can’t they just form their own party? If they don’t have revolutionary consciousness, what is the point of the mass line?**
+If the masses already possess a germ of revolutionary consciousness, why can’t they just form their own party? If they don’t have revolutionary consciousness, what is the point of the mass line?
+
+{% end %}
 
 In 1966, Mao launched the Great Proletarian Cultural Revolution (GPCR) in an attempt to regain power. He argued that bourgeois elements had infiltrated the CCP and needed to be purged. What followed was a widespread ultra-left campaign characterized by chaos and violence. The GPCR resulted in the formation of “Red Guards” (primarily by youth and students) who massacred their fellow workers, destroyed many priceless historical artifacts, and persecuted almost everyone.
 
@@ -63,9 +67,11 @@ The SP quickly distinguished itself for its ruthless use of violence to achieve 
 
 The infamous Lucanamarca Massacre epitomizes this tendency. In response to the death of 13 militants at the hands of a few *ronderos* (peasants armed by the government), the SP took its revenge by entering the town of Lucanamarca and indiscriminately murdering anyone they could get their hands on. The official reports tally up 69 deaths, including 18 children and a six-month-old baby. In response to the outrage over this atrocity, Guzmán gave an interview in the pro-SP newspaper *Diario* defending the action as necessary in the face of “reactionary military actions,” though he did euphemistically admit to “excesses.” It is important to note that while this was the worst massacre committed by the SP, it was far from the only one.
 
-> **Since Maoism is a development of Stalinism, it inherits the Stalinist conception of “socialism in one country.” Maoists argue that socialism can be built in a single country following a socialist revolution, whereas Trotskyists believe that only the dictatorship of the proletariat or a workers’ state can be built in a single country.**
+{% highlight() %}
 
-**Since Maoism is a development of Stalinism, it inherits the Stalinist conception of “socialism in one country.” Maoists argue that socialism can be built in a single country following a socialist revolution, whereas Trotskyists believe that only the dictatorship of the proletariat or a workers’ state can be built in a single country.**
+Since Maoism is a development of Stalinism, it inherits the Stalinist conception of “socialism in one country.” Maoists argue that socialism can be built in a single country following a socialist revolution, whereas Trotskyists believe that only the dictatorship of the proletariat or a workers’ state can be built in a single country.
+
+{% end %}
 
 By 1990, the SP presented an existential threat to the stability of the government. At this point, Alberto Fujimori was elected president. Where previous presidents had resisted the complete use of military force against the SP, Fujimori decided to take the gloves off. In 1992, he granted the military broad powers to arrest and prosecute anyone suspected of being an SP guerrilla, with secret trials and suspended democratic rights.
 
@@ -87,8 +93,6 @@ Since Maoism is a development of Stalinism, it inherits the Stalinist conception
 
 > Trotsky’s theory of “combined and uneven development” was fundamental to his understanding of the theory of permanent revolution’s international meaning. Here we have a theory that seems to imply that capitalism is a global mode of production that develops in a combined and uneven manner, rather than a theory (as those influenced by what would become the Maoist tradition have argued) of a world system of capitalism where capitalist modes of production form the centres of capitalism, and impose/control global capitalism through imperialism, and capitalist social formations on the periphery that are still economically defined, internally, as pre-capitalist modes of production.
 
-Trotsky’s theory of “combined and uneven development” was fundamental to his understanding of the theory of permanent revolution’s international meaning. Here we have a theory that seems to imply that capitalism is a global mode of production that develops in a combined and uneven manner, rather than a theory (as those influenced by what would become the Maoist tradition have argued) of a world system of capitalism where capitalist modes of production form the centres of capitalism, and impose/control global capitalism through imperialism, and capitalist social formations on the periphery that are still economically defined, internally, as pre-capitalist modes of production.
-
 Moufawad-Paul meant it as a criticism, but he was correct: Trotskyists view capitalism as a single globally integrated economic system. While various imperialist blocs may vie for power with each other, and the class structure and local conditions are different throughout the world, all capitalist nation-states are ultimately economically dependent on each other. For this reason, along with the obvious looming threat of imperialist intervention, revolution in a single country is not enough to safeguard a proletarian revolution.
 
 Obviously, the international revolution has to begin somewhere, and the only real place for this to begin is at a national stage. However, the Trotskyist position is that the revolution must spread to other countries and escalate the fight against capitalism, otherwise it will eventually revert back to capitalism. This does not mean that a workers’ revolution in one country should be held back if international revolution is impossible. It simply means that we must recognize that socialism has not yet been won.
@@ -99,39 +103,31 @@ Maoists also inherit the Stalinist conception of the revolutionary party. Rather
 
 > The working-class caught up in trade unions cannot produce a revolutionary organization by itself because, in this context, it is only capable of producing an economism (“trade union consciousness”), or a defiant anarchism, but not a mediating party that produces a revolutionary movement with a coherent and revolutionary theory. Here we must recall Althusser’s analysis of the philosophy of Marxism-Leninism where he points out that the working-class, which spends most of its time working, can only conceive of its rebellion according to the ruling ideas of the ruling class.
 
-The working-class caught up in trade unions cannot produce a revolutionary organization by itself because, in this context, it is only capable of producing an economism (“trade union consciousness”), or a defiant anarchism, but not a mediating party that produces a revolutionary movement with a coherent and revolutionary theory. Here we must recall Althusser’s analysis of the philosophy of Marxism-Leninism where he points out that the working-class, which spends most of its time working, can only conceive of its rebellion according to the ruling ideas of the ruling class.
-
 Essentially the argument here is that workers are incapable of coming to revolutionary consciousness on their own, and thus can only generally develop “trade-union” consciousness. Whereas those with a revolutionary consciousness seek to overthrow capitalism, those with trade-union consciousness seek to reform it and negotiate with its representatives — i.e. build unions, form labor parties, win elections, pass legislation, etc. Therefore, the petty bourgeoisie must step in to build a revolutionary party on behalf of the working class instead.
 
 The reasoning for this position has taken many forms, but usually it boils down to a lack of faith in the intellectual capacities of workers. Regrettably, this was Lenin’s position when he wrote the classic foundational text “What Is to Be Done?”:
 
 > We have said that there could not have been Social-Democratic consciousness among the workers. It would have to be brought to them from without. The history of all countries shows that the working class, exclusively by its own effort, is able to develop only trade-union consciousness, i.e., the conviction that it is necessary to combine in unions, fight the employers, and strive to compel the government to pass necessary labour legislation, etc.
 
-We have said that there could not have been Social-Democratic consciousness among the workers. It would have to be brought to them from without. The history of all countries shows that the working class, exclusively by its own effort, is able to develop only trade-union consciousness, i.e., the conviction that it is necessary to combine in unions, fight the employers, and strive to compel the government to pass necessary labour legislation, etc.
-
 Those who continue to make this argument today ignore the work of later Marxists such as Tony Cliff and Marcel Liebman who pointed out that Lenin abandoned this elitism after the 1905 revolution and the resultant upsurge in class consciousness. In fact, following the revolution Lenin argued the exact opposite formulation. As he put it in his 1905 essay “The Reorganization of the Party”:
 
 > It would be simply ridiculous to doubt that the workers who belong to our Party, or who will join it tomorrow at the invitation of the Central Committee, will be Social-Democrats in ninety-nine cases out of a hundred. The working class is instinctively, spontaneously Social-Democratic.
-
-It would be simply ridiculous to doubt that the workers who belong to our Party, or who will join it tomorrow at the invitation of the Central Committee, will be Social-Democrats in ninety-nine cases out of a hundred. The working class is instinctively, spontaneously Social-Democratic.
 
 It is at this point that we come to the main contradiction in the Stalinist conception of the party, perhaps best expressed by Moufawad-Paul:
 
 > On the one hand it is impossible for the proletariat to spontaneously develop a revolutionary party with a revolutionary ideology; on the other hand it is impossible for a party that the workers cannot possibly develop, and thus is developed instead by the petty bourgeoisie, to carry a revolution to its completion.
 
-On the one hand it is impossible for the proletariat to spontaneously develop a revolutionary party with a revolutionary ideology; on the other hand it is impossible for a party that the workers cannot possibly develop, and thus is developed instead by the petty bourgeoisie, to carry a revolution to its completion.
-
 To overcome the contradiction between the petty-bourgeois intellectuals of the party and the proletariat, Maoists introduce the strategy known as the mass line. The mass line is often summarized by Maoists as “to the masses, from the masses, to the masses.” It was developed by Mao during the CCP’s period of guerrilla warfare against the KMT and the Japanese. It consists of collecting ideas and drawing inspiration from the masses, and then bringing forth a systematic program which they will provide feedback on. Thus the task of the party is to ask the masses how to proceed and then to systematize their thoughts into a coherent revolutionary program.
 
-> **Violence is a tactical question to be answered when the time comes. But contrary to Mao, we do not believe that workers’ power “flows from the barrel of a gun.”**
+{% highlight() %}
 
-**Violence is a tactical question to be answered when the time comes. But contrary to Mao, we do not believe that workers’ power “flows from the barrel of a gun.”**
+Violence is a tactical question to be answered when the time comes. But contrary to Mao, we do not believe that workers’ power “flows from the barrel of a gun.”
+
+{% end %}
 
 It is worth pausing for a second to consider the origins of the mass-line theory in more depth. During Mao’s period of guerrilla warfare, he organized peasants, not workers. While peasants and workers are both laboring, exploited classes, they differ significantly in class interests. Peasants produce for themselves and their families first, and society second, whereas for workers, the reverse is true. Thus for workers, economic cooperation is second nature, whereas peasants must generally be forced to work extra to produce a social surplus. While peasants as a class benefit from a stored social surplus, since it guards against famines and scarcity in times of disaster, a peasant as an individual is less secure for contributing to that surplus. As Marx put it in his essay “The Eighteenth Brumaire of Napoleon Bonaparte”:
 
 > [The peasants] are therefore incapable of asserting their class interest in their own name, whether through a parliament or a convention. They cannot represent themselves, they must be represented. Their representative must at the same time appear as their master, as an authority over them, an unlimited governmental power which protects them from the other classes and sends them rain and sunshine from above.
-
-[The peasants] are therefore incapable of asserting their class interest in their own name, whether through a parliament or a convention. They cannot represent themselves, they must be represented. Their representative must at the same time appear as their master, as an authority over them, an unlimited governmental power which protects them from the other classes and sends them rain and sunshine from above.
 
 The mass line can be seen as a strategy to resolve this contradiction, to both represent and protect the interests of the peasants while simultaneously being their master. Of course, just because a strategy was developed with peasants in mind does not necessarily mean it has no applications for organizing workers. But it does mean it deserves more critical examination than other strategies that have been tried and tested among workers already.
 
@@ -171,9 +167,11 @@ The final point of difference between us and Maoists is our view of oppression a
 
 For Trotskyists, this analysis can be correct under certain circumstances, but not usually. In the US’s settler-colonial period which lasted roughly up until the end of the 1800s, all classes of the US, including poor whites, benefited from the colonial theft of Native lands. Thus the main contradiction during this period was between the settlers and the Native peoples. However, with the completion of the process of colonial theft, the genocide of Natives, and their confinement to reservations, the circumstances have changed. The primary contradiction is now between the working class and the capitalist class.
 
-> **Instead of developing into socialism, China has developed from its former state-capitalist model into a more mixed economy, with elements of both state capitalism and private capitalism mixed in. The Chinese working class has about as much control over their government as any other working class does — which is to say, not much.**
+{% highlight() %}
 
-**Instead of developing into socialism, China has developed from its former state-capitalist model into a more mixed economy, with elements of both state capitalism and private capitalism mixed in. The Chinese working class has about as much control over their government as any other working class does — which is to say, not much.**
+Instead of developing into socialism, China has developed from its former state-capitalist model into a more mixed economy, with elements of both state capitalism and private capitalism mixed in. The Chinese working class has about as much control over their government as any other working class does — which is to say, not much.
+
+{% end %}
 
 Maoists argue that settler-colonial theft has been replaced by imperial wars abroad. However, imperialist adventures primarily benefit the owners of major corporations and their benefactors — in other words, the capitalist class. The working class in the imperialist country sacrifices their resources, their health, and ultimately their lives in imperialist wars. In return, soldiers receive a paltry wage and, in the US at least, the promise of free college. There is a reason why the military relies on poverty, desperation, and, when those don’t work, the draft, to obtain recruits.
 

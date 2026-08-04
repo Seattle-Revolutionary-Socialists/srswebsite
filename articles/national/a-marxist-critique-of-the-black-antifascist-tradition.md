@@ -28,8 +28,6 @@ In fact, the authors admit that they are including people in the Black anti-fasc
 
 > We… begin to recast American history as one deeply rooted in Anti-Black fascism and more important to capture the multifaceted Black Anti-Fascist Tradition from Reconstruction to the present. At the center of this work are a multitude of writings that are explicitly Black Anti-Fascist texts as well as those that we have recast as being part of the broader Black Anti-Fascist Tradition.
 
-We… begin to recast American history as one deeply rooted in Anti-Black fascism and more important to capture the multifaceted Black Anti-Fascist Tradition from Reconstruction to the present. At the center of this work are a multitude of writings that are explicitly Black Anti-Fascist texts as well as those that we have recast as being part of the broader Black Anti-Fascist Tradition.
-
 It is one thing to look back in history and see struggles as part of a broad pattern, such as seeing ancient slave revolts as part of a continuum of class struggle that extends to modern proletarian struggle. It is quite another to shoehorn political writings into an ideological tradition that was developed decades or centuries later.
 
 Even the portrayal of conscious Black anti-fascists is problematic. The authors are nearly uncritical of the positions taken by various writers — even when they contradict each other, while supposedly being part of the same tradition. In their effort to establish this tradition, they ignore inconsistencies and weaknesses within it.
@@ -38,9 +36,11 @@ In broadening the definition of fascism, especially in labeling Jim Crow segrega
 
 As Trotksy wrote, “At the moment that the ‘normal’ police and military resources of the bourgeois dictatorship, together with their parliamentary screens, no longer suffice to hold society in a state of equilibrium — the turn of the fascist regime arrives.”
 
-> **Hope and Mullen even claim that anti-racist struggles predating the development of fascism in the early 20th century should be counted as part of the Black anti-fascist tradition. In doing so, they sweep up politically contradictory ideologies and movements into this tradition.**
+{% highlight() %}
 
-**Hope and Mullen even claim that anti-racist struggles predating the development of fascism in the early 20th century should be counted as part of the Black anti-fascist tradition. In doing so, they sweep up politically contradictory ideologies and movements into this tradition.**
+Hope and Mullen even claim that anti-racist struggles predating the development of fascism in the early 20th century should be counted as part of the Black anti-fascist tradition. In doing so, they sweep up politically contradictory ideologies and movements into this tradition.
+
+{% end %}
 
 Hope and Mullen claim that the American form of fascism did not require this: “Throughout the book, we trace how Anti-Black Fascism is enshrined within American law… and how unlike European Fascism, there is no need for a singular Fascist regime or dictator to ensure its existence.”
 
@@ -54,9 +54,11 @@ Both US white supremacy and European fascism were based on racism. The former pr
 
 Both used laws to carry out their oppression.*The Black Antifascist Tradition* makes a point of the fact that the Nazis copied some of their race laws from the Jim Crow South. The Nazis, of course, secondarily oppressed people of color even though their main scapegoat was Jewish people. Pointing out these similarities is valid. They are similar phenomena. They were both strategies for upholding capitalism and increasing exploitation and oppression.
 
-> **Fascism is a specific phenomenon of capitalism in crisis, based on a mass movement of the petty bourgeoisie. It cannot be defined merely as state repression, which exists in all states, including under all forms of bourgeois democracy. Fascism arises when repression from the state is not enough to crush the threat of a rising working class.**
+{% highlight() %}
 
-**Fascism is a specific phenomenon of capitalism in crisis, based on a mass movement of the petty bourgeoisie. It cannot be defined merely as state repression, which exists in all states, including under all forms of bourgeois democracy. Fascism arises when repression from the state is not enough to crush the threat of a rising working class.**
+Fascism is a specific phenomenon of capitalism in crisis, based on a mass movement of the petty bourgeoisie. It cannot be defined merely as state repression, which exists in all states, including under all forms of bourgeois democracy. Fascism arises when repression from the state is not enough to crush the threat of a rising working class.
+
+{% end %}
 
 However, importantly, they are also very different phenomena. The goal of Jim Crow was to divide the poor people of the South, workers and sharecroppers, on race lines. It was to break up the unity between Black and white people that had developed during Reconstruction and the Populist period. It “divided both to conquer each,” according to Frederick Douglass. The goal was not the extermination of the Black race. The goal was not the destruction of working-class unions and other institutions or the atomization of the working class, as it was under fascism.
 
@@ -108,9 +110,11 @@ Historically speaking, the united front has represented Marxism’s attempt to o
 
 The two sides of the slogan were each vitally important. The working class could gain the most by “striking together” in united action. However, the politics of the uniting forces were very different, requiring them to “march separately.” During a deep crisis, Marxists wanted to push the struggle as far as possible — to revolution. The reformists only wanted to modify capitalism, to make it a bit more palatable to workers. This meant that united fronts were temporary. They would exist only to the extent that both parties agreed on particular demands at a particular time.
 
-> **Labeling a phenomenon fascist when it is not flows from moralism and vague politics rather than a clear analysis, and this can lead to problematic strategies for change.**
+{% highlight() %}
 
-**Labeling a phenomenon fascist when it is not flows from moralism and vague politics rather than a clear analysis, and this can lead to problematic strategies for change.**
+Labeling a phenomenon fascist when it is not flows from moralism and vague politics rather than a clear analysis, and this can lead to problematic strategies for change.
+
+{% end %}
 
 Just as importantly, Marxists would also use the united front to win reformist workers to revolutionary politics. They would try to show that revolutionary tactics were more effective and that mass struggle against the bosses won more than lobbying, electing better politicians, or appealing to ruling-class good will.
 
@@ -134,19 +138,13 @@ The argument put forward by *The Black Antifascist Tradition* seems to be that o
 
 > The Black Antifascist tradition intersects with and informs virtually every important Black social and political movement in the twentieth and twenty-first centuries… Campaign Against Lynching, the Pan-African Movement, Anti-Colonialism, Anti-Imperialism, International Communism, the Civil Rights Movement, the Black Power Movement, Black Feminism…
 
-The Black Antifascist tradition intersects with and informs virtually every important Black social and political movement in the twentieth and twenty-first centuries… Campaign Against Lynching, the Pan-African Movement, Anti-Colonialism, Anti-Imperialism, International Communism, the Civil Rights Movement, the Black Power Movement, Black Feminism…
-
 Early in the book, the authors write approvingly:
 
 > [Octavia] Butler challenges readers to become Black Antifascists, Anarchists, Abolitionists, Socialists and Afro-Futurists… *The BAFT* makes a similar call to its readers.
 
-[Octavia] Butler challenges readers to become Black Antifascists, Anarchists, Abolitionists, Socialists and Afro-Futurists… *The BAFT* makes a similar call to its readers.
-
 Later, they follow that up with this statement:
 
 > Fighting fascism and fighting anti-Blackness was a way to unite the fight of non-white peoples everywhere against racial capitalism in all its forms while imagining emancipatory alternative futures to it.
-
-Fighting fascism and fighting anti-Blackness was a way to unite the fight of non-white peoples everywhere against racial capitalism in all its forms while imagining emancipatory alternative futures to it.
 
 Is the central battle the one for working-class power, which of course includes anti-racism, or is it the fight against fascism, which can have a variety of politics? Is the fundamental struggle one of “peoples” or of classes? Populism or Marxism?
 
@@ -154,21 +152,13 @@ Is the central battle the one for working-class power, which of course includes 
 
 > Black Antifascism was beginning to merge Pan-Africanism and Marxism into a programmatic whole that equated fascism and colonialism and saw mass Black organizing across the diaspora as the only solution.
 
-Black Antifascism was beginning to merge Pan-Africanism and Marxism into a programmatic whole that equated fascism and colonialism and saw mass Black organizing across the diaspora as the only solution.
-
 The book’s eclectic treatment of Marxism is echoed by its internal contradictions. It tries to incorporate widely disparate views in the same tradition. On the key question of whether the US is fascist or not yet fascist, Hope and Mullen want to include opposite answers. On its first page it cites different opinions:
 
 > “For certain people, America has been Fascist all along…” — Robin D. G. Kelley
 
-“For certain people, America has been Fascist all along…” — Robin D. G. Kelley
-
 > “The only effective guarantee against the victory of fascism is an indivisible mass movement.” — Angela Davis
 
-“The only effective guarantee against the victory of fascism is an indivisible mass movement.” — Angela Davis
-
 > “Fascism was a monster born of capitalist parents. Fascism came as the end-product of centuries of capitalist bestiality, exploitation, domination and racism…” — Walter Rodney
-
-“Fascism was a monster born of capitalist parents. Fascism came as the end-product of centuries of capitalist bestiality, exploitation, domination and racism…” — Walter Rodney
 
 Later, the authors quote Langston Hughes: “Fascists is Jim Crow peoples, honey.”
 
@@ -180,13 +170,13 @@ As Keeanga-Yamahtta Taylor writes in *From #BlackLivesMatter to Black Liberation
 
 > Through the period of the Popular Front… the CP [Communist Party] maintained its popularity among African Americans and many of the oppressed. But over time, the constantly shifting, contradictory positions of the CP and the Soviet Union, which were now led by the increasingly tyrannical Josef Stalin, led to a mass exodus from the party after the war. In the United States during the war, the CP had embraced the Democratic Party and called for unity at all costs. Its conclusion that American Blacks should therefore downplay the continuing fight against racial inequality would eventually erode the ranks of the CP’s membership. But the foibles of the CP should not be conflated with the validity of anticapitalism and socialism as political theories that inform and guide the struggle for Black liberation.
 
-Through the period of the Popular Front… the CP [Communist Party] maintained its popularity among African Americans and many of the oppressed. But over time, the constantly shifting, contradictory positions of the CP and the Soviet Union, which were now led by the increasingly tyrannical Josef Stalin, led to a mass exodus from the party after the war. In the United States during the war, the CP had embraced the Democratic Party and called for unity at all costs. Its conclusion that American Blacks should therefore downplay the continuing fight against racial inequality would eventually erode the ranks of the CP’s membership. But the foibles of the CP should not be conflated with the validity of anticapitalism and socialism as political theories that inform and guide the struggle for Black liberation.
-
 In Spain, the Communist Party’s support of the popular-front government in the 1930s isolated revolutionaries and led to the victory of Franco’s Falangists in the late 30s. [In Chile in the 1970s](https://www.leftvoice.org/chile-73-was-victory-possible/), [political support to](https://www.leftvoice.org/chile-73-was-victory-possible/)Popular Unity led to demoralization of the working class, and then the victory of Pinochet’s fascist coup and the severe repression that the country is only now recovering from.
 
-> **Is the central battle the one for working-class power, which of course includes anti-racism, or is it the fight against fascism, which can have a variety of politics? Is the fundamental struggle one of “peoples” or of classes? Populism or Marxism?**
+{% highlight() %}
 
-**Is the central battle the one for working-class power, which of course includes anti-racism, or is it the fight against fascism, which can have a variety of politics? Is the fundamental struggle one of “peoples” or of classes? Populism or Marxism?**
+Is the central battle the one for working-class power, which of course includes anti-racism, or is it the fight against fascism, which can have a variety of politics? Is the fundamental struggle one of “peoples” or of classes? Populism or Marxism?
+
+{% end %}
 
 *The Black Antifascist Tradition* explicitly supports the application of the popular front in regard to anti-racism. For example, the book endorses Black American participation in the International Brigades during the Spanish Civil War. This participation needs more criticism. Under the auspices of the Communist Party, it had dual and conflicting effects. To the extent that it opposed fascism, it was on the right side of history. To the extent that it reinforced the Communist Party’s influence and thus the isolation of revolutionaries, it was on the wrong side of history.
 

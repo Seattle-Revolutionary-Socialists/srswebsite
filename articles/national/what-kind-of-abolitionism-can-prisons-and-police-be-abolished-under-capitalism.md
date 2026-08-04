@@ -22,9 +22,11 @@ One of the primary reasons Marxists support abolition is that the current state 
 
 Marxists also oppose the repressive apparatus of the state because of its horrible effects in general. The capitalist state wages wars that kill thousands or millions; it imprisons millions instead of providing them decent housing and social support; it enforces institutional racism and sexism either openly or quietly; it criminalizes freedom of expression. The list could go on indefinitely.
 
-> **There will always be police as long as capitalism exists. Interpersonal crime is not the reason police exist. The ruling class needs the police to keep order, to protect its property and power. This is why the ruling class will never allow complete abolitionism while it holds political power.**
+{% highlight() %}
 
-**There will always be police as long as capitalism exists. Interpersonal crime is not the reason police exist. The ruling class needs the police to keep order, to protect its property and power. This is why the ruling class will never allow complete abolitionism while it holds political power.**
+There will always be police as long as capitalism exists. Interpersonal crime is not the reason police exist. The ruling class needs the police to keep order, to protect its property and power. This is why the ruling class will never allow complete abolitionism while it holds political power.
+
+{% end %}
 
 For these reasons, we want to weaken state repression as much as possible. We want the state to have fewer resources to suppress workers. We want its police to have a harder time enforcing the law. We want it to have fewer options for subjugation. We support any reform that moves in this direction.
 
@@ -50,9 +52,11 @@ It is true that in general, police do not interrupt crime, but attempt to catch 
 
 Yet, even with these measures, the truth is that under capitalism, there will always be crime. To imply that crime can be eliminated by transformative justice and restorative justice under capitalism is unrealistic. Most people realize this and will be turned off to abolitionism if advocates don’t acknowledge this sad fact. Further, there will always be police as long as capitalism exists. Interpersonal crime is not the reason for the existence of police. The bourgeois class needs the police to keep order, to protect its property and power. This is why it will never allow complete abolitionism while it holds political power.
 
-> **Too often abolitionists imply that the fundamental problem is repression, not capitalism.**
+{% highlight() %}
 
-**Too often abolitionists imply that the fundamental problem is repression, not capitalism.**
+Too often abolitionists imply that the fundamental problem is repression, not capitalism.
+
+{% end %}
 
 If the capitalist state was concerned with eliminating interpersonal crime, it would put more resources into removing the causes of crime. It cannot do that because this would cut into profit. If workers had secure housing and healthcare, for example, they would be harder to exploit. Increasing social welfare hurts the capitalists in two ways: it might require higher taxes on their profits, and it would make workers more confident and able to resist exploitation. Spending money on repression makes workers more insecure and easier to control. It also divides the working class by encouraging workers to blame “criminals” for their problems.
 
@@ -75,8 +79,6 @@ Even more important than this, the capitalists will use their remaining economic
 Engels [pointed out the need f](https://www.marxists.org/archive/marx/works/1872/10/authority.htm)or repression of class enemies during a revolutionary period in answer to “anti-authoritarians”:
 
 > Have these gentlemen ever seen a revolution? A revolution is certainly the most authoritarian thing there is; it is the act whereby one part of the population imposes its will upon the other part by means of rifles, bayonets and cannon — authoritarian means, if such there be at all; and if the victorious party does not want to have fought in vain, it must maintain this rule by means of the terror which its arms inspire in the reactionists.
-
-Have these gentlemen ever seen a revolution? A revolution is certainly the most authoritarian thing there is; it is the act whereby one part of the population imposes its will upon the other part by means of rifles, bayonets and cannon — authoritarian means, if such there be at all; and if the victorious party does not want to have fought in vain, it must maintain this rule by means of the terror which its arms inspire in the reactionists.
 
 Marx and Engels were not just concerned about the capitalists. They were also concerned about the capitalists using the lumpen proletariat against the workers. By lumpen, they meant primarily petty criminals.
 

@@ -22,17 +22,17 @@ The police only arose when the capitalist class needed to keep control of the gr
 
 > London experienced major riots almost every year of the second decade of the nineteenth century. and revolt was openly feared by those in power. Between 1825 and 1830, New York saw riots once a month. In Paris food riots were commonplace in the latter half of the 18th century.
 
-London experienced major riots almost every year of the second decade of the nineteenth century. and revolt was openly feared by those in power. Between 1825 and 1830, New York saw riots once a month. In Paris food riots were commonplace in the latter half of the 18th century.
-
 The police were agents of capitalist domination from the beginning. They evolved out of more informal arrangements, over time becoming more regularized and professional. In the United States, another origin of the police was in the slave patrols of the South before the Civil War.
 
 “The violent construction of the European proletariat and the obscenity of African chattel slavery were tightly bound together,” as bean puts it — and the ruling class’s solutions were bound together too.
 
 In late-18th century England, “Prime Minister William Pitt argued that a solution was needed that was… cheaper and would provoke less alarm than resorting to the army.”
 
-> **“The violent construction of the European proletariat and the obscenity of African chattel slavery were tightly bound together,” as bean puts it — and the ruling class’s solutions were bound together too.**
+{% highlight() %}
 
-**“The violent construction of the European proletariat and the obscenity of African chattel slavery were tightly bound together,” as bean puts it — and the ruling class’s solutions were bound together too.**
+“The violent construction of the European proletariat and the obscenity of African chattel slavery were tightly bound together,” as bean puts it — and the ruling class’s solutions were bound together too.
+
+{% end %}
 
 bean’s detailed examination of the rise of the police gives a nuanced understanding useful even to those who have studied the issue. He explains that “the modern cops came about as the preferred tool through a process of ruling-class experimentation.” This was because the ruling class needed “a full-time, permanent force capable of continuously asserting the power of the capitalist state up and down every street in the city.”
 
@@ -52,9 +52,11 @@ Of investigations that result in arrests, “Eighty percent of them continue to 
 
 Would chaos result if there were no police? bean gives the example of the 2014–2015 police slowdown in New York City. The only outcome of this was fewer arrests for quality-of-life offenses; but the social disorder predicted by the belligerent police union never transpired. A police strike in Finland in 1976 provides a similar example.
 
-> **The common myth is that police control or prevent crime by pursuing and arresting criminals. But as bean argues, “cops are uniquely ineffective at dealing with the actual social phenomenon of crime.”**
+{% highlight() %}
 
-**The common myth is that police control or prevent crime by pursuing and arresting criminals. But as bean argues, “cops are uniquely ineffective at dealing with the actual social phenomenon of crime.”**
+The common myth is that police control or prevent crime by pursuing and arresting criminals. But as bean argues, “cops are uniquely ineffective at dealing with the actual social phenomenon of crime.”
+
+{% end %}
 
 bean gives even more fascinating case studies of rebellious cities and countries handling their own conflicts temporarily and nonviolently without police. Some of the examples include Free Derry between 1969 and 1972; the township uprising in South Africa in 1984; the popular mobilization in Oaxaca, Mexico in 2006; and Tunisia, Syria, and Egypt during the Arab Spring in 2011.
 
@@ -78,8 +80,6 @@ bean describes the role of the state as follows:
 
 > The decisions of states and their managers are driven by the need to secure a positive business climate for capital investment… on behalf of their national capitalist class against other states and against challenges or disruptions by their own subjects.
 
-The decisions of states and their managers are driven by the need to secure a positive business climate for capital investment… on behalf of their national capitalist class against other states and against challenges or disruptions by their own subjects.
-
 Police and prisons are only one part of the state. Other sections of the state pursue the same pro-capital and anti-people goal. This means that abolitionism must include the whole state and not just the police and prisons.
 
 #### Revolutionary abolitionism
@@ -88,21 +88,19 @@ For those already committed to abolishing the police, the book’s last chapter 
 
 > To put our society in the collective hands of the people requires the power of people’s collective hands, a social force broader and more powerful than state institutions. They who would be free… must strike the first blow; self-emancipation is not a value but a necessity.
 
-To put our society in the collective hands of the people requires the power of people’s collective hands, a social force broader and more powerful than state institutions. They who would be free… must strike the first blow; self-emancipation is not a value but a necessity.
-
 Since at least the Paris Commune of 1871, Marxists have supported abolition of the whole capitalist state. Marx learned from the Commune that the working class had to smash the capitalist state and eliminate the special bodies that defend bourgeois rule. Marxists apply this not just to the police and courts, but also to the military and every other armed repressive apparatus.
 
 This understanding informs the strategy for confronting the police. As bean says:
 
 > Police reforms are bound to fail because they do not affect the main purpose and inalterable role the cops play under capitalism. To attempt to change this core function would be akin to trying to reform firefighters so that they stop fighting fires.
 
-Police reforms are bound to fail because they do not affect the main purpose and inalterable role the cops play under capitalism. To attempt to change this core function would be akin to trying to reform firefighters so that they stop fighting fires.
-
 Defeating the police requires revolution. Therefore, the movement needs to evaluate reforms on the basis of whether they contribute to complete abolition or not. bean correctly proposes that “abolitionist demands address the underlying purpose of policing head on.”
 
-> **Defeating the police requires revolution. Therefore the movement needs to evaluate reforms on the basis of whether they contribute to complete abolition or not.**
+{% highlight() %}
 
-**Defeating the police requires revolution. Therefore the movement needs to evaluate reforms on the basis of whether they contribute to complete abolition or not.**
+Defeating the police requires revolution. Therefore the movement needs to evaluate reforms on the basis of whether they contribute to complete abolition or not.
+
+{% end %}
 
 He then lists demands that can weaken the police, such as reducing their numbers, getting them out of schools, reducing the police budget, preventing rehiring fired cops, and eliminating qualified immunity. He rejects demands for reforms that would result in making the police look better or reconciling the police to the community, such as better police training, body cams, and community policing.
 
@@ -116,17 +114,17 @@ Though bean agrees with aspects of this approach, he concludes that procedural a
 
 Related to procedural abolition is autonomist abolition. This approach is “primarily focused on building structures ‘outside the state.’” Instead of putting demands on the government, autonomist abolition sets up independent projects to try and reduce the need for police. Some of these efforts include mutual aid and self-organization of refugee asylum seekers.
 
-> **The goal of revolutionary abolitionist demands is to weaken the police’s ability to function, based on the understanding that functioning of police is the problem itself.**
+{% highlight() %}
 
-**The goal of revolutionary abolitionist demands is to weaken the police’s ability to function, based on the understanding that functioning of police is the problem itself.**
+The goal of revolutionary abolitionist demands is to weaken the police’s ability to function, based on the understanding that functioning of police is the problem itself.
+
+{% end %}
 
 This outlook suffers from the same problem: whether people “need” police or not, the state will still need them to maintain capitalist control. As bean writes, “Attempts to gradually chip away at the police state will sooner or later provoke a reaction by the ruling class.”
 
 Gradualism will not bring about abolition. Anti-police reforms can be helpful, but do not eliminate the need for revolution:
 
 > Counterrevolution will not be defeated without destroying the means for counter-revolution to be carried out, which will mean breaking apart the police state the cops and repressive apparatus and seizing the means of production.
-
-Counterrevolution will not be defeated without destroying the means for counter-revolution to be carried out, which will mean breaking apart the police state the cops and repressive apparatus and seizing the means of production.
 
 To eliminate the capitalist basis of policing, abolitionists will need “socialist revolution and it cannot be accompanied by any respect for private property or servility to bourgeois legality.” Winning a socialist revolution will require “political organizations with a revolutionary vision and perspective.”
 

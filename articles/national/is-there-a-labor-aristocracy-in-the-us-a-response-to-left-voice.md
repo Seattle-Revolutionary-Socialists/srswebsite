@@ -26,9 +26,11 @@ Capitalists must exploit the working class to accumulate capital. They will not 
 
 In the last 50 years, there has been an attack on the living standards and unionization rates of the whole working class, including the highly paid “aristocracy.” Home construction used to be overwhelmingly union. After years of attacks, it is overwhelmingly non-union. This is also true of auto workers; the number of unionized workers in that industry has fallen precipitously. Some of this is due to automation. However, whole swaths of the auto-parts industry have gone non-union. It is a similar story with the electric-vehicle industry.
 
-> **The labor-aristocracy thesis is also logically unsound. Any exploitation that produces new capital can produce new employment. Do the workers who are hired at the new factory have an interest in further exploitation? Must they now be supporters of the system of exploitation?**
+{% highlight() %}
 
-**The labor-aristocracy thesis is also logically unsound. Any exploitation that produces new capital can produce new employment. Do the workers who are hired at the new factory have an interest in further exploitation? Must they now be supporters of the system of exploitation?**
+The labor-aristocracy thesis is also logically unsound. Any exploitation that produces new capital can produce new employment. Do the workers who are hired at the new factory have an interest in further exploitation? Must they now be supporters of the system of exploitation?
+
+{% end %}
 
 This hardly seems like a ruling-class strategy of bribery. Employers are not trying to bribe the “aristocracy.” Instead, they are trying to bust its unions.
 
@@ -46,9 +48,11 @@ The buoying of the US economy with imperialist profits impacts the whole US econ
 
 The labor-aristocracy thesis is also logically unsound. Any exploitation that produces new capital can produce new employment. Do the workers who are hired at the new factory have an interest in further exploitation? Must they now be supporters of the system of exploitation?
 
-> **Workers who are employed at jobs that flow from imperialist super-profits may feel they are better off because of those profits. This feeling ignores the horrific effects of imperialism even for US workers, from taxes to the cutting of social programs to the deaths of working-class soldiers. Since all workers would be better off without capitalism and therefore without imperialism, this too is a form of false consciousness. The labor-aristocracy thesis accepts this false consciousness.**
+{% highlight() %}
 
-**Workers who are employed at jobs that flow from imperialist super-profits may feel they are better off because of those profits. This feeling ignores the horrific effects of imperialism even for US workers, from taxes to the cutting of social programs to the deaths of working-class soldiers. Since all workers would be better off without capitalism and therefore without imperialism, this too is a form of false consciousness. The labor-aristocracy thesis accepts this false consciousness.**
+Workers who are employed at jobs that flow from imperialist super-profits may feel they are better off because of those profits. This feeling ignores the horrific effects of imperialism even for US workers, from taxes to the cutting of social programs to the deaths of working-class soldiers. Since all workers would be better off without capitalism and therefore without imperialism, this too is a form of false consciousness. The labor-aristocracy thesis accepts this false consciousness.
+
+{% end %}
 
 The most important thing is that the new factory workers will also be exploited. They are not being bribed with super-profits. Instead, they are being exploited and have an interest in opposing exploitation. Since imperialism is a prime driver of exploitation, they also have an interest in opposing it.
 

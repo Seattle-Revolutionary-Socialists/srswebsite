@@ -30,9 +30,11 @@ Now the question comes up: is any of this possible under capitalism? As things s
 
 But let’s consider what it would be like if the overthrow of Zionism *were* possible under capitalism. The best we can hope for is a situation like the one in South Africa after the downfall of apartheid in 1994. There, formal apartheid was ended because of the heroic and persistent mass struggle of the people over decades. The post-apartheid government instituted one person, one vote; equality under the law for all; and many other reforms.
 
-> **Even if it were possible to end Zionism before we overthrow capitalism, we must admit that a free Palestine under capitalism would face problems similar to post-apartheid South Africa. The biggest share of the wealth would still be among the Zionists, and Palestinians would largely still be poor and oppressed (though perhaps a few more Palestinians would join the capitalist class).**
+{% highlight() %}
 
-**Even if it were possible to end Zionism before we overthrow capitalism, we must admit that a free Palestine under capitalism would face problems similar to post-apartheid South Africa. The biggest share of the wealth would still be among the Zionists, and Palestinians would largely still be poor and oppressed (though perhaps a few more Palestinians would join the capitalist class).**
+Even if it were possible to end Zionism before we overthrow capitalism, we must admit that a free Palestine under capitalism would face problems similar to post-apartheid South Africa. The biggest share of the wealth would still be among the Zionists, and Palestinians would largely still be poor and oppressed (though perhaps a few more Palestinians would join the capitalist class).
+
+{% end %}
 
 But what have the material results been under South African capitalism? As undeniably necessary as the reforms were, we can’t deny that a form of economic apartheid still exists in South Africa. There is mass poverty among the Black population, and concentration of wealth primarily among the ruling class — many of them hailing, unsurprisingly, from the white minority who were the oppressors under apartheid. So the social and political revolution against South African apartheid was incomplete to say the least.
 
@@ -48,9 +50,11 @@ But who can bring about socialism in Palestine? When it comes to assessing the p
 
 The case of Israel is a special exception to that rule.[https://www.marxists.org/history/etol/newspape/isr-iso/2002/no23/machover-orr.html](https://www.marxists.org/history/etol/newspape/isr-iso/2002/no23/machover-orr.html) Marxists do not look to the Israeli Jewish working class as a force that can transform and overthrow Zionism.
 
-> **Supporters of Palestinian liberation cannot depend on the US giving up on its Zionist ally. It is more realistic to imagine the downfall of US imperialism.**
+{% highlight() %}
 
-**Supporters of Palestinian liberation cannot depend on the US giving up on its Zionist ally. It is more realistic to imagine the downfall of US imperialism.**
+Supporters of Palestinian liberation cannot depend on the US giving up on its Zionist ally. It is more realistic to imagine the downfall of US imperialism.
+
+{% end %}
 
 There are a number of material reasons for this. Israeli Jewish workers took direct part in the ethnic cleansing and settlement of Palestine (and still do to this day). Financially speaking, compared to other workers around the world, they greatly benefit from the Zionist government’s settler project — from high rates of social welfare to grants of stolen land. Most Israeli Jewish workers have served in the IOF and have been intimately involved in oppressing Palestinians. They are furthermore deeply invested in the permanent wartime economy and culture that has prevailed since the 1967 war.
 
@@ -84,15 +88,11 @@ In 1986, then-Senator Joe Biden [infamously said](https://www.youtube.com/watch?
 
 > I think it’s about time that we stop apologizing for our support for Israel. There’s no apology to be made — none. It’s the best three-billion-dollar investment we make. Were it not for Israel, the United States of America would have to invent an Israel to protect her interests in the region.
 
-I think it’s about time that we stop apologizing for our support for Israel. There’s no apology to be made — none. It’s the best three-billion-dollar investment we make. Were it not for Israel, the United States of America would have to invent an Israel to protect her interests in the region.
-
 It is extremely unlikely that this longstanding, unshakeable support for Israel on the part of the entire US ruling class would ever change in a meaningful way.
 
 As Israeli anti-Zionists and socialists [Jabra Nicola and Moshe Machover](https://www.workersliberty.org/story/2019-06-20/arabs-jews-and-socialism-2-secular-democratic-palestine-or-two-states) wrote in 1969:
 
 > The Palestinian people are waging a battle where they confront Zionism, which is supported by imperialism; from the rear they are menaced by the Arab regimes and Arab reaction, which are also supported by imperialism. As long as imperialism has a real stake in the Middle East, it is unlikely to withdraw its support for Zionism, its natural ally, and to permit its overthrow. It will defend it to the last drop of Arab oil.
-
-The Palestinian people are waging a battle where they confront Zionism, which is supported by imperialism; from the rear they are menaced by the Arab regimes and Arab reaction, which are also supported by imperialism. As long as imperialism has a real stake in the Middle East, it is unlikely to withdraw its support for Zionism, its natural ally, and to permit its overthrow. It will defend it to the last drop of Arab oil.
 
 Supporters of Palestinian liberation cannot depend on the US giving up on its Zionist ally. It is more realistic to imagine the downfall of US imperialism.
 
@@ -106,13 +106,13 @@ As Sumaya Awad and brian bean argued in *Palestine: A Socialist Introduction*, t
 
 > drew various Arab states together with Israel into a single economic zone under the domination of US economic power. This has created an environment materially connecting the Arab countries of the region with Israel, thus investing the interests of national capitalists with that of settler-colonial Israel.
 
-drew various Arab states together with Israel into a single economic zone under the domination of US economic power. This has created an environment materially connecting the Arab countries of the region with Israel, thus investing the interests of national capitalists with that of settler-colonial Israel.
-
 However, though the ruling classes of the Arab states support Israel, the Arab masses do not. The Arab working classes and peasantry have shown over and over again that they oppose the state of Israel.
 
-> **The overthrow of Zionism must be part of a regional and international revolution. Only such a revolution can be strong enough to challenge the state of Israel and its imperialist backers. Only such a revolution can alter the material and social relations of the Israeli state, and therefore win some of the Israeli working class over to support for Palestinian liberation.**
+{% highlight() %}
 
-**The overthrow of Zionism must be part of a regional and international revolution. Only such a revolution can be strong enough to challenge the state of Israel and its imperialist backers. Only such a revolution can alter the material and social relations of the Israeli state, and therefore win some of the Israeli working class over to support for Palestinian liberation.**
+The overthrow of Zionism must be part of a regional and international revolution. Only such a revolution can be strong enough to challenge the state of Israel and its imperialist backers. Only such a revolution can alter the material and social relations of the Israeli state, and therefore win some of the Israeli working class over to support for Palestinian liberation.
+
+{% end %}
 
 Furthermore, the Arab working classes are the ones with the economic clout to really challenge the Israeli state, because they have the potential to overthrow the Arab states that are the lynchpin of imperialist control of the region. The Arab Spring of 2011 dramatically showed that potential. So did the uprisings in the broader region in 2019. These rebellions had a strong internationalist tendency: many of the protesters made it clear that they looked past their own borders for the source of their problems. They were opposed to neoliberalism, and to Zionism as well.
 
@@ -133,8 +133,6 @@ We need to understand that imperialism is not just a policy, it is instead integ
 As Awad and bean put it,
 
 > we need a rupture that pushes beyond the conception of a capitalist state, a revolutionary struggle not only within occupied Palestine, but also in the streets of the Arab capitals across the region, and among workers in the imperialist countries… Just as we cannot conceive of Zionism and the occupation in isolation, we cannot conceive of Palestine as a purely national question.
-
-we need a rupture that pushes beyond the conception of a capitalist state, a revolutionary struggle not only within occupied Palestine, but also in the streets of the Arab capitals across the region, and among workers in the imperialist countries… Just as we cannot conceive of Zionism and the occupation in isolation, we cannot conceive of Palestine as a purely national question.
 
 To quote one of the most inspiring and relevant slogans of the current movement, we need to *globalize the intifada*.
 

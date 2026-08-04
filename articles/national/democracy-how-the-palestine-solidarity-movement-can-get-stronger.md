@@ -25,9 +25,11 @@ If we want to shut down a street to protest, it’s easier to do that with 1,000
 
 Many people understand this and have made conscious attempts to make Palestine a cornerstone of all types of activism. Students in particular have done [incredible work](https://firebrand.red/2024/06/advances-limits-and-lessons-of-the-student-intifada/) building broad coalitions and encampments on campuses across the country — uniting Palestinian and anti-Zionist Jewish organizers with Black student unions, immigrant rights groups, LGBTQ+ collectives, and more.
 
-> **As long as there is a wide gulf between someone who supports Palestine solidarity actions and someone who organizes those actions, the core of committed people won’t expand. We won’t reach wider and wider circles of people, and more and more sections of society**
+{% highlight() %}
 
-**As long as there is a wide gulf between someone who supports Palestine solidarity actions and someone who organizes those actions, the core of committed people won’t expand. We won’t reach wider and wider circles of people, and more and more sections of society**
+As long as there is a wide gulf between someone who supports Palestine solidarity actions and someone who organizes those actions, the core of committed people won’t expand. We won’t reach wider and wider circles of people, and more and more sections of society
+
+{% end %}
 
 It can be frustrating to do all this work, or to witness and share the daily dose of distressing news from Gaza, and struggle with how to expand the movement. After we re-share all the content and calls to action and see protests start shrinking, a voice inside us can creep up — a voice that wants to write off broader masses of people as hopelessly ignorant or complicit.
 
@@ -51,9 +53,11 @@ You also need to feel like your ideas and contributions can make an impact — o
 
 People will enter the movement with all sorts of prejudices and “wrong” ideas. Given the power of the capitalist media and education to pump out reactionary ideas, that’s natural with any movement with a truly mass character. Debate allows us to duke it out with the bad ideas and win people over to the good ones — all while treating them as serious and valuable comrades in the struggle.
 
-> **Debate and democracy allow us to deepen the politics and commitment of our movement. To truly become an organizer, you need to test your ideas out with others.**
+{% highlight() %}
 
-**Debate and democracy allow us to deepen the politics and commitment of our movement. To truly become an organizer, you need to test your ideas out with others.**
+Debate and democracy allow us to deepen the politics and commitment of our movement. To truly become an organizer, you need to test your ideas out with others.
+
+{% end %}
 
 Second, we need democracy because the struggle is difficult. The forces stacked against us have many tools at their disposal — repression, co-optation, surface-level concessions, and more — to try and strangle our movement. There are always different ideas about how to deal with these problems in a given moment. Is this a time to advance, or retreat? Debate and democracy allow us to take full stock of a situation — including information we might not have had otherwise with only a few people in a discussion — get on the same page, and move forward together.
 
@@ -81,9 +85,11 @@ Even if some individual non-profit staffers can be well-meaning and even radical
 
 Likewise, other parts of the socialist left also suffer from a fear of democracy. Some socialist groups operate in and alongside their front groups — nominally independent, seemingly broader groups that these socialists in fact control.
 
-> **Bureaucratic maneuvering, limiting debate, and hiding one’s true identity as socialists may work for a time, but they do nothing to build the capacity of regular people to consciously liberate themselves. Some socialists doubt and fear how masses of people might act without their “benevolent” guiding hands.**
+{% highlight() %}
 
-**Bureaucratic maneuvering, limiting debate, and hiding one’s true identity as socialists may work for a time, but they do nothing to build the capacity of regular people to consciously liberate themselves. Some socialists doubt and fear how masses of people might act without their “benevolent” guiding hands.**
+Bureaucratic maneuvering, limiting debate, and hiding one’s true identity as socialists may work for a time, but they do nothing to build the capacity of regular people to consciously liberate themselves. Some socialists doubt and fear how masses of people might act without their “benevolent” guiding hands.
+
+{% end %}
 
 Revolutionary leadership is ultimately necessary to win even modest reforms, but between *us* and *them* the question is *how*. In a democratic movement, leadership and people’s confidence in it are secured in the course of struggle and open debate. We believe we must prove our right to lead. However, these front-group socialists — including the Party for Socialism and Liberation (PSL) with ANSWER and Freedom Road Socialist Organization (FRSO) with SDS — seek to [impose their leadership](https://www.leftvoice.org/the-strategic-centrality-of-workers-and-self-organization-and-for-a-free-socialist-palestine-a-debate-with-the-psl-over-the-student-encampments/) instead. Bureaucratic maneuvering, limiting debate, and hiding one’s true identity as socialists may work for a time, but they do nothing to build the capacity of regular people to consciously liberate themselves. Whether they want to admit it or not, these socialists doubt and fear how masses of people might act without their “benevolent” guiding hands.
 
