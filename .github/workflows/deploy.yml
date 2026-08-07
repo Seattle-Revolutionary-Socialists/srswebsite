@@ -29,6 +29,7 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           run_install: false
+          version: 11.20.0
 
       - name: Setup Node
         uses: actions/setup-node@v4
