@@ -8,7 +8,7 @@
     "styles-build": "pnpm exec tailwindcss -i ./styles/style.css -o ./static/out.css",
     "gen-events": "python3 scripts/generate_source_events.py ${BRANCH:-national}",
     "zsrv": "zola --config \"local.${BRANCH:-national}.zola.toml\" serve --interface 0.0.0.0",
-    "symlink-articles": "./scripts/symlink"
+    "symlink-articles": "mkdir static/perspectives && mkdir static/events && ./scripts/symlink"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",
