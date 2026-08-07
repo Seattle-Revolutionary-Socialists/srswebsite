@@ -10,14 +10,17 @@
   <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
   <!-- for captchas, we can switch to another captcha solution at any time, so we are not locked in -->
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css">
+<script src="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.js"></script>
 </head>
 
 <body>
   <nav style="font-size: 1.5rem; font-family: 'Anton'">
     <div class="mx-auto flex max-w-6xl items-bottom justify-between px-4 py-3">
-      <img src="{{ config.base_url }}/{{config.extra.brand_img}}" style="width: calc(.35 * 474px); height: calc(.35 * 243px);"
-        alt="{{config.extra.group_name}} Logo">
-      <button onclick="document.getElementById('mobileNav').classList.toggle('hidden');" class="sm:hidden text-5xl" aria-label="Open menu">
+      <img src="{{ config.base_url }}/{{config.extra.brand_img}}"
+        style="width: calc(.35 * 474px); height: calc(.35 * 243px);" alt="{{config.extra.group_name}} Logo">
+      <button onclick="document.getElementById('mobileNav').classList.toggle('hidden');" class="sm:hidden text-5xl"
+        aria-label="Open menu">
         ☰
       </button>
       <div class="hidden gap-6 sm:flex items-baseline-last">
@@ -43,7 +46,8 @@
         <!-- <a href="{{ get_url(path='@/system/_index.md') }}">Design System</a> -->
       </div>
     </div>
-    <div id='mobileNav' style="height: calc(100vh - calc(.35 * 243px) - 6 * var(--spacing))" class="hidden flex justify-around flex-col py-4">
+    <div id='mobileNav' style="height: calc(100vh - calc(.35 * 243px) - 6 * var(--spacing))"
+      class="hidden flex justify-around flex-col py-4">
       <div class="mobile-nav"><a href="{{ config.base_url }}" class="btn">Home</a></div>
       <div class="mobile-nav"><a class="btn hover:underline" href="{{ get_url(path='@/pages/wherewestand.md') }}">Where
           We Stand</a></div>

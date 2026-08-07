@@ -26,8 +26,11 @@ p:has(img)+p em {
 }
 
 blockquote+em,
-blockquote+p em {
-    @apply block-auto text-center;
+blockquote+p em,
+blockquote p {
+    @apply text-center;
+    margin: 0 auto;
+    padding: 2rem 5rem;
 }
 
 body {
@@ -179,4 +182,21 @@ input {
 
 label, .form-button {
     @apply text-lg md:text-2xl;
+}
+
+.editor-preview {
+    color: white !important ;
+    background-color: black !important;
+}
+
+
+.editor-toolbar {
+    color: black;
+    background-color: white;
+}
+
+.harper-lint {
+    text-decoration: underline wavy red;
+    text-underline-offset: 2px;
+    cursor: help;
 }

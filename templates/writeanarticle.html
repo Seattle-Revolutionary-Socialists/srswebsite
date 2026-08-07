@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set data = load_data(path="templates/shortcodes/usage.md") -%}
+<main style="width: 100vw;">
+    <section style="margin: 0 auto; width: 90%;">
+        <textarea name="article" id="article"></textarea>
+        <script type="module">
+            import { binaryInlined } from 'https://unpkg.com/harper.js@2.4.0/dist/binaryInlined.js';
+            import { WorkerLinter } from 'https://unpkg.com/harper.js@2.4.0/dist/index.js';
+            const linter = new WorkerLinter({ binary: binaryInlined });
+            let d = "{{data | json_encode}}";
+
+
+
+            d = d.replace(/(?<!\\)\\([{\%}])/g, "$1");
+            d = d.replaceAll("\\\\", "\\");
+            d = d.replaceAll("&gt;", ">");
+            d = d.replaceAll("&nbsp;", " ");
+            d = d.replaceAll("&amp;", "&");
+            d = d.replaceAll("&#x27;", "'");
+
+            document.getElementById("article").addEventListener("change", (e) => console.log(e));
+
+            const simplemde = new EasyMDE({
+                autofocus: true,
+                autosave: {
+                    enabled: true,
+                    uniqueId: "article",
+                    delay: 1000,
+                }, element: document.getElementById("article"),
+                initialValue: d.replaceAll("&quot;", ""),
+                previewRender: function (plainText, p) {
+                    const re = /\{\% highlight\(\) \%\}\n(.*)\n\{\% end \%\}/g;
+                    // replaceall with function does not work?
+                    plainText = plainText.replaceAll(re, "<div class='highlight'>$1</div>");
+                    plainText = plainText
+                        // like so[^1] -> <a href="#1">like so</a>
+                        .replace(/^(.+?)\[\^([^\]]+)\]$/gm, '<a href="#$2">$1</a>')
+                        // [^1]: reference text -> <span id="1">1: reference text</span>
+                        .replace(/^\[\^([^\]]+)\]:\s*(.*)$/gm, '<span id="$1">$1: $2</span>');
+                    return this.parent.markdown(plainText);
+                },
+                renderingConfig: {
+                    singleLineBreaks: false,
+                    codeSyntaxHighlighting: true,
+                    // sanitizerFunction: (renderedHTML) => {
+                    //     console.log(renderedHTML);
+                    //     // Using DOMPurify and only allowing <b> tags
+                    //     return DOMPurify.sanitize(renderedHTML, { ALLOWED_TAGS: ['b'] })
+                    // },
+                },
+                lineNumbers: true
+            });
+
+            const grammarMarks = [];
+
+            const validateGrammar = () => {
+                const v = simplemde.value();
+                const cm = simplemde.codemirror;
+
+                linter.lint(v).then((lints) => {
+                    const list = document.getElementById('errorlist');
+
+                    list.innerHTML = '';
+                    for (const mark of grammarMarks) {
+                        mark.clear();
+                    }
+                    grammarMarks.length = 0;
+
+                    for (const lint of lints) {
+                        const span = lint.span();
+
+                        const from = cm.posFromIndex(span.start);
+                        const to = cm.posFromIndex(span.end);
+
+                        grammarMarks.push(
+                            cm.markText(from, to, {
+                                className: 'harper-lint',
+                                title: lint.message()
+                            })
+                        );
+
+                        const item = document.createElement('li');
+
+                        item.textContent =
+                            `${from.line + 1}:${from.ch + 1} — ${lint.message()}`;
+
+                        item.addEventListener('click', () => {
+                            cm.focus();
+                            cm.setSelection(from, to);
+                            cm.scrollIntoView({ from, to }, 100);
+                        });
+
+                        list.appendChild(item);
+                    }
+                });
+            };
+
+            validateGrammar();
+            simplemde.codemirror.on("change", () => {
+                validateGrammar();
+            });
+        </script>
+
+        <h3>Errors</h3>
+
+        <ul id="errorlist" class="mb-4">
+            Loading...
+        </ul>
+    </section>
+</main>
+{% endblock content %}
