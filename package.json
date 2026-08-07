@@ -2,7 +2,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "deploy": "pnpm run symlink-articles && echo ${BRANCH:-national} && pnpm run gen-events && pnpm run styles-build && zola --config \"${BRANCH:-national}.zola.toml\" build && head -6 public/index.html && cargo install worker-build ; wrangler deploy --config \"${BRANCH:-national}.wrangler.toml\"",
+    "deploy": "pnpm run symlink-articles && echo ${BRANCH:-national} && pnpm run gen-events && pnpm run styles-build && zola --config \"${BRANCH:-national}.zola.toml\" build && head -6 public/index.html && wrangler deploy --config \"${BRANCH:-national}.wrangler.toml\"",
     "dev": "pnpm run symlink-articles && pnpm run gen-events && pnpm run styles-build && zola --config \"local.${BRANCH:-national}.zola.toml\" build --base-url http://127.0.0.1:1111  && cargo install --locked worker-build ; wrangler dev --local",
     "styles": "pnpm exec tailwindcss --watch -i ./styles/style.css -o ./static/out.css",
     "styles-build": "pnpm exec tailwindcss -i ./styles/style.css -o ./static/out.css",

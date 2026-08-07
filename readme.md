@@ -2,9 +2,6 @@
 
 Half assed PRs will piss me off.
 
-## TODO
-- national website
-
 ## Design Principles
 
 This is with respect to technical design and the technical realization of any graphical design guidance.
@@ -45,13 +42,13 @@ The bot uses the `harper` grammar checker, accessible via pipeline "gate" and `h
 
 Install `podman`, `vscode` and the remote extension for vscode that lets you "ssh" into containers. Run `podman compose up` and open the container with vscode to get started.
 
+Instal `rust-analyzer` extension on VS Code to get linting in editor.
+
+If you want to run the web server locally, then run the static file server via `npm run dev` (specify branch with `BRANCH=seattle npm run dev`). This will generate events, build styles and build the markdown into html. It is a bit slow.
+
 To generate events from the source events (historical), run `./scripts/generate-events.sh`
 
-For basic developer flow, run `zola serve` in one terminal tab and `npm run styles` in another terminal tab. These respectively watch and build templates, markdown and styles to enable rapid iteration. Visit [http://127.0.0.1:1111/](http://127.0.0.1:1111/) to see the website update as you edit files. I recommend you have the `build-styles` tab active as your browser will tell you where the non-style build fails.
-
-If you want to run the web server locally, then run the static file server via `npm run dev` (specify branch with `BRANCH=seattle npm run dev`). This will generate events, build styles and build the markdown into html
-
-You can also run `npm run zsrv` but we aware that this does not use the local zola config (thus captchas are broken) due to shortsightedness of the developers of `zola`. This can be fixed upstream but not worth it at the time.
+For full control developer flow, run `pnpm run zsrv` in one terminal tab and `pnpm run styles` in another terminal tab. These respectively watch and build templates, markdown and styles to enable rapid iteration. Visit [http://127.0.0.1:1111/](http://127.0.0.1:1111/) to see the website update as you edit files. I recommend you have the `styles` tab active as your browser will tell you where the non-style build fails.
 
 #### Security
 
@@ -63,23 +60,19 @@ ANY NEW DEPS WILL GET YOUR PR REJECTED
 
 DO NOT RUN ANY PIPELINE ON PUSH/PR OTHER THAN MAIN WHICH IS BRANCH PROTECTED
 
-#### TODO: document language servers/dev setup
-
-For now: `rust-analyzer` extension on vscode will pipe the output of `rust-analyzer` into vscode. 
-
-#### Decison: We rely on the actual tailwind stylesheet
-
-We need to find or create something to extract the classes we use (this would be tiny)
-
 #### Deployment
 
-We deploy the website via Cloudflare Workers. We use the `worker` crate and avoid any use of CloudFlare primitives to avoid vendor lock in.
+We deploy the website via Cloudflare Workers. We use the `worker` crate and avoid any use of CloudFlare Worker primitives to avoid vendor lock in.
 
-Deploy via `pnpm run deploy`. Currently, the website is deployed [here](https://axum-on-workers.redham28.workers.dev/). This will be updated when the deploy is moved to the official SRS Cloudflare account. The SQSP key is set via environment variable locally and via secret on CF worker.
-
+Deploy via `BRANCH=seattle pnpm run deploy`. Currently, the website is deployed [here](https://national-website.redham28.workers.dev/). This will be updated when the deploy is moved to the official SRS Cloudflare account
 ## Considerations
 
 ### Unknowns
 
 - left link at bottom to more recent article, right link at bottom to less recent article
 - hook search up
+
+
+### TODOs
+
+- TODO
