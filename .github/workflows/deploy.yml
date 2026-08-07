@@ -52,7 +52,7 @@ jobs:
       - name: Install Zola
         uses: taiki-e/install-action@v2
         with:
-          tool: zola
+          tool: zola@0.22.1
 
       - name: Deploy National
         run: pnpm run deploy
