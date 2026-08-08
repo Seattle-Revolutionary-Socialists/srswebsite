@@ -391,6 +391,15 @@ async fn discord_interaction(
         return StatusCode::BAD_REQUEST.into_response();
     };
 
+    let Ok(discord_bot_channel) = env.var("DISCORD_BOT_CHANNEL") else {
+        return StatusCode::BAD_REQUEST.into_response();
+    };
+
+    if interaction["data"]["channelId"].as_str().unwrap() != &discord_bot_channel.to_string() {
+        console_error!("User tried running command from wrong channel");
+        return StatusCode::BAD_REQUEST.into_response();
+    }
+
     match interaction["type"].as_u64() {
         // Discord endpoint PING
         Some(1) => Json(json!({
