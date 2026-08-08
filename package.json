@@ -9,7 +9,7 @@
     "gen-events": "python3 scripts/generate_source_events.py ${BRANCH:-national}",
     "zsrv": "zola --config \"local.${BRANCH:-national}.zola.toml\" serve --interface 0.0.0.0",
     "symlink-articles": "mkdir -p static/perspectives && mkdir -p static/events && ./scripts/symlink",
-    "set-worker-var": "printf ${GITHUB_VARNAME} | npx wrangler secret put ${APP_VARNAME} --config ${BRANCH}.wrangler.toml",
+    "set-worker-var": "printenv '$GITHUB_VARNAME' | npx wrangler secret put ${APP_VARNAME} --config ${BRANCH}.wrangler.toml",
     "set-vars": "GITHUB_VARNAME=APP_PRIVATE_KEY APP_VARNAME=GITHUB_APP_PRIVATE_KEY npm run set-worker-var && GITHUB_VARNAME=TURNSTILE_SECRET_KEY APP_VARNAME=TURNSTILE_SECRET_KEY npm run set-worker-var && GITHUB_VARNAME=DISCORD_BOT_TOKEN APP_VARNAME=DISCORD_BOT_TOKEN npm run set-worker-var"
   },
   "devDependencies": {
