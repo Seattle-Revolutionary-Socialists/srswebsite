@@ -20,3 +20,7 @@ GITHUB_INSTALLATION_ID = "152071081"
 GITHUB_OWNER = "communistjesus"
 GITHUB_REPO = "srsnewwebsite"
 GITHUB_BASE_BRANCH = "main"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
