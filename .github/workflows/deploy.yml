@@ -10,29 +10,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.read_branches.outputs.branches }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read branches from JSON
+        id: read_branches
+        run: |
+          echo "branches=$(cat branches.json)" >> $GITHUB_OUTPUT
   deploy:
     runs-on: ubuntu-latest
-    strategy:      
-      matrix:        
-        branch: ${{ fromJSON(steps.read_branches.outputs.branches) }}
+    strategy:
+      matrix:
+        branch: ${{ fromJSON(needs.setup.outputs.branches) }}
     permissions:
       contents: read
 
     env:
       BRANCH: ${{ github.event.inputs.branch || 'national' }}
-
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-
-    
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Read branches from JSON        
-        id: read_branches        
-        run: |          
-          echo "branches=$(cat branches.json)" >> $GITHUB_OUTPUT
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
