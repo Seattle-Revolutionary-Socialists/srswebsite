@@ -391,10 +391,9 @@ async fn discord_interaction(
         return StatusCode::BAD_REQUEST.into_response();
     };
 
-    console_error!("we get here");
 
 
-    let channel_id = interaction["channelId"].as_str().unwrap();
+    let channel_id = interaction["channel_id"].as_str().unwrap();
     console_error!("running command on channel {channel_id}");
 
 
