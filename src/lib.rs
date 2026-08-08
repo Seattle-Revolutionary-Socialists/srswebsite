@@ -11,6 +11,7 @@ use axum::{
 use axum::{Extension, Json};
 use http::HeaderMap;
 use tower_service::Service;
+use wasm_bindgen::JsValue;
 use worker::*;
 
 use ed25519_dalek::{Signature, VerifyingKey};
@@ -125,6 +126,17 @@ struct Input {
     comment: String,
 }
 
+#[derive(Serialize)]
+struct FormResponse {
+    first_name: String,
+    last_name: String,
+    email: String,
+    phone: String,
+    howhear: String,
+    comment: String,
+    city: String,
+}
+
 #[worker::send]
 async fn accept_form(
     Extension(env): Extension<Env>,
@@ -139,6 +151,16 @@ async fn accept_form(
             return Err((StatusCode::FORBIDDEN, Json(validation)));
         }
     }
+    let Ok(discord_bot_channel) = env.var("DISCORD_BOT_CHANNEL") else {
+        return Err((StatusCode::INTERNAL_SERVER_ERROR, Json(validation)));
+    };
+    let message_res = send_discord_message(&env, &discord_bot_channel.to_string(), &serde_json::to_string(&FormResponse { first_name: input.first_name, last_name: input.last_name, email: input.email, phone: input.phone, howhear: input.howhear, comment: input.comment, city: group_location }).unwrap()).await;
+    if message_res.is_err() {
+            console_log!("{:#?}", &message_res.err().unwrap());
+
+        return Err((StatusCode::INTERNAL_SERVER_ERROR, Json(validation)));
+    }
+
     Ok(Redirect::to("/pages/thanks"))
 }
 
@@ -396,4 +418,47 @@ async fn discord_interaction(
 
         _ => StatusCode::BAD_REQUEST.into_response(),
     }
+}
+
+async fn send_discord_message(
+    env: &Env,
+    channel_id: &str,
+    content: &str,
+) -> worker::Result<()> {
+    let token = env.secret("DISCORD_BOT_TOKEN")?.to_string();
+
+    let headers = Headers::new();
+    headers.set("Authorization", &format!("Bot {token}"))?;
+    headers.set("Content-Type", "application/json")?;
+
+    let body = serde_json::json!({
+        "content": content,
+        "allowed_mentions": {
+            "parse": []
+        }
+    })
+    .to_string();
+
+    let mut init = RequestInit::new();
+    init.with_method(Method::Post)
+        .with_headers(headers)
+        .with_body(Some(JsValue::from_str(&body)));
+
+    let req = Request::new_with_init(
+        &format!(
+            "https://discord.com/api/v10/channels/{channel_id}/messages"
+        ),
+        &init,
+    )?;
+
+    let response = Fetch::Request(req).send().await?;
+
+    if !(200..300).contains(&response.status_code()) {
+        return Err(worker::Error::RustError(format!(
+            "Discord returned {}",
+            response.status_code()
+        )));
+    }
+
+    Ok(())
 }
