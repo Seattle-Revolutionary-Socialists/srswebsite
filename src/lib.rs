@@ -416,7 +416,7 @@ fn create_contacts_csv(
 
         if parsed.city != group_location {
             console_error!("skipping neq {} {}", parsed.city, group_location);
-            // continue;
+            continue;
         }
 
         let contact = EmailContacts {
