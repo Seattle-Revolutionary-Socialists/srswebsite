@@ -57,9 +57,11 @@ jobs:
       - name: Deploy National
         env:
           APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
-        run: printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --name my-worker && pnpm run deploy
+          TURNSTILE_SECRET_KEY: ${{ secrets.TURNSTILE_SECRET_KEY }}
+        run: printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --config national.wrangler.toml && printf '%s' "$TURNSTILE_SECRET_KEY" | npx wrangler secret put TURNSTILE_SECRET_KEY --config national.wrangler.toml && pnpm run deploy
 
       - name: Deploy Seattle
         env:
           APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
-        run: printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --name my-worker && BRANCH=seattle pnpm run deploy
+          TURNSTILE_SECRET_KEY: ${{ secrets.TURNSTILE_SECRET_KEY }}
+        run: printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --config seattle.wrangler.toml && printf '%s' "$TURNSTILE_SECRET_KEY" | npx wrangler secret put TURNSTILE_SECRET_KEY --config seattle.wrangler.toml && BRANCH=seattle pnpm run deploy
