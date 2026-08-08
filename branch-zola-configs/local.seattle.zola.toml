@@ -1,0 +1,35 @@
+# The URL the site will be built for
+base_url = "http://127.0.0.1:1111/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+generate_feeds = true
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+smart_punctuation = true
+definition_list = true
+bottom_footnotes = true
+
+[extra]
+# Put all your custom variables here
+turnstile_key = "0x4AAAAAAEFi_qR0j4UNXBCX"
+brand_img = "srs.svg"
+facebook_link = "https://www.facebook.com/seattlerevolutionarysocialists"
+instagram_link = "https://www.instagram.com/seattlerevolutionarysocialists/"
+instagram_handle = "seattlerevolutionarysocialists"
+twitter_link="https://twitter.com/SEAsocialists"
+group_name="Seattle Revolutionary Socialists"
+group_type="local"
+group_shorthand="SRS"
+group_blurb="started in 2019 from members of the Seattle Branch of the International Socialist Organization, a 42-year-old organization that dissolved in March 2019. We're working with other locals that stayed together and other socialist organizations around the country to build a new national organization, currently Red Spark communists."
+contact_img="srssign.jpeg"
+contact_img_alt="A protest sign bearing the text 'SEATTLE REVOLUTIONARY SOCIALISTS', defiant fists and the sickle and hammer"
+group_location="seattle"
+meeting_location="We meet on Tuesday evenings from 7-9 pm PST on Zoom (bit.ly/srszoomlink) and in person at Christ Episcopal Church (4548 Brooklyn Ave NE, Seattle, WA 98105), unless otherwise stated."

@@ -2,15 +2,16 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "deploy": "pnpm run symlink-articles && echo ${BRANCH:-national} && pnpm run gen-events && pnpm run styles-build && zola --config \"${BRANCH:-national}.zola.toml\" build && head -6 public/index.html && wrangler deploy --config \"${BRANCH:-national}.wrangler.toml\"",
-    "dev": "pnpm run symlink-articles && pnpm run gen-events && pnpm run styles-build && zola --config \"local.${BRANCH:-national}.zola.toml\" build --base-url http://127.0.0.1:1111  && cargo install --locked worker-build ; wrangler dev --local",
+    "deploy": "pnpm run symlink-articles && echo ${BRANCH:-national} && pnpm run gen-events && pnpm run styles-build && zola --config branch-zola-configs/\"${BRANCH:-national}.zola.toml\" build && head -6 public/index.html && wrangler deploy --config branch-wrangler-configs/\"${BRANCH:-national}.wrangler.toml\"",
+    "dev": "pnpm run symlink-articles && pnpm run gen-events && pnpm run styles-build && zola --config branch-zola-configs/\"local.${BRANCH:-national}.zola.toml\" build --base-url http://127.0.0.1:1111  && cargo install --locked worker-build ; wrangler dev --local",
     "styles": "pnpm exec tailwindcss --watch -i ./styles/style.css -o ./static/out.css",
     "styles-build": "pnpm exec tailwindcss -i ./styles/style.css -o ./static/out.css",
     "gen-events": "python3 scripts/generate_source_events.py ${BRANCH:-national}",
-    "zsrv": "zola --config \"local.${BRANCH:-national}.zola.toml\" serve --interface 0.0.0.0",
+    "zsrv": "zola --config branch-zola-configs/\"local.${BRANCH:-national}.zola.toml\" serve --interface 0.0.0.0",
     "symlink-articles": "mkdir -p static/perspectives && mkdir -p static/events && ./scripts/symlink",
-    "set-worker-var": "printenv \"$GITHUB_VARNAME\" | npx wrangler secret put \"$APP_VARNAME\" --config \"$BRANCH\".wrangler.toml",
-    "set-vars": "GITHUB_VARNAME=APP_PRIVATE_KEY APP_VARNAME=GITHUB_APP_PRIVATE_KEY npm run set-worker-var && GITHUB_VARNAME=TURNSTILE_SECRET_KEY APP_VARNAME=TURNSTILE_SECRET_KEY npm run set-worker-var && GITHUB_VARNAME=DISCORD_BOT_TOKEN APP_VARNAME=DISCORD_BOT_TOKEN npm run set-worker-var"
+    "set-worker-var": "printenv \"$GITHUB_VARNAME\" | npx wrangler secret put \"$APP_VARNAME\" --config branch-wrangler-configs/\"$BRANCH\".wrangler.toml",
+    "set-vars": "GITHUB_VARNAME=APP_PRIVATE_KEY APP_VARNAME=GITHUB_APP_PRIVATE_KEY npm run set-worker-var && GITHUB_VARNAME=TURNSTILE_SECRET_KEY APP_VARNAME=TURNSTILE_SECRET_KEY npm run set-worker-var && GITHUB_VARNAME=DISCORD_BOT_TOKEN APP_VARNAME=DISCORD_BOT_TOKEN npm run set-worker-var",
+    "create-new-branch": "cp branch-wrangler-configs/seattle.wrangler.toml branch-wrangler-configs/${BRANCH}.wrangler.toml && cp branch-zola-configs/local.seattle.zola.toml branch-zola-configs/local.${BRANCH}.zola.toml && cp branch-zola-configs/seattle.zola.toml branch-zola-configs/${BRANCH}.zola.toml && jq '. += [env.BRANCH]' branches.json > temp.json && mv temp.json branches.json"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",

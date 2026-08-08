@@ -22,3 +22,4 @@ content/perspectives/*.md
 static/perspectives/*.*
 static/events/*.*
 *.pem
+temp.json
