@@ -399,7 +399,7 @@ fn create_contacts_csv(
             continue;
         };
 
-        if timestamp > one_week_ago {
+        if timestamp < one_week_ago {
                         console_error!("timestampt too old");
 
             continue;
