@@ -20,7 +20,7 @@ jobs:
       - name: Read branches from JSON
         id: read_branches
         run: |
-          echo "branches=$(cat branches.json)" >> $GITHUB_OUTPUT
+          echo "branches=$(jq -c . branches.json)" >> $GITHUB_OUTPUT
   deploy:
     runs-on: ubuntu-latest
     strategy:
