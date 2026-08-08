@@ -20,7 +20,9 @@ jobs:
       - name: Read branches from JSON
         id: read_branches
         run: |
+          # This converts the pretty-printed JSON to compact format
           echo "branches=$(jq -c . branches.json)" >> $GITHUB_OUTPUT
+
   deploy:
     runs-on: ubuntu-latest
     strategy:
