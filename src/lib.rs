@@ -502,7 +502,7 @@ async fn discord_interaction(
                 return StatusCode::BAD_REQUEST.into_response();
             };
 
-            console_error!("msgs {msgs}");
+            console_error!("msgs {msgs:#?}");
 
             let Ok(bot_user_id) = env.var("DISCORD_BOT_ID") else {
                 return StatusCode::INTERNAL_SERVER_ERROR.into_response();
