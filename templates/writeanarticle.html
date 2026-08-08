@@ -5,7 +5,41 @@
 <main style="width: 100vw;">
     <section style="margin: 0 auto; width: 90%;">
         <form action="/api/content/{{config.extra.group_location}}/articles/pr" method="post" id="article-form">
+            <div class="border-b border-gray-900/10 pb-12 center-text">
 
+                <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                    <div class="sm:col-span-6 max-w-full flex align-center flex-col itemsx-center">
+                        <label for="title" class="block">Title</label>
+                        <div class="w-full max-w-xs">
+                            <input required id="title" type="text" name="title"
+                                class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="authors" class="block">Authors (comma separated: Malcom X,Layla Khaled,Antonio Gramsci)</label>
+                        <div class="w-full max-w-xs">
+                            <input required id="authors" type="text" name="authors"
+                                class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="image_url" class="block">Image Url</label>
+                        <div class="w-full max-w-xs">
+                            <input required id="image_url" type="text" name="image_url"
+                                class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="image_alt" class="block">Image Description (be kind to the blind)</label>
+                        <div class="w-full max-w-xs">
+                            <input required id="image_alt" type="text" name="image_alt"
+                                class="max-w-full block  rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+                </div>
             <textarea name="data" id="data"></textarea>
             <div class="cf-turnstile" data-sitekey="{{config.extra.turnstile_key}}"></div>
 

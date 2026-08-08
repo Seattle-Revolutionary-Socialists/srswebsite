@@ -107,8 +107,12 @@ async fn router(env: Env) -> Router {
     Router::new()
         .route("/api/contacts/{group_location}", post(accept_form))
         .route(
-            "/api/content/{group_location}/{content_type}/pr",
-            post(open_content_pr),
+            "/api/content/{group_location}/articles/pr",
+            post(open_article_pr),
+        )
+        .route(
+            "/api/content/{group_location}/events/pr",
+            post(open_events_pr),
         )
         .route("/", get(Redirect::permanent("/index.html")))
         .route("/api/discord", post(discord_interaction))
@@ -201,20 +205,64 @@ use axum::response::{IntoResponse, Response};
 use octocrab::params::repos::Reference;
 use serde_json::{json, Value};
 
+impl OpenContentPrRequest {
+    pub fn get_article_header(&self, branch: &str, date: &str) -> String {
+        let authors_formatted = self.authors.split(",").map(|a| "\"".to_owned() + a + "\"").collect::<Vec<String>>().join(", ");
+        return format!("+++\ntitle= \"{}\"\ndate = {}\nauthors = [{}]\n[extra]\nimage = \"{}\"\nimageAlt = \"{}\"\nbranch=\"{}\"\n+++\n", self.title, date, authors_formatted, self.image_url, self.image_alt, branch);
+    }
+}
+
 #[derive(Debug, Deserialize)]
 struct OpenContentPrRequest {
     data: String,
     #[serde(rename(deserialize = "cf-turnstile-response"))]
     cf_turnstile_response: String,
+    title: String,
+    authors: String,
+    image_url: String,
+    image_alt: String
 }
 
 #[worker::send]
-pub async fn open_content_pr(
+pub async fn open_events_pr(
     Path((group_location, content_type)): Path<(String, String)>,
     Extension(env): Extension<Env>,
     Form(input): Form<OpenContentPrRequest>,
 ) -> Response {
-    match open_content_pr_inner(&env, &group_location, &content_type, input).await {
+    // create file content based off of existing file (append)
+    match open_content_pr_inner(&env, &group_location, "events", &input.data, &input.cf_turnstile_response).await {
+        Ok(pr_url) => (
+            StatusCode::CREATED,
+            Json(json!({
+                "ok": true,
+                "pr_url": pr_url,
+            })),
+        )
+            .into_response(),
+
+        Err(err) => {
+            worker::console_error!("failed to create GitHub PR: {err}");
+
+            (
+                StatusCode::INTERNAL_SERVER_ERROR,
+                Json(json!({
+                    "ok": false,
+                    "error": "failed to create pull request",
+                })),
+            )
+                .into_response()
+        }
+    }
+}
+
+#[worker::send]
+pub async fn open_article_pr(
+    Path(group_location): Path<String>,
+    Extension(env): Extension<Env>,
+    Form(input): Form<OpenContentPrRequest>,
+) -> Response {
+    let date = Utc::now().format("%Y-%m-%d").to_string();
+    match open_content_pr_inner(&env, &group_location, "articles", &(input.get_article_header(&group_location, &date) + &input.data.clone()), &input.cf_turnstile_response).await {
         Ok(pr_url) => (
             StatusCode::CREATED,
             Json(json!({
@@ -244,9 +292,10 @@ async fn open_content_pr_inner(
     env: &Env,
     group_location: &str,
     content_type: &str,
-    input: OpenContentPrRequest,
+    content: &str,
+    turnstile: &str,
 ) -> Result<Option<String>, String> {
-    let validation = validate_turnstile(env, &input.cf_turnstile_response).await;
+    let validation = validate_turnstile(env, turnstile).await;
 
     if !validation.success {
         if !validation.success {
@@ -318,7 +367,7 @@ async fn open_content_pr_inner(
         .await
         .map_err(|e| format!("create branch: {e:#?}"))?;
 
-    let mut contents = input.data.as_bytes().to_vec();
+    let mut contents = content.as_bytes().to_vec();
 
     contents.push(b'\n');
 
