@@ -6,7 +6,7 @@
     "dev": "pnpm run symlink-articles && pnpm run gen-events && pnpm run styles-build && zola --config branch-zola-configs/\"local.${BRANCH:-national}.zola.toml\" build --base-url http://127.0.0.1:1111  && cargo install --locked worker-build ; wrangler dev --local",
     "styles": "pnpm exec tailwindcss --watch -i ./styles/style.css -o ./static/out.css",
     "styles-build": "pnpm exec tailwindcss -i ./styles/style.css -o ./static/out.css",
-    "gen-events": "python3 scripts/generate_source_events.py ${BRANCH:-national}",
+    "gen-events": "mkdir -p events/${BRANCH:-national} && python3 scripts/generate_source_events.py ${BRANCH:-national}",
     "zsrv": "zola --config branch-zola-configs/\"local.${BRANCH:-national}.zola.toml\" serve --interface 0.0.0.0",
     "symlink-articles": "mkdir -p static/perspectives && mkdir -p static/events && ./scripts/symlink",
     "set-worker-var": "printenv \"$GITHUB_VARNAME\" | npx wrangler secret put \"$APP_VARNAME\" --config branch-wrangler-configs/\"$BRANCH\".wrangler.toml",
