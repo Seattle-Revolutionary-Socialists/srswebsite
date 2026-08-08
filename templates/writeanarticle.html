@@ -4,7 +4,12 @@
 {% set data = load_data(path="templates/shortcodes/usage.md") -%}
 <main style="width: 100vw;">
     <section style="margin: 0 auto; width: 90%;">
-        <textarea name="article" id="article"></textarea>
+        <form action="/api/content/{{config.extra.group_location}}/articles/pr" method="post" id="article-form">
+
+            <textarea name="data" id="data"></textarea>
+            <div class="cf-turnstile" data-sitekey="{{config.extra.turnstile_key}}"></div>
+
+        </form>
         <script type="module">
             import { binaryInlined } from 'https://unpkg.com/harper.js@2.4.0/dist/binaryInlined.js';
             import { WorkerLinter } from 'https://unpkg.com/harper.js@2.4.0/dist/index.js';
@@ -20,15 +25,15 @@
             d = d.replaceAll("&amp;", "&");
             d = d.replaceAll("&#x27;", "'");
 
-            document.getElementById("article").addEventListener("change", (e) => console.log(e));
+            document.getElementById("data").addEventListener("change", (e) => console.log(e));
 
             const simplemde = new EasyMDE({
                 autofocus: true,
                 autosave: {
                     enabled: true,
-                    uniqueId: "article",
+                    uniqueId: "data",
                     delay: 1000,
-                }, element: document.getElementById("article"),
+                }, element: document.getElementById("data"),
                 initialValue: d.replaceAll("&quot;", ""),
                 previewRender: function (plainText, p) {
                     const re = /\{\% highlight\(\) \%\}\n(.*)\n\{\% end \%\}/g;
@@ -50,7 +55,26 @@
                     //     return DOMPurify.sanitize(renderedHTML, { ALLOWED_TAGS: ['b'] })
                     // },
                 },
-                lineNumbers: true
+                lineNumbers: true,
+                toolbar:
+                    ["bold",
+                        "italic",
+                        "heading",
+                        "quote",
+                        "ordered-list",
+                        "link",
+                        "image",
+                        "preview",
+                        "side-by-side",
+                        "fullscreen", {
+                            name: "submit",
+                            action: (editor) => {
+                                document.querySelector("#article-form").requestSubmit();
+                            },
+                            className: "fa fa-star",
+                            text: "Submit to board",
+                            title: "Submit article to board",
+                        }]
             });
 
             const grammarMarks = [];

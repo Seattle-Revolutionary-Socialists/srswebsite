@@ -55,7 +55,11 @@ jobs:
           tool: zola@0.22.1
 
       - name: Deploy National
-        run: pnpm run deploy
+        env:
+          APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+        run: printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --name my-worker && pnpm run deploy
 
       - name: Deploy Seattle
-        run: BRANCH=seattle pnpm run deploy
+        env:
+          APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+        run: BRANCH=seattle printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --name my-worker && pnpm run deploy

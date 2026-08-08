@@ -22,6 +22,18 @@ tower-http = { version = "0.7.0" }
 tower = "0.5.3"
 dotenvy = "0.15.7"
 serde_json = "1.0.151"
+octocrab = {
+    version = "0.54.1",
+    default-features = false,
+    features = ["jwt-rust-crypto"]
+}
 
+jsonwebtoken = {
+    version = "10",
+    default-features = false,
+    features = ["use_pem", "rust_crypto"]
+}
+
+http = "1"
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false

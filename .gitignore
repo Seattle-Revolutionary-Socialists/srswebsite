@@ -21,3 +21,4 @@ content/perspectives/*.md
 !content/perspectives/_index.md
 static/perspectives/*.*
 static/events/*.*
+*.pem

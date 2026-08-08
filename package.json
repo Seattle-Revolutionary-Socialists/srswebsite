@@ -8,7 +8,8 @@
     "styles-build": "pnpm exec tailwindcss -i ./styles/style.css -o ./static/out.css",
     "gen-events": "python3 scripts/generate_source_events.py ${BRANCH:-national}",
     "zsrv": "zola --config \"local.${BRANCH:-national}.zola.toml\" serve --interface 0.0.0.0",
-    "symlink-articles": "mkdir -p static/perspectives && mkdir -p static/events && ./scripts/symlink"
+    "symlink-articles": "mkdir -p static/perspectives && mkdir -p static/events && ./scripts/symlink",
+    "keystuff": "npx wrangler --config wrangler.toml  secret put GITHUB_APP_PRIVATE_KEY < ./gh.pem"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",

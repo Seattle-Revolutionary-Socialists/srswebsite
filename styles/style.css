@@ -200,3 +200,7 @@ label, .form-button {
     text-underline-offset: 2px;
     cursor: help;
 }
+
+.fa-star {
+    color: var(--primary-bg-color);
+}

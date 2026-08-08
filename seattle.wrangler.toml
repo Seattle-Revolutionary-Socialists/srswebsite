@@ -13,3 +13,10 @@ local_protocol = "http"
 [assets]
 directory = "./public"
 binding = "ASSETS"
+
+[vars]
+GITHUB_APP_ID = "4521864"
+GITHUB_INSTALLATION_ID = "152071081"
+GITHUB_OWNER = "communistjesus"
+GITHUB_REPO = "srsnewwebsite"
+GITHUB_BASE_BRANCH = "main"
