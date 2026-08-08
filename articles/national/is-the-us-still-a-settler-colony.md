@@ -4,7 +4,7 @@ date = 2023-08-10
 authors = ["Steve Leigh"]
 [extra]
 image = "settler.jpg"
-imageAlt = "A depiction of settlers with a box that says 'Adams Expresss'"
+image_alt = "A depiction of settlers with a box that says 'Adams Expresss'"
 branch="national"
 +++
 

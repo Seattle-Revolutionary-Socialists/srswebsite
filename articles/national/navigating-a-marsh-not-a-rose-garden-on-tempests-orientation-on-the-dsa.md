@@ -4,7 +4,7 @@ date = 2023-08-30
 authors = ["E. Reed"]
 [extra]
 image = "marsh.jpg"
-imageAlt = "A literal marsh of sorts"
+image_alt = "A literal marsh of sorts"
 branch="national"
 +++
 

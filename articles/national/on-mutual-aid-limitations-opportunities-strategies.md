@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["E. Reed"]
 [extra]
 image = "on-mutual-aid2.jpg"
-imageAlt = "Hands stack cans into a box for distribution"
+image_alt = "Hands stack cans into a box for distribution"
 branch="national"
 +++
 

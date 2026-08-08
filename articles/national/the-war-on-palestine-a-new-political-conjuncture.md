@@ -4,7 +4,7 @@ date = 2023-10-19
 authors = ["Steve Leigh"]
 [extra]
 image = "war-on-palestine.jpg"
-imageAlt = "Many wielding kuffiyehs and flags at an action"
+image_alt = "Many wielding kuffiyehs and flags at an action"
 branch="national"
 +++
 

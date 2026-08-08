@@ -4,28 +4,28 @@
             "title": "BLACK LIBERATION DAY",
             "date": "2026-05-24",
             "image": "blackliberation.png",
-            "imageAlt": "A flyer depicting an African man breaking free from his chains. This event happened on May 24, 2026.",
+            "image_alt": "A flyer depicting an African man breaking free from his chains. This event happened on May 24, 2026.",
             "location": "720TH E ST"
         },
         {
             "title": "EMERGENCY TRANS RALLY",
             "date": "2026-05-23",
             "image": "emergencytrans.jpg",
-            "imageAlt": "A flyer with pink and blue tones has humans calling out to the reader. This event was May 23, 2026.",
+            "image_alt": "A flyer with pink and blue tones has humans calling out to the reader. This event was May 23, 2026.",
             "location": "CAL ANDERSON PARK"
         },
         {
             "title": "GEORGA FLOYD DAY",
             "date": "2026-05-25",
             "image": "georgefloyd.png",
-            "imageAlt": "A flyer depicting black martyr George Floyd calls the reader to join a rally. This event was on May 25th, 2026.",
+            "image_alt": "A flyer depicting black martyr George Floyd calls the reader to join a rally. This event was on May 25th, 2026.",
             "location": "OTHELLO LIGHT RAIL"
         },
         {
             "title": "JUSTICE FOR NEGROS 19 RALLY",
             "date": "2026-05-19",
             "image": "justicefornegros19.png",
-            "imageAlt": "A flyer depicting leftist militant martyrs of the heinous massacre ordered by dictator Marcos JR. This event was on May 19th, 2026.",
+            "image_alt": "A flyer depicting leftist militant martyrs of the heinous massacre ordered by dictator Marcos JR. This event was on May 19th, 2026.",
             "location": "CONVENTION CENTER"
         },
         {
@@ -33,7 +33,7 @@
             "dayOfWeek": "Tuesday",
             "recurring": true,
             "image": "justicefornegros19.png",
-            "imageAlt": "TODO",
+            "image_alt": "TODO",
             "location": "https://bit.ly/srszoomlink"
         },
         {
@@ -41,7 +41,7 @@
             "dayOfWeek": "Monday",
             "recurring": true,
             "image": "justicefornegros19.png",
-            "imageAlt": "A flyer listing syllabus in SRS' weekly Marxist fundamentals study group",
+            "image_alt": "A flyer listing syllabus in SRS' weekly Marxist fundamentals study group",
             "location": "https://bit.ly/srszoomlink"
         },
         {
@@ -49,14 +49,14 @@
             "dayOfWeek": "Sunday",
             "recurring": true,
             "image": "justicefornegros19.png",
-            "imageAlt": "TODO",
+            "image_alt": "TODO",
             "location": "https://bit.ly/srszoomlink"
         },
         {
             "title": "Fuck America 250",
             "date": "2026-07-07",
             "image": "justicefornegros19.png",
-            "imageAlt": "TODO",
+            "image_alt": "TODO",
             "location": "https://bit.ly/srszoomlink"
         }
     ]

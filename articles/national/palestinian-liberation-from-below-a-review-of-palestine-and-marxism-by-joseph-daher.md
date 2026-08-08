@@ -4,7 +4,7 @@ date = 2025-03-15
 authors = ["Steve Leigh"]
 [extra]
 image = "daher.jpg"
-imageAlt = "Palestine flags fly at a protest"
+image_alt = "Palestine flags fly at a protest"
 branch="national"
 +++
 

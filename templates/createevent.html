@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+        <div>Create an event. You will need to fill this out for each event. Each event will create a request but will not conflict. If you wish to cancel an event submit the same event but with (Cancelled) before the title.
+        </div>
+        <form action="/api/content/{{config.extra.group_location}}/events/pr" method="POST">
+            <div class="border-b border-gray-900/10 pb-12 center-text">
+
+                <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                    <div class="sm:col-span-6 max-w-full flex align-center flex-col itemsx-center">
+                        <label for="title" class="block">Title</label>
+                        <div class="w-full max-w-xs">
+                            <input value="Fist Fight with Monarchists" required id="title" type="text" name="title"
+                                class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="image" class="block">Image Link</label>
+                        <div class="w-full max-w-xs">
+                            <input value="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/960px-Hammer_and_sickle_red_on_transparent.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" required id="image" type="text" name="image"
+                                class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="image_alt" class="block">Image Alt (be accessible to the blind)</label>
+                        <div class="w-full max-w-xs">
+                            <input value="Red sickle hammer" required id="image_alt" type="text" name="image_alt"
+                                class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="Location" class="block">Location</label>
+                        <div class="w-full max-w-xs">
+                            <input value="Beach" id="location" type="text" name="location"
+                                class="max-w-full block  rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+                    <div class="sm:col-span-6 max-w-full">
+                        <label for="Date" class="block">Date</label>
+                        <div class="w-full max-w-xs">
+                            <input value="at Dawn" id="date" type="text" name="date"
+                                class="max-w-full block  rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+                    <div class="cf-turnstile" data-sitekey="{{config.extra.turnstile_key}}"></div>
+                </div>
+
+                <div class="max-w-full mt-10 flex items-center justify-end gap-x-6 block-auto">
+                    <button type="submit" style="background: var(--primary-bg-color)"
+                        class="form-button max-w-full rounded-md px-3 text-white py-2 font-semibold shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send</button>
+                </div>
+        </form>
+    </section>
+</main>
+
+
+{% endblock content %}

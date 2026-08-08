@@ -4,7 +4,7 @@ date = 2024-06-30
 authors = ["E. Reed"]
 [extra]
 image = "palestine-movement.jpg"
-imageAlt = "A palestine protest with many flags and kuffiyehs"
+image_alt = "A palestine protest with many flags and kuffiyehs"
 branch="national"
 +++
 

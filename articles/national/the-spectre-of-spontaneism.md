@@ -4,7 +4,7 @@ date = 2023-10-02
 authors = ["Steve Leigh"]
 [extra]
 image = "spectre.jpg"
-imageAlt = "A man swirls a light almost like he is bending it"
+image_alt = "A man swirls a light almost like he is bending it"
 branch="national"
 +++
 

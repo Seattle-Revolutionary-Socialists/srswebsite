@@ -4,7 +4,7 @@ date = 2023-08-17
 authors = ["Steve Leigh"]
 [extra]
 image = "aristocracy.jpg"
-imageAlt = "A cartoon man kicking his feet up next to some drinks"
+image_alt = "A cartoon man kicking his feet up next to some drinks"
 branch="national"
 +++
 

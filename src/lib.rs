@@ -213,8 +213,34 @@ impl OpenContentPrRequest {
             .map(|a| "\"".to_owned() + a + "\"")
             .collect::<Vec<String>>()
             .join(", ");
-        return format!("+++\ntitle= \"{}\"\ndate = {}\nauthors = [{}]\n[extra]\nimage = \"{}\"\nimageAlt = \"{}\"\nbranch=\"{}\"\n+++\n", self.title, date, authors_formatted, self.image_url, self.image_alt, branch);
+        return format!("+++\ntitle= \"{}\"\ndate = {}\nauthors = [{}]\n[extra]\nimage = \"{}\"\nimage_alt = \"{}\"\nbranch=\"{}\"\n+++\n", self.title, date, authors_formatted, self.image_url, self.image_alt, branch);
     }
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+struct Event {
+    title: String,
+    date: String,
+    image: String,
+    image_alt: String,
+    location: String
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+struct Events {
+    events: Vec<Event>
+}
+
+
+#[derive(Debug, Deserialize)]
+struct OpenEventPrRequest {
+    #[serde(rename(deserialize = "cf-turnstile-response"))]
+    cf_turnstile_response: String,
+    title: String,
+    image: String,
+    image_alt: String,
+    location: String,
+    date: String
 }
 
 #[derive(Debug, Deserialize)]
@@ -230,26 +256,28 @@ struct OpenContentPrRequest {
 
 #[worker::send]
 pub async fn open_events_pr(
-    Path((group_location, content_type)): Path<(String, String)>,
+    Path(group_location): Path<String>,
     Extension(env): Extension<Env>,
-    Form(input): Form<OpenContentPrRequest>,
+    Form(input): Form<OpenEventPrRequest>,
 ) -> Response {
-    // create file content based off of existing file (append)
     match open_content_pr_inner(
         &env,
         &group_location,
         "events",
-        &input.data,
+        &serde_json::to_string(&vec![Event{ title: input.title, date: input.date, image: input.image, image_alt: input.image_alt, location: input.location }]).unwrap(),
         &input.cf_turnstile_response,
+        "json"
     )
     .await
     {
-        Ok(pr_url) => (
-            StatusCode::CREATED,
-            Json(json!({
-                "ok": true,
-                "pr_url": pr_url,
-            })),
+         Ok(pr_url) => (
+            StatusCode::SEE_OTHER,
+            Redirect::to(&format!(
+                "/pages/articlesubmitted?{}",
+                &form_urlencoded::Serializer::new(String::new())
+                    .append_pair("pr_url", &pr_url.unwrap_or("".to_owned()))
+                    .finish()
+            )),
         )
             .into_response(),
 
@@ -281,6 +309,7 @@ pub async fn open_article_pr(
         "articles",
         &(input.get_article_header(&group_location, &date) + &input.data.clone()),
         &input.cf_turnstile_response,
+        "md"
     )
     .await
     {
@@ -317,6 +346,7 @@ async fn open_content_pr_inner(
     content_type: &str,
     content: &str,
     turnstile: &str,
+    file_ending: &str
 ) -> Result<Option<String>, String> {
     let validation = validate_turnstile(env, turnstile).await;
 
@@ -370,7 +400,7 @@ async fn open_content_pr_inner(
 
     let branch = format!("{group_location}-{content_type}-{timestamp}");
 
-    let path = format!("{content_type}/{group_location}/{timestamp}.md");
+    let path = format!("{content_type}/{group_location}/{timestamp}.{file_ending}");
 
     let base_ref = gh
         .repos(&owner, &repo)
@@ -393,7 +423,7 @@ async fn open_content_pr_inner(
     let mut contents = content.as_bytes().to_vec();
 
     contents.push(b'\n');
-
+    
     gh.repos(&owner, &repo)
         .create_file(
             &path,

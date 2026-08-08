@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["Steve Leigh"]
 [extra]
 image = "transition.jpg"
-imageAlt = "Abstract prisms fill the world"
+image_alt = "Abstract prisms fill the world"
 branch="national"
 +++
 

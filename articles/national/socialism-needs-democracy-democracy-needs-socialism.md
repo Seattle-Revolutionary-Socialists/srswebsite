@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["Steve Leigh"]
 [extra]
 image = "democracy.jpg"
-imageAlt = "A large protest on the street with many red flags and red flares"
+image_alt = "A large protest on the street with many red flags and red flares"
 branch="national"
 +++
 

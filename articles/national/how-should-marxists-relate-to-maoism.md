@@ -4,7 +4,7 @@ date = 2024-11-15
 authors = ["Kenneth G"]
 [extra]
 image = "maoism.jpg"
-imageAlt = "A marble statue of Mao becons"
+image_alt = "A marble statue of Mao becons"
 branch="national"
 +++
 

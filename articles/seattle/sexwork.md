@@ -4,7 +4,7 @@ date = 2021-09-27
 authors = ["Steve Leigh"]
 [extra]
 image = "sexwork.webp"
-imageAlt = "A picture of the book 'Revolting Prositutes: The Fight for Sex Workers Rights' by Juno Mac and Molly Smith"
+image_alt = "A picture of the book 'Revolting Prositutes: The Fight for Sex Workers Rights' by Juno Mac and Molly Smith"
 branch="seattle"
 +++
 

@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["E. Reed"]
 [extra]
 image = "locust1.jpg"
-imageAlt = "A man runs amidst a swarm of locus"
+image_alt = "A man runs amidst a swarm of locus"
 branch="national"
 +++
 

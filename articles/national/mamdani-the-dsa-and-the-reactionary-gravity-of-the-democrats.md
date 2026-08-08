@@ -4,7 +4,7 @@ date = 2025-07-07
 authors = ["E. Reed"]
 [extra]
 image = "mamdani2.jpg"
-imageAlt = "AOC holding a mic up to Mamdani's face"
+image_alt = "AOC holding a mic up to Mamdani's face"
 branch="national"
 +++
 

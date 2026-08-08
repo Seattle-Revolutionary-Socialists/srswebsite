@@ -3,6 +3,7 @@ from time import gmtime,strftime
 from copy import deepcopy
 from datetime import date, timedelta
 import sys
+from pathlib import Path
 
 res = []
 
@@ -28,17 +29,19 @@ def next_weekdays(day_name: str, n: int):
         for i in range(n)
     ]
 
-with open(f"./events/source-events-{sys.argv[1]}.json", "r") as f:
-    data = json.load(f)
-    for event in data['events']:
-        # TODO: remove "flavored instances" of event (tuesday events)
-        if 'date' in event and event['date'] >= strftime("%Y-%m-%d", gmtime()):
-            res.append(event)
-        elif 'recurring' in event and event['recurring']:
-            for next_d in next_weekdays(event['dayOfWeek'], 3):
-                e = deepcopy(event)
-                e['date'] = next_d
-                res.append(e)
+branch = sys.argv[1]
+for path in Path(f"./events/{branch}").iterdir():
+    with open(path, "r") as f:
+        data = json.load(f)
+        for event in data['events']:
+            # TODO: remove "flavored instances" of event (tuesday events)
+            if 'date' in event and event['date'] >= strftime("%Y-%m-%d", gmtime()):
+                res.append(event)
+            elif 'recurring' in event and event['recurring']:
+                for next_d in next_weekdays(event['dayOfWeek'], 3):
+                    e = deepcopy(event)
+                    e['date'] = next_d
+                    res.append(e)
     
     
 with open("./events.json", "w") as f:

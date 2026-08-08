@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["E. Reed"]
 [extra]
 image = "building-followers-1.jpg"
-imageAlt = "Two two abstract faces making eye contact"
+image_alt = "Two two abstract faces making eye contact"
 branch="national"
 +++
 

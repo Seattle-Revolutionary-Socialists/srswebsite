@@ -4,7 +4,7 @@ date = 2025-10-20
 authors = ["E. Reed"]
 [extra]
 image = "after-kirk.jpg"
-imageAlt = "Aftermath of Kirk's shooting"
+image_alt = "Aftermath of Kirk's shooting"
 branch="national"
 +++
 

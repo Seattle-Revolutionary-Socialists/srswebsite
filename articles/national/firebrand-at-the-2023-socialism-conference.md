@@ -4,7 +4,7 @@ date = 2023-11-09
 authors = ["Steve Leigh"]
 [extra]
 image = "conference.jpg"
-imageAlt = "A picture of the 2023 Socialism Conference"
+image_alt = "A picture of the 2023 Socialism Conference"
 branch="national"
 +++
 

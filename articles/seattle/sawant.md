@@ -4,7 +4,7 @@ date = 2026-04-27
 authors = ["Steve Leigh"]
 [extra]
 image = "sawant.webp"
-imageAlt = "A poster with revolutionary Kshama Sawant calling the reader to send Sawant to congress"
+image_alt = "A poster with revolutionary Kshama Sawant calling the reader to send Sawant to congress"
 branch="seattle"
 +++
 

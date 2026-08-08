@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["Steve Leigh"]
 [extra]
 image = "abolition3.jpg"
-imageAlt = "A cartoon picture of cops, erm pigs giving a strange look"
+image_alt = "A cartoon picture of cops, erm pigs giving a strange look"
 branch="national"
 +++
 

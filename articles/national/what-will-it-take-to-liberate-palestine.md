@@ -4,7 +4,7 @@ date = 2024-02-12
 authors = ["Steve Leigh"]
 [extra]
 image = "palestine2.jpg"
-imageAlt = "Many Palestine flags amidst a red flare"
+image_alt = "Many Palestine flags amidst a red flare"
 branch="national"
 +++
 

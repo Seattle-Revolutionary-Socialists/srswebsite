@@ -4,7 +4,7 @@ date = 2021-10-01
 authors = ["Steve Leigh"]
 [extra]
 image = "carpenters.webp"
-imageAlt = "Roughly 80 carpenters in the street bearing signs declaring their strike"
+image_alt = "Roughly 80 carpenters in the street bearing signs declaring their strike"
 branch="seattle"
 +++
 

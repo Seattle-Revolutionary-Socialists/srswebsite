@@ -4,7 +4,7 @@ date = 2021-10-01
 authors = ["Steve Leigh"]
 [extra]
 image = "borders.webp"
-imageAlt = "A brutalist wall restricting movement of people marked with a defiant message: 'NO ONE IS ILLEGAL'"
+image_alt = "A brutalist wall restricting movement of people marked with a defiant message: 'NO ONE IS ILLEGAL'"
 branch="seattle"
 +++
 

@@ -4,7 +4,7 @@ date = 2024-05-18
 authors = ["Steve Leigh"]
 [extra]
 image = "angus.jpg"
-imageAlt = "A stone cottage on a field surrounded by a stone wall"
+image_alt = "A stone cottage on a field surrounded by a stone wall"
 branch="national"
 +++
 

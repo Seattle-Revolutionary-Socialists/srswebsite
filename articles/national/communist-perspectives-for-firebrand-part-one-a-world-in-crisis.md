@@ -4,7 +4,7 @@ date = 2023-06-30
 authors = ["E. Reed"]
 [extra]
 image = "perspectives.jpg"
-imageAlt = "A chasm opens in a roadway"
+image_alt = "A chasm opens in a roadway"
 branch="national"
 +++
 

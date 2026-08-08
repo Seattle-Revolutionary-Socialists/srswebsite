@@ -4,7 +4,7 @@ date = 2023-06-22
 authors = ["Steve Leigh"]
 [extra]
 image = "crimes-against-humanity.jpg"
-imageAlt = "A tank hidden in smoke"
+image_alt = "A tank hidden in smoke"
 branch="national"
 +++
 

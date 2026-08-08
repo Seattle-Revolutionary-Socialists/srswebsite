@@ -4,7 +4,7 @@ date = 2024-03-08
 authors = ["Steve Leigh"]
 [extra]
 image = "dogmatism.jpg"
-imageAlt = "Abstract art invoking many eyes peering"
+image_alt = "Abstract art invoking many eyes peering"
 branch="national"
 +++
 

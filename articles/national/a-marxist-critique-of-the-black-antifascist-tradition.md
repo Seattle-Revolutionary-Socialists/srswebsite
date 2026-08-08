@@ -4,7 +4,7 @@ date = 2024-06-13
 authors = ["Steve Leigh"]
 [extra]
 image = "bantifa.jpg"
-imageAlt = "A painting depicting an uprising"
+image_alt = "A painting depicting an uprising"
 branch="national"
 +++
 

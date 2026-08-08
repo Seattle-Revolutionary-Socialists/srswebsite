@@ -4,7 +4,7 @@ date = 2023-06-21
 authors = ["E. Reed"]
 [extra]
 image = "tiktok-surveillance.jpg"
-imageAlt = "A camera like view at abstract humans"
+image_alt = "A camera like view at abstract humans"
 branch="national"
 +++
 

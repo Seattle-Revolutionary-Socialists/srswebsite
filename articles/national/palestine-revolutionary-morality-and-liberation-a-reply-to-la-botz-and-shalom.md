@@ -4,7 +4,7 @@ date = 2024-02-04
 authors = ["E. Reed"]
 [extra]
 image = "revolutionary-morality.jpg"
-imageAlt = "Armed soldiers run toward a barrier"
+image_alt = "Armed soldiers run toward a barrier"
 branch="national"
 +++
 
