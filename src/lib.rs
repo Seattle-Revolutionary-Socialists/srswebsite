@@ -391,11 +391,23 @@ async fn discord_interaction(
         return StatusCode::BAD_REQUEST.into_response();
     };
 
+    console_error!("we get here");
+
+
+    let channel_id = interaction["channelId"].as_str().unwrap();
+    console_error!("running command on channel {channel_id}");
+
+
+
     let Ok(discord_bot_channel) = env.var("DISCORD_BOT_CHANNEL") else {
         return StatusCode::BAD_REQUEST.into_response();
     };
 
-    if interaction["channelId"].as_str().unwrap() != &discord_bot_channel.to_string() {
+    let bot_channel = &discord_bot_channel.to_string();
+    console_error!("bot channel set to {bot_channel}");
+
+
+    if channel_id != bot_channel {
         console_error!("User tried running command from wrong channel");
         return StatusCode::BAD_REQUEST.into_response();
     }
