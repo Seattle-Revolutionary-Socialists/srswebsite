@@ -139,7 +139,7 @@ struct FormResponse {
     city: String,
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Debug)]
 struct EmailContacts {
     first_name: String,
     last_name: String,
@@ -384,18 +384,24 @@ fn create_contacts_csv(
         let author_id = message["author"]["id"].as_str().unwrap_or("");
 
         if author_id != bot_user_id {
+            console_error!("ids neq {author_id} {bot_user_id} ");
             continue;
         }
 
         let Some(timestamp) = message["timestamp"].as_str() else {
+            console_error!("failed to snag timestamp");
             continue;
         };
 
         let Ok(timestamp) = DateTime::parse_from_rfc3339(timestamp) else {
+                        console_error!("failed to parse timestamp");
+
             continue;
         };
 
         if timestamp > one_week_ago {
+                        console_error!("timestampt too old");
+
             continue;
         }
 
@@ -403,7 +409,9 @@ fn create_contacts_csv(
 
         let parsed: FormResponse = match serde_json::from_str(content) {
             Ok(value) => value,
-            Err(_) => continue,
+            Err(_) => {
+                continue
+            },
         };
 
         if parsed.city != group_location {
@@ -411,12 +419,16 @@ fn create_contacts_csv(
             // continue;
         }
 
-        writer
-            .serialize(EmailContacts {
+        let contact = EmailContacts {
                 first_name: parsed.first_name,
                 last_name: parsed.last_name,
                 email: parsed.email,
-            })
+            };
+
+        console_error!("adding contact {contact:#?}");
+
+        writer
+            .serialize(contact)
             .unwrap();
     }
     String::from_utf8(writer.into_inner().unwrap()).unwrap()
