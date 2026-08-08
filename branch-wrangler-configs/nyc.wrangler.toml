@@ -1,4 +1,4 @@
-name = "seattle-website"
+name = "nyc-website"
 main = "build/index.js"
 compatibility_date = "2026-07-15"
 
