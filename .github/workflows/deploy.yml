@@ -62,4 +62,4 @@ jobs:
       - name: Deploy Seattle
         env:
           APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
-        run: BRANCH=seattle printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --name my-worker && pnpm run deploy
+        run: printf '%s' "$APP_PRIVATE_KEY" | npx wrangler secret put APP_PRIVATE_KEY --name my-worker && BRANCH=seattle pnpm run deploy
