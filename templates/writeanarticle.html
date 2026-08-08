@@ -12,6 +12,7 @@
                         <label for="title" class="block">Title</label>
                         <div class="w-full max-w-xs">
                             <input required id="title" type="text" name="title"
+                            value="Example Article"
                                 class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                         </div>
                     </div>
@@ -20,6 +21,7 @@
                         <label for="authors" class="block">Authors (comma separated: Malcom X,Layla Khaled,Antonio Gramsci)</label>
                         <div class="w-full max-w-xs">
                             <input required id="authors" type="text" name="authors"
+                            value="E,Editorial Board"
                                 class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                         </div>
                     </div>
@@ -28,6 +30,7 @@
                         <label for="image_url" class="block">Image Url</label>
                         <div class="w-full max-w-xs">
                             <input required id="image_url" type="text" name="image_url"
+                            value="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/960px-Hammer_and_sickle_red_on_transparent.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
                                 class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                         </div>
                     </div>
@@ -36,6 +39,7 @@
                         <label for="image_alt" class="block">Image Description (be kind to the blind)</label>
                         <div class="w-full max-w-xs">
                             <input required id="image_alt" type="text" name="image_alt"
+                            value="A red sickle and hammer symbolizing unity and stength of the international working class"
                                 class="max-w-full block  rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                         </div>
                     </div>
@@ -78,7 +82,8 @@
                         .replace(/^(.+?)\[\^([^\]]+)\]$/gm, '<a href="#$2">$1</a>')
                         // [^1]: reference text -> <span id="1">1: reference text</span>
                         .replace(/^\[\^([^\]]+)\]:\s*(.*)$/gm, '<span id="$1">$1: $2</span>');
-                    return this.parent.markdown(plainText);
+                        console.log(document.querySelector("#title").textContent);
+                    return "<h1>" + document.querySelector("#title").textContent + "</h1>" + this.parent.markdown(plainText);
                 },
                 renderingConfig: {
                     singleLineBreaks: false,

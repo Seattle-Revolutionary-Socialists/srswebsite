@@ -207,7 +207,12 @@ use serde_json::{json, Value};
 
 impl OpenContentPrRequest {
     pub fn get_article_header(&self, branch: &str, date: &str) -> String {
-        let authors_formatted = self.authors.split(",").map(|a| "\"".to_owned() + a + "\"").collect::<Vec<String>>().join(", ");
+        let authors_formatted = self
+            .authors
+            .split(",")
+            .map(|a| "\"".to_owned() + a + "\"")
+            .collect::<Vec<String>>()
+            .join(", ");
         return format!("+++\ntitle= \"{}\"\ndate = {}\nauthors = [{}]\n[extra]\nimage = \"{}\"\nimageAlt = \"{}\"\nbranch=\"{}\"\n+++\n", self.title, date, authors_formatted, self.image_url, self.image_alt, branch);
     }
 }
@@ -220,7 +225,7 @@ struct OpenContentPrRequest {
     title: String,
     authors: String,
     image_url: String,
-    image_alt: String
+    image_alt: String,
 }
 
 #[worker::send]
@@ -230,7 +235,15 @@ pub async fn open_events_pr(
     Form(input): Form<OpenContentPrRequest>,
 ) -> Response {
     // create file content based off of existing file (append)
-    match open_content_pr_inner(&env, &group_location, "events", &input.data, &input.cf_turnstile_response).await {
+    match open_content_pr_inner(
+        &env,
+        &group_location,
+        "events",
+        &input.data,
+        &input.cf_turnstile_response,
+    )
+    .await
+    {
         Ok(pr_url) => (
             StatusCode::CREATED,
             Json(json!({
@@ -262,13 +275,23 @@ pub async fn open_article_pr(
     Form(input): Form<OpenContentPrRequest>,
 ) -> Response {
     let date = Utc::now().format("%Y-%m-%d").to_string();
-    match open_content_pr_inner(&env, &group_location, "articles", &(input.get_article_header(&group_location, &date) + &input.data.clone()), &input.cf_turnstile_response).await {
+    match open_content_pr_inner(
+        &env,
+        &group_location,
+        "articles",
+        &(input.get_article_header(&group_location, &date) + &input.data.clone()),
+        &input.cf_turnstile_response,
+    )
+    .await
+    {
         Ok(pr_url) => (
-            StatusCode::CREATED,
-            Json(json!({
-                "ok": true,
-                "pr_url": pr_url,
-            })),
+            StatusCode::SEE_OTHER,
+            Redirect::to(&format!(
+                "/pages/articlesubmitted?{}",
+                &form_urlencoded::Serializer::new(String::new())
+                    .append_pair("pr_url", &pr_url.unwrap_or("".to_owned()))
+                    .finish()
+            )),
         )
             .into_response(),
 
@@ -443,13 +466,13 @@ fn create_contacts_csv(
         };
 
         let Ok(timestamp) = DateTime::parse_from_rfc3339(timestamp) else {
-                        console_error!("failed to parse timestamp");
+            console_error!("failed to parse timestamp");
 
             continue;
         };
 
         if timestamp < one_week_ago {
-                        console_error!("timestampt too old");
+            console_error!("timestampt too old");
 
             continue;
         }
@@ -458,9 +481,7 @@ fn create_contacts_csv(
 
         let parsed: FormResponse = match serde_json::from_str(content) {
             Ok(value) => value,
-            Err(_) => {
-                continue
-            },
+            Err(_) => continue,
         };
 
         if parsed.city != group_location {
@@ -469,16 +490,14 @@ fn create_contacts_csv(
         }
 
         let contact = EmailContacts {
-                first_name: parsed.first_name,
-                last_name: parsed.last_name,
-                email: parsed.email,
-            };
+            first_name: parsed.first_name,
+            last_name: parsed.last_name,
+            email: parsed.email,
+        };
 
         console_error!("adding contact {contact:#?}");
 
-        writer
-            .serialize(contact)
-            .unwrap();
+        writer.serialize(contact).unwrap();
     }
     String::from_utf8(writer.into_inner().unwrap()).unwrap()
 }
@@ -606,15 +625,14 @@ async fn discord_interaction(
                 .map_err(|e| worker::Error::RustError(format!("{e:?}")))
                 .unwrap();
             let k = worker::web_sys::Response::new_with_opt_form_data(Some(&form))
-                .map_err(|e| worker::Error::RustError(format!("{e:?}"))).unwrap().into();
+                .map_err(|e| worker::Error::RustError(format!("{e:?}")))
+                .unwrap()
+                .into();
             let worker_response = worker::response_from_wasm(k).unwrap();
 
             let (parts, body) = worker_response.into_parts();
 
-            let response = axum::http::Response::from_parts(
-                parts,
-                axum::body::Body::new(body),
-            );
+            let response = axum::http::Response::from_parts(parts, axum::body::Body::new(body));
             response
         }
 

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main style="width: 100vw;" class="text-center">
+    <p class="block-auto">Thanks for submitting an article. You can check on it's status <a id="link" class="underline"
+            href"#">here</a>.</p>
+
+    <script>
+        console.log(new URLSearchParams(window.location.search).get("pr_url"));
+        document.querySelector("#link").href = new URLSearchParams(window.location.search).get("pr_url");
+    </script>
+
+</main>
+{% endblock content %}
