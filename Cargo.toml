@@ -33,8 +33,14 @@ jsonwebtoken = {
     default-features = false,
     features = ["use_pem", "rust_crypto"]
 }
-
+web-sys = { version = "0.3", features = [
+    "Blob",
+    "BlobPropertyBag",
+    "FormData",
+] }
 http = "1"
 ed25519-dalek = "3.0.0"
+chrono = "0.4.45"
+csv = "1.4.0"
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false

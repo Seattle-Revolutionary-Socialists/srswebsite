@@ -9,6 +9,7 @@ use axum::{
     Router,
 };
 use axum::{Extension, Json};
+use chrono::{DateTime, Duration, Utc};
 use http::HeaderMap;
 use tower_service::Service;
 use wasm_bindgen::JsValue;
@@ -16,6 +17,7 @@ use worker::*;
 
 use ed25519_dalek::{Signature, VerifyingKey};
 use serde::{Deserialize, Serialize};
+use web_sys::{Blob, BlobPropertyBag, FormData};
 use worker::{console_error, Env, Fetch, Headers, Method, Request, RequestInit};
 
 const SITEVERIFY_URL: &str = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
@@ -126,7 +128,7 @@ struct Input {
     comment: String,
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Deserialize)]
 struct FormResponse {
     first_name: String,
     last_name: String,
@@ -135,6 +137,13 @@ struct FormResponse {
     howhear: String,
     comment: String,
     city: String,
+}
+
+#[derive(Serialize)]
+struct EmailContacts {
+    first_name: String,
+    last_name: String,
+    email: String,
 }
 
 #[worker::send]
@@ -154,9 +163,23 @@ async fn accept_form(
     let Ok(discord_bot_channel) = env.var("DISCORD_BOT_CHANNEL") else {
         return Err((StatusCode::INTERNAL_SERVER_ERROR, Json(validation)));
     };
-    let message_res = send_discord_message(&env, &discord_bot_channel.to_string(), &serde_json::to_string(&FormResponse { first_name: input.first_name, last_name: input.last_name, email: input.email, phone: input.phone, howhear: input.howhear, comment: input.comment, city: group_location }).unwrap()).await;
+    let message_res = send_discord_message(
+        &env,
+        &discord_bot_channel.to_string(),
+        &serde_json::to_string(&FormResponse {
+            first_name: input.first_name,
+            last_name: input.last_name,
+            email: input.email,
+            phone: input.phone,
+            howhear: input.howhear,
+            comment: input.comment,
+            city: group_location,
+        })
+        .unwrap(),
+    )
+    .await;
     if message_res.is_err() {
-            console_log!("{:#?}", &message_res.err().unwrap());
+        console_log!("{:#?}", &message_res.err().unwrap());
 
         return Err((StatusCode::INTERNAL_SERVER_ERROR, Json(validation)));
     }
@@ -350,6 +373,55 @@ fn parse_public_key(s: &str) -> Option<VerifyingKey> {
     VerifyingKey::from_bytes(&bytes).ok()
 }
 
+fn create_contacts_csv(
+    bot_user_id: &str,
+    group_location: &str,
+    messages: Vec<serde_json::Value>,
+) -> String {
+    let mut writer = csv::Writer::from_writer(vec![]);
+    let one_week_ago = Utc::now() - Duration::days(7);
+    for message in &messages {
+        let author_id = message["author"]["id"].as_str().unwrap_or("");
+
+        if author_id != bot_user_id {
+            continue;
+        }
+
+        let Some(timestamp) = message["timestamp"].as_str() else {
+            continue;
+        };
+
+        let Ok(timestamp) = DateTime::parse_from_rfc3339(timestamp) else {
+            continue;
+        };
+
+        if timestamp > one_week_ago {
+            continue;
+        }
+
+        let content = message["content"].as_str().unwrap_or("");
+
+        let parsed: FormResponse = match serde_json::from_str(content) {
+            Ok(value) => value,
+            Err(_) => continue,
+        };
+
+        if parsed.city != group_location {
+            console_error!("skipping neq {} {}", parsed.city, group_location);
+            // continue;
+        }
+
+        writer
+            .serialize(EmailContacts {
+                first_name: parsed.first_name,
+                last_name: parsed.last_name,
+                email: parsed.email,
+            })
+            .unwrap();
+    }
+    String::from_utf8(writer.into_inner().unwrap()).unwrap()
+}
+
 #[worker::send]
 async fn discord_interaction(
     Extension(env): Extension<Env>,
@@ -391,12 +463,8 @@ async fn discord_interaction(
         return StatusCode::BAD_REQUEST.into_response();
     };
 
-
-
     let channel_id = interaction["channel_id"].as_str().unwrap();
     console_error!("running command on channel {channel_id}");
-
-
 
     let Ok(discord_bot_channel) = env.var("DISCORD_BOT_CHANNEL") else {
         return StatusCode::BAD_REQUEST.into_response();
@@ -404,7 +472,6 @@ async fn discord_interaction(
 
     let bot_channel = &discord_bot_channel.to_string();
     console_error!("bot channel set to {bot_channel}");
-
 
     if channel_id != bot_channel {
         console_error!("User tried running command from wrong channel");
@@ -417,33 +484,82 @@ async fn discord_interaction(
         }))
         .into_response(),
 
-        // Slash command
         Some(2) => {
             let command = interaction["data"]["name"].as_str().unwrap_or("");
+            let argument = interaction["data"]["options"]
+                .as_array()
+                .and_then(|options| options.first())
+                .and_then(|option| option["value"].as_str())
+                .unwrap_or("");
+            if command != "report" || argument == "" {
+                console_error!("bad command {command} {argument}");
+                return StatusCode::BAD_REQUEST.into_response();
+            }
 
-            let content = match command {
-                "ping" => "pong",
-                _ => "unknown command",
+            let msgs = get_all_discord_messages(&env, bot_channel).await;
+
+            let Ok(msgs) = msgs else {
+                return StatusCode::BAD_REQUEST.into_response();
             };
 
-            Json(json!({
+            let Ok(bot_user_id) = env.var("DISCORD_BOT_ID") else {
+                return StatusCode::INTERNAL_SERVER_ERROR.into_response();
+            };
+
+            let csv = create_contacts_csv(&bot_user_id.to_string(), argument, msgs);
+
+            let res_json = json!({
                 "type": 4,
                 "data": {
-                    "content": content
+                    "content": "Contacts export from last 7 days",
+                    "attachments": [
+                        {
+                            "id": 0,
+                            "filename": "export.csv"
+                        }
+                    ]
                 }
-            }))
-            .into_response()
+            })
+            .to_string();
+            console_error!("csv {csv}");
+            let form = FormData::new()
+                .map_err(|e| worker::Error::RustError(format!("{e:?}")))
+                .unwrap();
+            form.append_with_str("payload_json", &res_json)
+                .map_err(|e| worker::Error::RustError(format!("{e:?}")))
+                .unwrap();
+
+            let parts = js_sys::Array::new();
+            parts.push(&JsValue::from_str(&csv));
+
+            let options = BlobPropertyBag::new();
+            options.set_type("text/csv; charset=utf-8");
+
+            let blob = Blob::new_with_str_sequence_and_options(&parts.into(), &options)
+                .map_err(|e| worker::Error::RustError(format!("{e:?}")))
+                .unwrap();
+
+            form.append_with_blob_and_filename("files[0]", &blob, "export.csv")
+                .map_err(|e| worker::Error::RustError(format!("{e:?}")))
+                .unwrap();
+            let k = worker::web_sys::Response::new_with_opt_form_data(Some(&form))
+                .map_err(|e| worker::Error::RustError(format!("{e:?}"))).unwrap().into();
+            let worker_response = worker::response_from_wasm(k).unwrap();
+
+            let (parts, body) = worker_response.into_parts();
+
+            let response = axum::http::Response::from_parts(
+                parts,
+                axum::body::Body::new(body),
+            );
+            response
         }
 
         _ => StatusCode::BAD_REQUEST.into_response(),
     }
 }
 
-async fn send_discord_message(
-    env: &Env,
-    channel_id: &str,
-    content: &str,
-) -> worker::Result<()> {
+async fn send_discord_message(env: &Env, channel_id: &str, content: &str) -> worker::Result<()> {
     let token = env.secret("DISCORD_BOT_TOKEN")?.to_string();
 
     let headers = Headers::new();
@@ -464,9 +580,7 @@ async fn send_discord_message(
         .with_body(Some(JsValue::from_str(&body)));
 
     let req = Request::new_with_init(
-        &format!(
-            "https://discord.com/api/v10/channels/{channel_id}/messages"
-        ),
+        &format!("https://discord.com/api/v10/channels/{channel_id}/messages"),
         &init,
     )?;
 
@@ -480,4 +594,68 @@ async fn send_discord_message(
     }
 
     Ok(())
+}
+
+async fn get_all_discord_messages(
+    env: &Env,
+    channel_id: &str,
+) -> worker::Result<Vec<serde_json::Value>> {
+    let token = env.secret("DISCORD_BOT_TOKEN")?.to_string();
+
+    let mut all_messages = Vec::new();
+    let mut before: Option<String> = None;
+
+    loop {
+        let headers = Headers::new();
+        headers.set("Authorization", &format!("Bot {token}"))?;
+
+        let mut url =
+            format!("https://discord.com/api/v10/channels/{channel_id}/messages?limit=100");
+
+        if let Some(before_id) = &before {
+            url.push_str(&format!("&before={before_id}"));
+        }
+
+        let mut init = RequestInit::new();
+        init.with_method(Method::Get).with_headers(headers);
+
+        let req = Request::new_with_init(&url, &init)?;
+
+        let mut response = Fetch::Request(req).send().await?;
+
+        if !(200..300).contains(&response.status_code()) {
+            return Err(worker::Error::RustError(format!(
+                "Discord returned {}",
+                response.status_code()
+            )));
+        }
+
+        let messages: Vec<serde_json::Value> = response.json().await?;
+
+        if messages.is_empty() {
+            break;
+        }
+
+        // Discord returns newest -> oldest.
+        // The last message is therefore our next pagination cursor.
+        before = messages
+            .last()
+            .and_then(|message| message["id"].as_str())
+            .map(String::from);
+
+        let count = messages.len();
+
+        all_messages.extend(messages);
+
+        // Less than 100 means we've reached the beginning.
+        if count < 100 {
+            break;
+        }
+
+        if before.is_none() {
+            break;
+        }
+    }
+
+    Ok(all_messages)
 }
