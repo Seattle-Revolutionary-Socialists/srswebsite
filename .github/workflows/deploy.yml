@@ -24,6 +24,7 @@ jobs:
           echo "branches=$(jq -c . branches.json)" >> $GITHUB_OUTPUT
 
   deploy:
+    needs: setup
     runs-on: ubuntu-latest
     strategy:
       matrix:
