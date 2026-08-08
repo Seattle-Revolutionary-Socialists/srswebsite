@@ -1,0 +1,32 @@
+name: Harper
+
+on:
+  pull_request:
+
+jobs:
+  harper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 2
+
+      - name: Install Harper
+        run: |
+          cargo install --locked --git https://github.com/Automattic/harper.git harper-cli
+
+      - name: Run Harper
+        run: |
+          git diff-tree \
+            --no-commit-id \
+            --name-only \
+            --diff-filter=ACMR \
+            -r -z HEAD \
+            -- ./articles \
+          | xargs -0 -r harper-cli lint \
+              --file-dict-path dictionary.txt \
+              --user-dict-path dictionary.txt
