@@ -35,5 +35,6 @@ jsonwebtoken = {
 }
 
 http = "1"
+ed25519-dalek = "3.0.0"
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false

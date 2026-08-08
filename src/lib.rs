@@ -2,15 +2,18 @@ mod github;
 use axum::http::StatusCode;
 use axum::response::Redirect;
 use axum::{
+    body::Bytes,
     extract::Form,
     extract::Path,
     routing::{get, post},
     Router,
 };
 use axum::{Extension, Json};
+use http::HeaderMap;
 use tower_service::Service;
 use worker::*;
 
+use ed25519_dalek::{Signature, VerifyingKey};
 use serde::{Deserialize, Serialize};
 use worker::{console_error, Env, Fetch, Headers, Method, Request, RequestInit};
 
@@ -100,8 +103,12 @@ pub async fn validate_turnstile(env: &Env, token: &str) -> TurnstileResult {
 async fn router(env: Env) -> Router {
     Router::new()
         .route("/api/contacts/{group_location}", post(accept_form))
-        .route("/api/content/{group_location}/{content_type}/pr", post(open_content_pr))
+        .route(
+            "/api/content/{group_location}/{content_type}/pr",
+            post(open_content_pr),
+        )
         .route("/", get(Redirect::permanent("/index.html")))
+        .route("/api/discord", post(discord_interaction))
         .layer(Extension(env))
 }
 
@@ -162,7 +169,7 @@ pub async fn open_content_pr(
     Extension(env): Extension<Env>,
     Form(input): Form<OpenContentPrRequest>,
 ) -> Response {
-    match open_content_pr_inner(&env, &group_location, &content_type, input ).await {
+    match open_content_pr_inner(&env, &group_location, &content_type, input).await {
         Ok(pr_url) => (
             StatusCode::CREATED,
             Json(json!({
@@ -305,4 +312,88 @@ fn valid_slug(value: &str) -> bool {
         && value
             .chars()
             .all(|c| c.is_ascii_alphanumeric() || c == '-' || c == '_')
+}
+
+fn parse_public_key(s: &str) -> Option<VerifyingKey> {
+    if s.len() != 64 {
+        return None;
+    }
+
+    let mut bytes = [0u8; 32];
+
+    for (i, b) in bytes.iter_mut().enumerate() {
+        *b = u8::from_str_radix(&s[i * 2..i * 2 + 2], 16).ok()?;
+    }
+
+    VerifyingKey::from_bytes(&bytes).ok()
+}
+
+#[worker::send]
+async fn discord_interaction(
+    Extension(env): Extension<Env>,
+    headers: HeaderMap,
+    body: Bytes,
+) -> Response {
+    let signature = headers
+        .get("X-Signature-Ed25519")
+        .and_then(|v| v.to_str().ok())
+        .and_then(|v| v.parse::<Signature>().ok());
+
+    let Some(timestamp) = headers
+        .get("X-Signature-Timestamp")
+        .and_then(|v| v.to_str().ok())
+    else {
+        return StatusCode::UNAUTHORIZED.into_response();
+    };
+
+    let Some(signature) = signature else {
+        return StatusCode::UNAUTHORIZED.into_response();
+    };
+
+    let Ok(public_key) = env.var("DISCORD_PUBLIC_KEY") else {
+        return StatusCode::INTERNAL_SERVER_ERROR.into_response();
+    };
+
+    let Some(key) = parse_public_key(&public_key.to_string()) else {
+        return StatusCode::INTERNAL_SERVER_ERROR.into_response();
+    };
+
+    let mut signed = timestamp.as_bytes().to_vec();
+    signed.extend_from_slice(&body);
+
+    if key.verify_strict(&signed, &signature).is_err() {
+        return StatusCode::UNAUTHORIZED.into_response();
+    }
+
+    let Ok(interaction) = serde_json::from_slice::<Value>(&body) else {
+        return StatusCode::BAD_REQUEST.into_response();
+    };
+
+    match interaction["type"].as_u64() {
+        // Discord endpoint PING
+        Some(1) => Json(json!({
+            "type": 1
+        }))
+        .into_response(),
+
+        // Slash command
+        Some(2) => {
+            let command = interaction["data"]["name"].as_str().unwrap_or("");
+
+            let content = match command {
+                "ping" => "pong",
+                _ => "unknown command",
+            };
+
+            Json(json!({
+                "type": 4,
+                "data": {
+                    "content": content
+                }
+            }))
+            .into_response()
+        }
+
+        _ => StatusCode::BAD_REQUEST.into_response(),
+    }
 }
