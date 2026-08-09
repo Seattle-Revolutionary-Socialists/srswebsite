@@ -1,6 +1,6 @@
-# SRS Design System
+# SRS Digitial Infrastructure
 
-Half assed PRs will piss me off.
+No half assed PRs. If you use LLMs, please revise the generated code before submitting PR.
 
 ## Design Principles
 
