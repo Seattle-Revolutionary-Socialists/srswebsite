@@ -264,7 +264,7 @@ pub async fn open_events_pr(
         &env,
         &group_location,
         "events",
-        &serde_json::to_string(&vec![Event{ title: input.title, date: input.date, image: input.image, image_alt: input.image_alt, location: input.location }]).unwrap(),
+        &serde_json::to_string(&Events{events: vec![Event{ title: input.title, date: input.date, image: input.image, image_alt: input.image_alt, location: input.location }]}).unwrap(),
         &input.cf_turnstile_response,
         "json"
     )
