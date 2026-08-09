@@ -1,1 +1,11 @@
-[{"title":"Fist Fight with Monarchists","date":"at Dawn","image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/960px-Hammer_and_sickle_red_on_transparent.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail","image_alt":"Red sickle hammer","location":"Beach"}]
+{
+    "events": [
+        {
+            "title": "Fist Fight with Monarchists",
+            "date": "at Dawn",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/960px-Hammer_and_sickle_red_on_transparent.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "image_alt": "Red sickle hammer",
+            "location": "Beach"
+        }
+    ]
+}
