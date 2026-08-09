@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://nyc-website.redham28.workers.dev/"
+base_url = "https://nyc-website.seattle-rev-soc.workers.dev/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -18,7 +18,7 @@ definition_list = true
 bottom_footnotes = true
 
 [extra]
-turnstile_key = "0x4AAAAAAEFi_qR0j4UNXBCX"
+turnstile_key = "0x4AAAAAAELfSeyS-1IQaigz"
 brand_img = "nycrs.png"
 facebook_link = "https://www.facebook.com/nycrevolutionarysocialists"
 instagram_link="https://www.instagram.com/redsparknyc/"

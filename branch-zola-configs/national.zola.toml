@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://national-website.redham28.workers.dev/"
+base_url = "https://national-website.seattle-rev-soc.workers.dev/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -19,7 +19,7 @@ bottom_footnotes = true
 
 [extra]
 # Put all your custom variables here
-turnstile_key = "0x4AAAAAAEFi_qR0j4UNXBCX"
+turnstile_key = "0x4AAAAAAELfSeyS-1IQaigz"
 brand_img = "REDSPARK_LOGO.svg"
 facebook_link = "https://www.facebook.com/redsparkcommunists"
 instagram_link = "https://www.instagram.com/redsparkcommunists/"

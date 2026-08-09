@@ -64,7 +64,7 @@ DO NOT RUN ANY PIPELINE ON PUSH/PR OTHER THAN MAIN WHICH IS BRANCH PROTECTED
 
 We deploy the website via Cloudflare Workers. We use the `worker` crate and avoid any use of CloudFlare Worker primitives to avoid vendor lock in.
 
-Deploy via `BRANCH=seattle pnpm run deploy`. Currently, the website is deployed [here](https://national-website.redham28.workers.dev/). This will be updated when the deploy is moved to the official SRS Cloudflare account
+Deploy via `BRANCH=seattle pnpm run deploy`. Currently, the website is deployed [here](https://national-website.seattle-rev-soc.workers.dev/). This will be updated when the deploy is moved to the official SRS Cloudflare account
 
 #### Create New Branch
 
