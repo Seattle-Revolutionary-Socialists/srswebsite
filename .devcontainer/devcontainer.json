@@ -1,0 +1,15 @@
+{
+  "name": "devenv",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "devenv",
+  "workspaceFolder": "/work",
+  "shutdownAction": "stopCompose",
+
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+
+  "remoteUser": "root"
+}
