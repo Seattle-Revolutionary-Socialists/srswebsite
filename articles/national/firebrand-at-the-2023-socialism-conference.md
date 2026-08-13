@@ -1,5 +1,5 @@
 +++
-title= "Firebrand at the 2023 Socialism Conference"
+title= "Red Spark at the 2023 Socialism Conference"
 date = 2023-11-09
 authors = ["Steve Leigh"]
 [extra]
@@ -9,15 +9,15 @@ branch="national"
 +++
 
 
-**Firebrand had a great experience at the 2023 Socialism Conference in Chicago, which took place over Labor Day weekend. The conference is organized annually by Haymarket Books, a publisher founded by our former organization, the International Socialist Organization (ISO). The conference proved to be a site of struggle and for the building of bonds with cothinkers.**
+**Red Spark had a great experience at the 2023 Socialism Conference in Chicago, which took place over Labor Day weekend. The conference is organized annually by Haymarket Books, a publisher founded by our former organization, the International Socialist Organization (ISO). The conference proved to be a site of struggle and for the building of bonds with cothinkers.**
 
 #### Forging closer ties and meeting new comrades
 
-In our first appearance as Firebrand, we brought a contingent of ten, five Denver Communists, two Seattle Revolutionary Socialists, one Greensboro Revolutionary Socialist, and two contacts to the 2023 Socialism Conference. We tabled with flyers, pamphlets, t-shirts, and pins.
+In our first appearance as Red Spark, we brought a contingent of ten, five Denver Communists, two Seattle Revolutionary Socialists, one Greensboro Revolutionary Socialist, and two contacts to the 2023 Socialism Conference. We tabled with flyers, pamphlets, t-shirts, and pins.
 
 We attended a whirlwind of meetings and gained much from the presentations and discussions. We forged closer ties — and deepened debates — with our comrades in Left Voice, Greensboro Revolutionary Socialists, and Tempest Collective. We got to hear from Marxist authors from whom we have learned so much, including Paul Le Blanc on “Lenin: Catastrophe and Revolution” and Sophie Lewis on “Family Abolition Today: Care Beyond Capitalism.”
 
-Firebrand members spoke from the floor in several sessions, mostly to raise the need for revolutionary socialist organization, an ingredient often missing in the talks themselves. All weekend, we fought against the demoralization and the lack of confidence in Marxist and Leninist politics that have continued in the wake of the ISO’s dissolution four years ago.
+Red Spark members spoke from the floor in several sessions, mostly to raise the need for revolutionary socialist organization, an ingredient often missing in the talks themselves. All weekend, we fought against the demoralization and the lack of confidence in Marxist and Leninist politics that have continued in the wake of the ISO’s dissolution four years ago.
 
 #### Organizing for a revolutionary party
 
@@ -25,11 +25,11 @@ At “Debating the Path to the Party,” a debate between Left Voice and Tempest
 
 {% highlight() %}
 
-Firebrand members spoke from the floor in several sessions, mostly to raise the need for revolutionary socialist organization, an ingredient often missing in the talks themselves. All weekend, we fought against the demoralization and the lack of confidence in Marxist and Leninist politics that have continued in the wake of the ISO’s dissolution four years ago.
+Red Spark members spoke from the floor in several sessions, mostly to raise the need for revolutionary socialist organization, an ingredient often missing in the talks themselves. All weekend, we fought against the demoralization and the lack of confidence in Marxist and Leninist politics that have continued in the wake of the ISO’s dissolution four years ago.
 
 {% end %}
 
-At “Global Crises and Global Revolts,” we raised objections to the spontaneism of the speakers, our former org-mates with Spectre Journal. This included confronting their hang-up with [“micro-sects”](https://firebrand.red/2023/06/years-for-the-locust-part-one-the-myth-of-the-microsect/) and explicit opposition to recruitment to Marxist organization. “It’s absolutely true that people will revolt,” one of our members said during an intervention from the floor “The question is how do we win the revolt? In all these revolts, there is not uniform consciousness. We need to organize the people who recognize the need for revolutionary transformation and getting rid of capitalism into organizations that can convince the rest of the movement in that direction.”
+At “Global Crises and Global Revolts,” we raised objections to the spontaneism of the speakers, our former org-mates with Spectre Journal. This included confronting their hang-up with [“micro-sects”](/perspectives/national-years-for-the-locust-part-one-the-myth-of-the-microsect/) and explicit opposition to recruitment to Marxist organization. “It’s absolutely true that people will revolt,” one of our members said during an intervention from the floor “The question is how do we win the revolt? In all these revolts, there is not uniform consciousness. We need to organize the people who recognize the need for revolutionary transformation and getting rid of capitalism into organizations that can convince the rest of the movement in that direction.”
 
 #### Confronting racism and imperialism
 

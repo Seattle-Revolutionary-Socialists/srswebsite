@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="m-16" style="width: calc(100% - var(--spacing) * 32);">
+    <h1 class="title text-center">
+        {{ page.title }}
+    </h1>
+        <div class="text-center flex flex-col justify-center items-center">
+            {{ page.content | safe }}
+        </div>
+</main>
+{% endblock content %}

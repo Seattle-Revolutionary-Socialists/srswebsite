@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+    <section class="p-8 text-black text-center" style="background-color: var(--primary-bg-color);">
+        <div class="p-10 pb-16">
+            <h2 style="font-family: 'Anton'; color: white;">Study Materials</h2>
+            <div style="color: black;">Study materials for intro study group</div>
+    </section>
+    {% for page in section.pages %}
+    <section class="p-8 flex acc-flex-dir justify-center items-center align-center md:w-3/4" style="margin: 0 auto;">
+        <a class="block" href="{{ page.permalink | safe }}">{{page.title}}</a>
+    </section>
+    {% endfor %}
+</main>
+
+
+{% endblock content %}

@@ -50,7 +50,7 @@ Within the pro-Palestine movement, there has been a debate on whether to support
 
 > Like any other population under colonial occupation and apartheid, the Palestinians have the right to resist, including by military means […] The violence used by the oppressor to maintain its structures of domination and subjugation should never be compared to or placed on the same level as the violence of the oppressed who try to restore their own dignity and who seek to have their existence recognized.
 
-This is an important intervention, echoing other Marxists’ support for armed resistance, [including our own](https://firebrand.red/2024/01/why-we-support-palestinian-armed-resistance/).
+This is an important intervention, echoing other Marxists’ support for armed resistance, [including our own](/perspectives/national-why-we-support-palestinian-armed-resistance/).
 
 {% highlight() %}
 
