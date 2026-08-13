@@ -7,7 +7,7 @@ ENV WORKER_BUILD_VERSION="${WORKER_BUILD_VERSION}"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates curl git build-essential pkg-config libssl-dev \
-    python3 python3-pip dpkg-dev
+    python3 python3-pip dpkg-dev pandoc texlive-latex-base texlive-latex-recommended
 
 RUN npm i -g pnpm@latest
 

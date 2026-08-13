@@ -8,7 +8,7 @@ image_alt = "A literal marsh of sorts"
 branch="national"
 +++
 
-**In the leadup to the DSA’s national convention, the Tempest Collective assessed the organization and their work within it. Firebrand points out that skipping the work of political and organizational clarification in order to influence broader layers means accomplishing neither.**
+**In the leadup to the DSA’s national convention, the Tempest Collective assessed the organization and their work within it. Red Spark points out that skipping the work of political and organizational clarification in order to influence broader layers means accomplishing neither.**
 
 Dear Natalia and Tempest comrades,
 
@@ -26,7 +26,7 @@ For one thing, the hundreds of members of our previous organization, the Interna
 
 This has been my first, and perhaps greatest, source of friendly disagreement with you comrades in Tempest. In my view, you have jumped ahead of the important work of political and organizational clarification in order to influence broader layers, thus accomplishing neither. You haven’t provided a satisfactory answer to the question, “What are we building?” And in so doing, partly without intending to, your politics and organization have gotten a little, shall we say, swampy.
 
-Tempest, like the local groups that now make up Firebrand, came primarily out of the ISO. The question of organization — really, a general *retreat* from organization — loomed large in its dissolution. While we all grappled with the question of revolutionary organization, of contending with the mistakes of the past, Tempest’s answer has largely been: the [“sect”](https://firebrand.red/2023/06/years-for-the-locust-part-one-the-myth-of-the-microsect/) model [has failed](https://socialistworker.org/2019/03/22/the-period-the-party-and-the-next-left). The best we can do is constitute a looser organizing project, engage in movement struggles and broader spaces, and (hopefully) cohere a revolutionary organization or party in the future after the real working-class vanguard [is rebuilt](https://www.tempestmag.org/2022/03/reflections-on-revolutionary-socialist-organization-today/).
+Tempest, like the local groups that now make up Red Spark, came primarily out of the ISO. The question of organization — really, a general *retreat* from organization — loomed large in its dissolution. While we all grappled with the question of revolutionary organization, of contending with the mistakes of the past, Tempest’s answer has largely been: the [“sect”](/perspectives/national-years-for-the-locust-part-one-the-myth-of-the-microsect/) model [has failed](https://socialistworker.org/2019/03/22/the-period-the-party-and-the-next-left). The best we can do is constitute a looser organizing project, engage in movement struggles and broader spaces, and (hopefully) cohere a revolutionary organization or party in the future after the real working-class vanguard [is rebuilt](https://www.tempestmag.org/2022/03/reflections-on-revolutionary-socialist-organization-today/).
 
 Both before and since that conversation in the winter of 2021, I’ve stayed in irregular contact with Tempest comrades. For a while, the Boston Revolutionary Socialists had an active Tempest member in our ranks. By all accounts, the breakup of the ISO still looms large in Tempest.
 
@@ -40,7 +40,7 @@ You have a perspective that broader forces than just you will ultimately constru
 
 We’re not “tinpot ultraleftists,” as one of your members derisively called us. We don’t simply sit on the sidelines and plant the red flag. We recognize, however, the realities of organizing inside a social-democratic organization like the DSA.
 
-As I have [explained elsewhere](https://firebrand.red/2023/07/years-for-the-locust-part-two-leninism-deformed/), broad parties are not an alternative to the anti-democratic faction-gang methods you understand as monolithic “micro-parties”. Evidence suggests that broad social-democratic parties like the Socialist Party of America taught these future “micro-sect” despots in all the factional warfare they would use against later dissenters — and would pass down.
+As I have [explained elsewhere](/perspectives/national-years-for-the-locust-part-two-leninism-deformed/), broad parties are not an alternative to the anti-democratic faction-gang methods you understand as monolithic “micro-parties”. Evidence suggests that broad social-democratic parties like the Socialist Party of America taught these future “micro-sect” despots in all the factional warfare they would use against later dissenters — and would pass down.
 
 The looseness of the broad tent *requires* a struggle for control of the apparatus as well as winning over the ranks politically. Given the sharp differences in consciousness and goals between reformists and revolutionaries, there is no way for such a party to achieve long-term stability without one side losing.
 
@@ -50,9 +50,9 @@ Yet, given the diffuseness of broad-tent organizations — all the different and
 
 So the choice for revolutionaries in a broad party is either: some form of political or organizational liquidation (even the self-silencing of revolutionaries so we no longer appear a “threat”), *or* a decisive struggle for the direction of the organization and its rank and file. The latter, in turn, requires a firm and decisive organization of revolutionaries that can instill a direction and confidence in others. Tempest, on the other hand, has avoided this — suggesting such a level of organization is [premature](https://www.tempestmag.org/2021/11/four-distinct-approaches-to-revolutionary-organization/) or even harmful.
 
-No doubt, you all have made valiant attempts in fighting inside DSA. Perhaps in contrast to some Firebrand comrades, I believe it was, at one time, an important venue for shaping the contours of the present and future American Left — just as [Students for a Democratic Society](https://www.marxists.org/history/etol/newspape/workerspower/is12.pdf) was for the 1960s radicalization. The DSA itself was never going to turn into a fighting party, but we could influence what came after. We needed some people to fight for the direction of a section of the radicalization that had joined DSA, against both democratic-socialist reformism and a re-emerging tankie “socialism from above” left. But you fought that good fight with your hands tied behind your back.
+No doubt, you all have made valiant attempts in fighting inside DSA. Perhaps in contrast to some Red Spark comrades, I believe it was, at one time, an important venue for shaping the contours of the present and future American Left — just as [Students for a Democratic Society](https://www.marxists.org/history/etol/newspape/workerspower/is12.pdf) was for the 1960s radicalization. The DSA itself was never going to turn into a fighting party, but we could influence what came after. We needed some people to fight for the direction of a section of the radicalization that had joined DSA, against both democratic-socialist reformism and a re-emerging tankie “socialism from above” left. But you fought that good fight with your hands tied behind your back.
 
-I write this because I believe that you could contribute so much to the reconstruction of a revolutionary communist movement. I do sincerely believe many of us could be in the same revolutionary party in the future (after some debate on [certain issues](https://firebrand.red/2023/06/no-u-s-nato-arms-to-ukraine/), like arms to Ukraine). If that comes to pass, I would be glad. It would be a reunion, of sorts.
+I write this because I believe that you could contribute so much to the reconstruction of a revolutionary communist movement. I do sincerely believe many of us could be in the same revolutionary party in the future (after some debate on [certain issues](/perspectives/national-no-u-s-nato-arms-to-ukraine/), like arms to Ukraine). If that comes to pass, I would be glad. It would be a reunion, of sorts.
 
 You might be asking yourself: “Well, Reed, what the #$%^ have *you* done?” I will admit I don’t have all the answers, and that my practice has not been perfect. But the Boston Revolutionary Socialists has grown from nothing to a dozen members in just a couple of years. We’re not huge, but we’ve developed a new generation of young socialist activists — none of whom were ever in the DSA. We’ve intervened in struggle and helped shift the terrain. And we started this with only two or three comrades, with only one consistent longstanding and (sort of) well-read Marxist (me).
 
@@ -60,8 +60,8 @@ We’re not alone either. Without a shred of overconfidence, the Denver Communis
 
 There have been some nights, sitting over my steno notepad, wracking my brain over this or that next step in our small group, when I’ve thought: “I really wish I had more comrades from back in the day here with me.” I wish I had more comrades in the Boston Revolutionary Socialists who had years of experience, even more than me, to bounce ideas off of about our day-to-day organizing. I wish I had more comrades with strong politics and strong organizing where we could set tasks and work in harmony.
 
-In short, I wish I had you, comrades in Tempest. The Boston Revolutionary Socialists and our Firebrand family have come a long way in a very short time, and I’m proud of every step. But it doesn’t keep me from thinking: “what might it have looked like if they had slipped a little less into the swamp?”
+In short, I wish I had you, comrades in Tempest. The Boston Revolutionary Socialists and our Red Spark family have come a long way in a very short time, and I’m proud of every step. But it doesn’t keep me from thinking: “what might it have looked like if they had slipped a little less into the swamp?”
 
 In solidarity,
 
-E. ReedBoston Revolutionary Socialists, Firebrand
+E. ReedBoston Revolutionary Socialists, Red Spark

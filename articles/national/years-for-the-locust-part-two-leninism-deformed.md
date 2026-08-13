@@ -8,9 +8,9 @@ image_alt = "A man swirls a light almost like he is bending it"
 branch="national"
 +++
 
-**If the “micro-sect” isn’t the problem, why do so many socialist organizations suffer from a lack of democracy? And why haven’t we built a mass revolutionary party yet? As Firebrand’s E. Reed argues, charting the history of the socialist movement shows how inheritances from the past continue to weigh us down.**
+**If the “micro-sect” isn’t the problem, why do so many socialist organizations suffer from a lack of democracy? And why haven’t we built a mass revolutionary party yet? As Red Spark’s E. Reed argues, charting the history of the socialist movement shows how inheritances from the past continue to weigh us down.**
 
-[Continued from Part One](https://firebrand.red/2023/06/years-for-the-locust-part-one-the-myth-of-the-microsect/)
+[Continued from Part One](/perspectives/national-years-for-the-locust-part-one-the-myth-of-the-microsect/)
 
 After my first experiences with the International Socialist Organization (ISO), what convinced me to join was the sincere belief that my views and actions mattered. After meeting up with some comrades from the organization in early 2011, we hopped into one of their cars and drove out to Madison, Wisconsin for spring break, and to witness the labor rebellion that had gripped the city that year. We reached the small city as a sea of 300,000 people flooded the streets outside the capitol building — newly cleared out from the weeks-long occupation by tens of thousands of workers and students. As a massive march formed, we joined comrades from Madison ISO as they put together placards, readied their bullhorns, and raised their banners.
 
@@ -22,7 +22,7 @@ What kind of organization do we want to build? Certainly one where the ideas and
 
 It is too easy, too simplistic to label this or that bad leader. For too long, our movement has suffered from two ailments: both an intense isolation from the working class and oppressed, those whose liberation is at the root of our politics, and a set of traditions unconsciously passed down from one generation of socialist to the next. Together, they have deformed revolutionary socialist politics and practice — but not irreparably so.
 
-If we are to build a genuine mass revolutionary socialist party in this country — a project I see Firebrand and many other revolutionaries as part of — we must neither reject the task of building a revolutionary vanguard party nor unconsciously carry forward the harmful inheritances of the past.
+If we are to build a genuine mass revolutionary socialist party in this country — a project I see Red Spark and many other revolutionaries as part of — we must neither reject the task of building a revolutionary vanguard party nor unconsciously carry forward the harmful inheritances of the past.
 
 #### Gasping for oxygen amid isolation
 
@@ -120,9 +120,9 @@ These examples challenge the perceived organizational principle of a monolithic,
 
 {% end %}
 
-What were the roots of this factionalism? It came from lessons taught in the Socialist Party of America (SP), where many future Communist leaders had first been SP left-wingers. Like the Socialist Labor Party (described in [Part One](https://firebrand.red/2023/06/years-for-the-locust-part-one-the-myth-of-the-microsect/) of[this se](https://firebrand.red/2023/06/years-for-the-locust-part-one-the-myth-of-the-microsect/)ries), the SP’s lack of collective leadership, the mass membership’s low political level, and the entrenched divide between reformists, centrists and revolutionaries bred conflict and personalism. The control of the apparatus came to be seen as key for the political direction of the party — and key for fighting factional opponents. The “big tent” led to the same bureaucratic methods many now reject.
+What were the roots of this factionalism? It came from lessons taught in the Socialist Party of America (SP), where many future Communist leaders had first been SP left-wingers. Like the Socialist Labor Party (described in [Part One](/perspectives/national-years-for-the-locust-part-one-the-myth-of-the-microsect/) of[this se](/perspectives/national-years-for-the-locust-part-one-the-myth-of-the-microsect/)ries), the SP’s lack of collective leadership, the mass membership’s low political level, and the entrenched divide between reformists, centrists and revolutionaries bred conflict and personalism. The control of the apparatus came to be seen as key for the political direction of the party — and key for fighting factional opponents. The “big tent” led to the same bureaucratic methods many now reject.
 
-Stories abound. In 1908, the right-wing-controlled National Executive Committee rejected the application of Alfred Wagenknecht, a West Coast Left-SP party organizer, for national organizer on openly ideological grounds.[15] Charles Ruth[enburg,](https://firebrand.red/2023/06/years-for-the-locust-part-one-the-myth-of-the-microsect/)later a leader of his own faction in the CP, tried to introduce an amendment in the 1912 Socialist Party convention only to have the convention chairman, a member of the SP’s right wing, deny its introduction.[16] As Ira Kipnis describes:
+Stories abound. In 1908, the right-wing-controlled National Executive Committee rejected the application of Alfred Wagenknecht, a West Coast Left-SP party organizer, for national organizer on openly ideological grounds.[15] Charles Ruth[enburg,](/perspectives/national-years-for-the-locust-part-one-the-myth-of-the-microsect/)later a leader of his own faction in the CP, tried to introduce an amendment in the 1912 Socialist Party convention only to have the convention chairman, a member of the SP’s right wing, deny its introduction.[16] As Ira Kipnis describes:
 
 > “The Socialist civil war quickly developed a pattern of expulsions, campaigns for control of key committees, formation of dual state and local organizations, and intervention by the Right-wing national office. In some of the local organizations the controversies were so prolonged, involved, and bitter that it is almost impossible to distinguish between various factions.”[17]
 

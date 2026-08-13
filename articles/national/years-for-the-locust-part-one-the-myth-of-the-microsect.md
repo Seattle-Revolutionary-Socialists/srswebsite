@@ -216,7 +216,7 @@ If the propaganda group is a stage of development, does that mean the micro-sect
 
 If we are to understand the ISO’s failures, we must dispense with generalities and get specific. Rejecting propaganda groups or “micro-sects” in toto, as Draper and his descendants do, can easily end in chucking Leninism or revolutionary socialism as well. In their place, political centrism, social-democratic amalgamation, or dialogue and writing divorced from collective practice offer readymade but false substitutes. In the next article of this series, I will further examine the history of our movement, and how the last 90 years of American Trotskyism and International Socialism bore a contorted, deformed, but at times still vibrant ISO. If we are to build something better, we must grapple with the inheritances of the past.
 
-[Continued in Part Two](https://firebrand.red/2023/07/years-for-the-locust-part-two-leninism-deformed)
+[Continued in Part Two](/perspectives/national-years-for-the-locust-part-two-leninism-deformed)
 
 #### Endnotes
 
