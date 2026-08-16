@@ -116,6 +116,7 @@ async fn router(env: Env) -> Router {
         )
         .route("/", get(Redirect::permanent("/index.html")))
         .route("/contact", get(Redirect::permanent("/pages/contact")))
+        .route("/contact/", get(Redirect::permanent("/pages/contact")))
         .route("/api/discord", post(discord_interaction))
         .layer(Extension(env))
 }
