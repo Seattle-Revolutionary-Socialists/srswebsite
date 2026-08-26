@@ -260,6 +260,32 @@ pub async fn open_events_pr(
     Extension(env): Extension<Env>,
     Form(input): Form<OpenEventPrRequest>,
 ) -> Response {
+    // let mut input = Event{};
+    //  while let Some(field) = multipart.next_field().await.unwrap() {
+    //     let name = field.name().unwrap().to_string();
+    //     let file_name = field.file_name().unwrap().to_string();
+    //     let content_type = field.content_type().unwrap().to_string();
+    //     let data = field.bytes().await.unwrap();
+    //     if name == "data" {
+
+    //     } else if name == "cf_turnstile_response" {
+
+    //     } else if name == "title" {
+
+    //     } else if name == "authors" {
+
+    //     } else if name == "image_url" {
+    //         // decommission this
+    //     } else if name == "image_alt" {
+
+    //     } else if name == "image_file" {
+
+    //     }
+    //     println!(
+    //         "Length of `{name}` (`{file_name}`: `{content_type}`) is {} bytes",
+    //         data.len()
+    //     );
+    // }
     match open_content_pr_inner(
         &env,
         &group_location,
@@ -400,7 +426,9 @@ async fn open_content_pr_inner(
 
     let branch = format!("{group_location}-{content_type}-{timestamp}");
 
-    let path = format!("{content_type}/{group_location}/{timestamp}.{file_ending}");
+    let path = format!("{content_type}/{group_location}/{timestamp}.{file_ending}");    
+    let image_path = format!("{content_type}/{group_location}/{timestamp}.{file_ending}");
+    // let image_path = format!("{content_type}-images/{group_location}/{timestamp}.{image_file_ending}");
 
     let base_ref = gh
         .repos(&owner, &repo)
@@ -434,7 +462,18 @@ async fn open_content_pr_inner(
         .send()
         .await
         .map_err(|e| format!("create file: {e}"))?;
-
+    
+    gh.repos(&owner, &repo)
+        .create_file(
+            &image_path,
+            format!("Add image submission for {group_location}-{content_type}"),
+            &contents,
+        )
+        .branch(&branch)
+        .send()
+        .await
+        .map_err(|e| format!("create file: {e}"))?;
+        
     let pr = gh
         .pulls(&owner, &repo)
         .create(
