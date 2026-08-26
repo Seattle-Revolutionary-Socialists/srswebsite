@@ -33,18 +33,18 @@ while IFS= read -r -d '' src; do
 done
 
 # create flattened symlinks for article images
-find ./article-images \
+find ./articles-images \
   -type f \
   -name '*.*' \
   -print0 |
 while IFS= read -r -d '' src; do
-  relative_path="${src#./article-images/}"
+  relative_path="${src#./articles-images/}"
   flattened_name="${relative_path//\//-}"
   echo \
-    "../../article-images/${relative_path}" \
+    "../../articles-images/${relative_path}" \
     "./static/perspectives/${flattened_name}"
   ln -s \
-    "../../article-images/${relative_path}" \
+    "../../articles-images/${relative_path}" \
     "./static/perspectives/${flattened_name}"
 done
 

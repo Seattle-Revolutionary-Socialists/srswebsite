@@ -101,7 +101,7 @@
                 </div>
         </form>
 
-        <img style="margin: 0 auto; display: block;" src="{{ config.base_url }}{% if config.base_url | ending_with(pat="/") %}/{% endif %}{{config.extra.contact_img}}"
+        <img style="margin: 0 auto; display: block;" src="{{ config.base_url }}{% if config.base_url | ending_with(pat="/") or config.base_url == "/" %}/{% endif %}{{config.extra.contact_img}}"
             alt="{{config.extra.contact_img_alt}}">
     </section>
 </main>

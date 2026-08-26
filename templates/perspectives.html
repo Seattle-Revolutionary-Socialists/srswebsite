@@ -13,7 +13,7 @@
     <section class="p-8 flex acc-flex-dir justify-center items-center align-center md:w-3/4" style="margin: 0 auto;">
         <div class="m-2 p-4 flex items-center min-size-lg-screen-article-image-container"><a class="block" href="{{ page.permalink | safe }}">
             <img width="300" class="article-image"
-                    style="max-width: none; max-height: none;" src="{{ config.base_url }}/perspectives/{{config.extra.group_location}}-{{page.extra.image}}"
+                    style="max-width: none; max-height: none;" src="{% if config.base_url | ending_with(pat="/") or config.base_url == "/" %}/{% endif %}perspectives/{{config.extra.group_location}}-{{page.extra.image}}"
                     alt="{{page.extra.image_alt}}" />
         </a></div>
         <div class="m-2 p-4 article-image text-center">

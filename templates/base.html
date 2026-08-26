@@ -17,7 +17,7 @@
 <body>
   <nav style="font-size: 1.5rem; font-family: 'Anton'">
     <div class="mx-auto flex max-w-6xl items-bottom justify-between px-4 py-3">
-      <img src="{{ config.base_url }}{% if config.base_url | ending_with(pat="/") %}/{% endif %}{{config.extra.brand_img}}"
+      <img src="{{ config.base_url }}{% if config.base_url | ending_with(pat="/") or config.base_url == "/" %}/{% endif %}{{config.extra.brand_img}}"
         style="width: calc(.35 * 474px); height: calc(.35 * 243px);" alt="{{config.extra.group_name}} Logo">
       <button onclick="document.getElementById('mobileNav').classList.toggle('hidden');" class="sm:hidden text-5xl"
         aria-label="Open menu">
