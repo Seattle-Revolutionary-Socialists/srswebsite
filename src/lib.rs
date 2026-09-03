@@ -5,6 +5,7 @@ use axum::{
     body::Bytes,
     extract::Form,
     extract::Path,
+    extract::Multipart,
     routing::{get, post},
     Router,
 };
@@ -223,9 +224,9 @@ impl OpenContentPrRequest {
 struct Event {
     title: String,
     date: String,
-    image: String,
     image_alt: String,
-    location: String
+    location: String,
+    image_name: String,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -260,41 +261,62 @@ struct OpenContentPrRequest {
 pub async fn open_events_pr(
     Path(group_location): Path<String>,
     Extension(env): Extension<Env>,
-    Form(input): Form<OpenEventPrRequest>,
+    mut multipart: Multipart,
 ) -> Response {
-    // let mut input = Event{};
-    //  while let Some(field) = multipart.next_field().await.unwrap() {
-    //     let name = field.name().unwrap().to_string();
-    //     let file_name = field.file_name().unwrap().to_string();
-    //     let content_type = field.content_type().unwrap().to_string();
-    //     let data = field.bytes().await.unwrap();
-    //     if name == "data" {
+    let mut input = Event{ title: "".to_owned(), date: "".to_owned(), image_alt: "".to_owned(), location: "".to_owned(), image_name: "".to_owned() };
+    let mut cf_res = "".to_owned();
+    let mut image_content = Bytes::new();
+    let mut image_type = "jpg".to_owned();
+    let timestamp = js_sys::Date::now() as u64;
+     while let Some(field) = multipart.next_field().await.unwrap() {
+        
+        let name = &field.name().unwrap().to_string();
+        let file_name_res = field.file_name().map(|s| s.to_string());
+        
+        
+        let data = &field.bytes().await.unwrap();
+        
+        println!(
+            "Length of `{name}` (`{name}`) is {} bytes",
+            data.len()
+        );
+        if name == "image" {
+            image_content = data.clone();
+            image_type = file_name_res.unwrap().to_string().split(".").collect::<Vec<&str>>().last().unwrap().to_string();
+            // let content_type = field.content_type().unwrap().to_string();
+            input.image_name = timestamp.to_string() + "." + &image_type;
+        } else if name == "cf-turnstile-response" {
+            cf_res = str::from_utf8(&data).unwrap().to_string();
+        } else if name == "title" {
+            input.title = str::from_utf8(&data).unwrap().to_string();
 
-    //     } else if name == "cf_turnstile_response" {
+        } else if name == "date" {
+            input.date = str::from_utf8(&data).unwrap().to_string();
 
-    //     } else if name == "title" {
+        } else if name == "image-alt" {
+            input.image_alt = str::from_utf8(&data).unwrap().to_string();
 
-    //     } else if name == "authors" {
+        } else if name == "location" {
+            input.location = str::from_utf8(&data).unwrap().to_string();
 
-    //     } else if name == "image_url" {
-    //         // decommission this
-    //     } else if name == "image_alt" {
+        }
+         else if name == "image-file" {
+            cf_res = str::from_utf8(&data).unwrap().to_string();
 
-    //     } else if name == "image_file" {
-
-    //     }
-    //     println!(
-    //         "Length of `{name}` (`{file_name}`: `{content_type}`) is {} bytes",
-    //         data.len()
-    //     );
-    // }
+        }
+    }
+    // let event = Event{ title: input.title, date: input.date, image: input.image, image_alt: input.image_alt, location: input.location};
+    let event_content = &serde_json::to_string(&Events{events: vec![input]}).unwrap();
     match open_content_pr_inner(
         &env,
         &group_location,
         "events",
-        &serde_json::to_string(&Events{events: vec![Event{ title: input.title, date: input.date, image: input.image, image_alt: input.image_alt, location: input.location }]}).unwrap(),
-        &input.cf_turnstile_response,
-        "json"
+        event_content,
+        &image_content,
+        &cf_res,
+        "json",
+        &image_type,
+        timestamp
     )
     .await
     {
@@ -331,13 +353,17 @@ pub async fn open_article_pr(
     Form(input): Form<OpenContentPrRequest>,
 ) -> Response {
     let date = Utc::now().format("%Y-%m-%d").to_string();
+    let timestamp = js_sys::Date::now() as u64;
     match open_content_pr_inner(
         &env,
         &group_location,
         "articles",
         &(input.get_article_header(&group_location, &date) + &input.data.clone()),
+        b"IMAGE CONTENTS",
         &input.cf_turnstile_response,
-        "md"
+        "md",
+        "jpg",
+        timestamp
     )
     .await
     {
@@ -373,10 +399,15 @@ async fn open_content_pr_inner(
     group_location: &str,
     content_type: &str,
     content: &str,
+    image_content: &[u8],
     turnstile: &str,
-    file_ending: &str
+    file_ending: &str,
+    image_file_ending: &str,
+    timestamp: u64,
 ) -> Result<Option<String>, String> {
     let validation = validate_turnstile(env, turnstile).await;
+
+    console_error!("vjndfjnjvdnfnvjdj {:#?}", validation);
 
     if !validation.success {
         if !validation.success {
@@ -421,16 +452,15 @@ async fn open_content_pr_inner(
         .map_err(|e| e.to_string())?
         .to_string();
 
+
+
     let gh = github::github(app_id, installation_id, &private_key)
         .map_err(|e| format!("GitHub auth/client setup: {e}"))?;
-
-    let timestamp = js_sys::Date::now() as u64;
 
     let branch = format!("{group_location}-{content_type}-{timestamp}");
 
     let path = format!("{content_type}/{group_location}/{timestamp}.{file_ending}");    
-    let image_path = format!("{content_type}/{group_location}/{timestamp}.{file_ending}");
-    // let image_path = format!("{content_type}-images/{group_location}/{timestamp}.{image_file_ending}");
+    let image_path = format!("{content_type}-images/{group_location}/{timestamp}.{image_file_ending}");
 
     let base_ref = gh
         .repos(&owner, &repo)
@@ -453,8 +483,10 @@ async fn open_content_pr_inner(
     let mut contents = content.as_bytes().to_vec();
 
     contents.push(b'\n');
+
+    let repo_handler = gh.repos(&owner, &repo);
     
-    gh.repos(&owner, &repo)
+    (&repo_handler)
         .create_file(
             &path,
             format!("Add content submission for {group_location}-{content_type}"),
@@ -465,16 +497,16 @@ async fn open_content_pr_inner(
         .await
         .map_err(|e| format!("create file: {e}"))?;
     
-    gh.repos(&owner, &repo)
+    (&repo_handler)
         .create_file(
             &image_path,
-            format!("Add image submission for {group_location}-{content_type}"),
-            &contents,
+            format!("Add image content submission for {group_location}-{content_type}"),
+            &image_content.to_vec(),
         )
         .branch(&branch)
         .send()
         .await
-        .map_err(|e| format!("create file: {e}"))?;
+        .map_err(|e| format!("create image file: {e}"))?;
         
     let pr = gh
         .pulls(&owner, &repo)

@@ -48,7 +48,7 @@ Install `podman`, `vscode` and the remote extension for vscode that lets you "ss
 
 Instal `rust-analyzer` extension on VS Code to get linting in editor.
 
-If you want to run the web server locally, then run the static file server via `npm run dev` (specify branch with `BRANCH=seattle npm run dev`). This will generate events, build styles and build the markdown into html. It is a bit slow.
+If you want to run the web server locally, then run the static file server via `npm run dev` (specify branch with `BRANCH=seattle npm run dev`). This will generate events, build styles and build the markdown into html. It is a bit slow. Make sure to copy `.env` file from secret management. `1x0000000000000000000000000000000AA` is what you'll want for turnstile private key for local testing.
 
 To generate events from the source events (historical), run `./scripts/generate-events.sh`
 

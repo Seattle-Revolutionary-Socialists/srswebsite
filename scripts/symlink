@@ -49,17 +49,17 @@ while IFS= read -r -d '' src; do
 done
 
 # create flattened symlinks for event images
-find ./event-images \
+find ./events-images \
   -type f \
   -name '*.*' \
   -print0 |
 while IFS= read -r -d '' src; do
-  relative_path="${src#./event-images/}"
+  relative_path="${src#./events-images/}"
   flattened_name="${relative_path//\//-}"
   echo \
-    "../../event-images/${relative_path}" \
+    "../../events-images/${relative_path}" \
     "./static/events/${flattened_name}"
   ln -s \
-    "../../event-images/${relative_path}" \
+    "../../events-images/${relative_path}" \
     "./static/events/${flattened_name}"
 done
