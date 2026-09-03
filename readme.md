@@ -26,6 +26,10 @@ Developers can focus on building further infrastructure.
 
 Editor work is streamlined.
 
+## AI Policy
+
+AI assisted PRs must be improved to what a human would produce and follow all other principals: simple as possible and right sized. This includes anything that is normally good code hygiene. 
+
 ### Specifics
 
 Propagandists use accessible markdown editor to create propaganda
