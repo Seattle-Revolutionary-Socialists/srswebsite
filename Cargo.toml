@@ -13,7 +13,7 @@ crate-type = ["cdylib"]
 worker = { version = "0.8.5", features = ["http", "axum"] }
 worker-macros = { version = "0.8.5", features = ["http"] }
 
-axum = { version = "0.8", default-features = false, features = ['json', 'macros', 'form'] }
+axum = { version = "0.8", default-features = false, features = ['json', 'macros', 'form', 'multipart'] }
 tower-service = "0.3.3"
 wasm-bindgen-futures = "0.4"
 wasm-bindgen = "0.2"
