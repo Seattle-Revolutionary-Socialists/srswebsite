@@ -133,6 +133,7 @@ struct Input {
     phone: String,
     howhear: String,
     comment: String,
+    citystate: String
 }
 
 #[derive(Serialize, Deserialize)]
@@ -144,6 +145,7 @@ struct FormResponse {
     howhear: String,
     comment: String,
     city: String,
+    citystate: String
 }
 
 #[derive(Serialize, Debug)]
@@ -181,6 +183,7 @@ async fn accept_form(
             howhear: input.howhear,
             comment: input.comment,
             city: group_location,
+            citystate: input.citystate
         })
         .unwrap(),
     )
