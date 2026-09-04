@@ -4,7 +4,7 @@
 {% set data = load_data(path="templates/shortcodes/usage.md") -%}
 <main style="width: 100vw;">
     <section style="margin: 0 auto; width: 90%;">
-        <form action="/api/content/{{config.extra.group_location}}/articles/pr" method="post" id="article-form">
+        <form action="/api/content/{{config.extra.group_location}}/articles/pr" method="post" id="article-form" enctype="multipart/form-data">
             <div class="border-b border-gray-900/10 pb-12 center-text">
 
                 <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -27,10 +27,9 @@
                     </div>
 
                     <div class="sm:col-span-6 max-w-full">
-                        <label for="image_url" class="block">Image Url</label>
+                        <label for="image" class="block">Image</label>
                         <div class="w-full max-w-xs">
-                            <input required id="image_url" type="text" name="image_url"
-                            value="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/960px-Hammer_and_sickle_red_on_transparent.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+                            <input required id="image" type="file" name="image"
                                 class="max-w-full block rounded-md bg-white px-3 py-1.5 text-base text-black outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                         </div>
                     </div>

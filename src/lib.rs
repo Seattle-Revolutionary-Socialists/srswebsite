@@ -216,7 +216,7 @@ impl OpenContentPrRequest {
             .map(|a| "\"".to_owned() + a + "\"")
             .collect::<Vec<String>>()
             .join(", ");
-        return format!("+++\ntitle= \"{}\"\ndate = {}\nauthors = [{}]\n[extra]\nimage = \"{}\"\nimage_alt = \"{}\"\nbranch=\"{}\"\n+++\n", self.title, date, authors_formatted, self.image_url, self.image_alt, branch);
+        return format!("+++\ntitle= \"{}\"\ndate = {}\nauthors = [{}]\n[extra]\nimage = \"{}\"\nimage_name = \"{}\"\nimage_alt = \"{}\"\nbranch=\"{}\"\n+++\n", self.title, date, authors_formatted, self.image_url, self.image_name, self.image_alt, branch);
     }
 }
 
@@ -255,6 +255,7 @@ struct OpenContentPrRequest {
     authors: String,
     image_url: String,
     image_alt: String,
+    image_name: String
 }
 
 #[worker::send]
@@ -268,6 +269,8 @@ pub async fn open_events_pr(
     let mut image_content = Bytes::new();
     let mut image_type = "jpg".to_owned();
     let timestamp = js_sys::Date::now() as u64;
+    // nope, axum does not let you handle multipart parse into struct
+    // i am doing this instead of pulling in another crate (and along with articles)
      while let Some(field) = multipart.next_field().await.unwrap() {
         
         let name = &field.name().unwrap().to_string();
@@ -298,10 +301,6 @@ pub async fn open_events_pr(
 
         } else if name == "location" {
             input.location = str::from_utf8(&data).unwrap().to_string();
-
-        }
-         else if name == "image-file" {
-            cf_res = str::from_utf8(&data).unwrap().to_string();
 
         }
     }
@@ -350,19 +349,59 @@ pub async fn open_events_pr(
 pub async fn open_article_pr(
     Path(group_location): Path<String>,
     Extension(env): Extension<Env>,
-    Form(input): Form<OpenContentPrRequest>,
+    mut multipart: Multipart,
 ) -> Response {
     let date = Utc::now().format("%Y-%m-%d").to_string();
+    let mut input = OpenContentPrRequest{data:"".to_owned(),cf_turnstile_response:"".to_owned(),title:"".to_owned(),authors:"".to_owned(),image_url:"".to_owned(),image_alt:"".to_owned(), image_name: "".to_owned() };
+    let mut cf_res = "".to_owned();
+    let mut image_content = Bytes::new();
+    let mut image_type = "jpg".to_owned();
     let timestamp = js_sys::Date::now() as u64;
+    // nope, axum does not let you handle multipart parse into struct
+    // i am doing this instead of pulling in another crate (and along with articles)
+     while let Some(field) = multipart.next_field().await.unwrap() {
+        
+        let name = &field.name().unwrap().to_string();
+        let file_name_res = field.file_name().map(|s| s.to_string());
+        
+        
+        let data = &field.bytes().await.unwrap();
+        
+        println!(
+            "Length of `{name}` (`{name}`) is {} bytes",
+            data.len()
+        );
+        if name == "image" {
+            image_content = data.clone();
+            image_type = file_name_res.unwrap().to_string().split(".").collect::<Vec<&str>>().last().unwrap().to_string();
+            // let content_type = field.content_type().unwrap().to_string();
+            input.image_name = timestamp.to_string() + "." + &image_type;
+        } else if name == "cf-turnstile-response" {
+            cf_res = str::from_utf8(&data).unwrap().to_string();
+            input.cf_turnstile_response = cf_res.clone();
+        } else if name == "title" {
+            input.title = str::from_utf8(&data).unwrap().to_string();
+
+        } else if name == "image-alt" {
+            input.image_alt = str::from_utf8(&data).unwrap().to_string();
+
+        } else if name == "data" {
+            input.data = str::from_utf8(&data).unwrap().to_string();
+
+        }else if name == "authors" {
+            input.authors = str::from_utf8(&data).unwrap().to_string();
+
+        }
+    }
     match open_content_pr_inner(
         &env,
         &group_location,
         "articles",
         &(input.get_article_header(&group_location, &date) + &input.data.clone()),
-        b"IMAGE CONTENTS",
+        &image_content,
         &input.cf_turnstile_response,
         "md",
-        "jpg",
+        &image_type,
         timestamp
     )
     .await
