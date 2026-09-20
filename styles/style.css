@@ -166,10 +166,17 @@ strong {
     color: white;
 }
 
-.single-column div,
+.single-column > div,
+.single-column > form,
 .single-column h2 {
     @apply p-4 md:w-3/4;
     margin: 0 auto;
+}
+.single-column form {
+    text-align: left;
+}
+.single-column form div {
+    max-width: none;
 }
 
 .mobile-nav {
