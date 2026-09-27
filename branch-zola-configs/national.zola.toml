@@ -25,6 +25,7 @@ facebook_link = "https://www.facebook.com/redsparkcommunists"
 instagram_link = "https://www.instagram.com/redsparkcommunists/"
 instagram_handle = "redsparkcommunists"
 twitter_link="https://twitter.com/redsparkcommunists"
+show_hero_social = false
 group_name="Red Spark Communists"
 group_type="national"
 group_shorthand="RSC"
