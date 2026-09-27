@@ -25,6 +25,7 @@ facebook_link = "https://www.facebook.com/seattlerevolutionarysocialists"
 instagram_link = "https://www.instagram.com/seattlerevolutionarysocialists/"
 instagram_handle = "seattlerevolutionarysocialists"
 twitter_link="https://twitter.com/SEAsocialists"
+show_hero_social = true
 group_name="Seattle Revolutionary Socialists"
 group_type="local"
 group_shorthand="SRS"

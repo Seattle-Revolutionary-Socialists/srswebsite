@@ -24,6 +24,7 @@ facebook_link = "https://www.facebook.com/nycrevolutionarysocialists"
 instagram_link="https://www.instagram.com/redsparknyc/"
 instagram_handle="redsparknyc"
 twitter_link="https://twitter.com/NYCsocialists"
+show_hero_social = true
 group_name="NYC Revolutionary Socialists"
 group_type="local"
 group_shorthand="NYCRS"

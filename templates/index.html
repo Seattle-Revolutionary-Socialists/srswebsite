@@ -6,6 +6,7 @@
     style="background-image: url('swp.jpg'); background-color: grey;">
     <h1 class="opacity-90 drop-shadow-lg/50">Let's <span style="color: var(--primary-bg-color)">organize</span> for a
       better future.</h1>
+    {% if config.extra.show_hero_social %}
     <div>
       <a class="" href="{{config.extra.instagram_link}}"><i
           class="active:shadow-lg duration-300 hover:scale-120 fa-brands fa-instagram social-media-icon "></i></a>
@@ -13,6 +14,7 @@
           class="active:shadow-lg duration-300 hover:scale-120 fa-brands fa-facebook social-media-icon "></i></a>
       <a href="{{config.extra.twitter_link}}"><i class="active:shadow-lg duration-300 hover:scale-120 fa-brands fa-twitter social-media-icon "></i></a>
     </div>
+    {% endif %}
   </section>
   <section class="p-12 flex flex-col text-center" style="max-width: 964px; margin: 0 auto;">
     <h2>Hi there, comrade!</h2>
