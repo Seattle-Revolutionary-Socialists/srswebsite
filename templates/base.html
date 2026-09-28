@@ -64,7 +64,8 @@
 
   </nav>
   {% block content %} {% endblock content %}
-  <section class="text-black text-center" style="background-color: var(--primary-bg-color);">
+  {% if config.extra.show_hero_social %}
+    <section class="text-black text-center" style="background-color: var(--primary-bg-color);">
     <div class="p-10 pb-16">
       <h2 style="font-family: 'Anton';">Let's Get Social(ist)</h2>
       <div style="color: white;"> <a href="{{config.extra.facebook_link}}">Like and follow us
@@ -76,6 +77,8 @@
           @{{config.extra.instagram_handle}}</a></div>
     </div>
   </section>
+    {% endif %}
+  
 </body>
 
 </html>
