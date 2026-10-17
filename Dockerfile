@@ -35,6 +35,8 @@ RUN apt-get install -y just
 
 RUN curl https://wasm-bindgen.github.io/wasm-pack/installer/init.sh -sSf | sh
 
+RUN pip install kittenml
+
 WORKDIR /work
 
 CMD ["bash"]
