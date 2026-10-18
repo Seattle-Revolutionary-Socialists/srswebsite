@@ -13,3 +13,63 @@ services:
     stdin_open: true
     ports:
       - "1111:1111"
+  # metrics infrastructure, if you need more ram on codespaces, stop these services. 8gb should be more than fine to run everything though
+  # I specify this in this file to be able to run this in codespaces. In production, please comment out top service.
+  # spectacular guide and source of almost all of this:
+  # https://hackernoon.com/how-i-built-a-1-gb-observability-stack-for-my-go-startup-using-prometheus-loki-and-grafana
+  grafana:
+    image: grafana/grafana
+    restart: unless-stopped
+    mem_limit: 256m
+    mem_reservation: 128m
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN}          # Login from .env
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD}   # Password from .env
+      GF_USERS_ALLOW_SIGN_UP: "false"                   # Disable registration
+      # Brute-force protection
+      GF_SECURITY_DISABLE_BRUTE_FORCE_LOGIN_PROTECTION: "false"
+      GF_AUTH_LOGIN_MAXIMUM_INACTIVE_LIFETIME_DURATION: "7d"
+      GF_AUTH_LOGIN_MAXIMUM_LIFETIME_DURATION: "30d"
+      GF_AUTH_BASIC_ENABLED: "true"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./metrics/grafana/provisioning:/etc/grafana/provisioning:ro   # Datasources and dashboards
+      - ./metrics/grafana/dashboards:/var/lib/grafana/dashboards:ro   # Dashboard JSON files
+    ports:
+      - "3000:3000"                        # The only port exposed externally
+    depends_on:
+      prometheus:
+        condition: service_healthy
+    networks:
+      app_network:
+        ipv4_address: 172.25.0.13
+  prometheus:
+    image: prom/prometheus
+    restart: unless-stopped
+    mem_limit: 512m                    
+    mem_reservation: 256m
+    volumes:
+      - ./metrics/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus         # Metric data saves across restarts
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--storage.tsdb.retention.time=30d' # Retain metrics for 30 days
+      - '--web.enable-lifecycle'            # Allows config reload without restart
+    expose:
+      - "9090"                             # Port accessible only within the Docker network
+    # No ports are open to the outside; Prometheus can only be reached through Grafana.
+    networks:
+      app_network:
+        ipv4_address: 172.25.0.12
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:9090/-/healthy || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+# TODO: make these just bind mounts so backups are easy peasy (WE NEED TO TEST OUR BACKUP CAPABILITIES BEFORE DEPLOYMENT)
+volumes:
+  prometheus_data:     # Prometheus TSDB storage
+  grafana_data:        # Grafana settings, dashboards, plugins
+networks:
+  app_network:
