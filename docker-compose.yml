@@ -23,8 +23,8 @@ services:
     mem_limit: 256m
     mem_reservation: 128m
     environment:
-      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN}          # Login from .env
-      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD}   # Password from .env
+      GF_SECURITY_ADMIN_USER: AAAAAAAA          # Login from .env
+      GF_SECURITY_ADMIN_PASSWORD: AAAAAAAA   # Password from .env
       GF_USERS_ALLOW_SIGN_UP: "false"                   # Disable registration
       # Brute-force protection
       GF_SECURITY_DISABLE_BRUTE_FORCE_LOGIN_PROTECTION: "false"
