@@ -7,7 +7,13 @@ ENV WORKER_BUILD_VERSION="${WORKER_BUILD_VERSION}"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates curl git build-essential pkg-config libssl-dev \
-    python3 python3-pip dpkg-dev pandoc texlive-latex-base texlive-latex-recommended
+    python3 python3-pip dpkg-dev pandoc texlive-latex-base texlive-latex-recommended python3.13-venv
+
+ENV VIRTUAL_ENV=/opt/venv
+RUN python3 -m venv "$VIRTUAL_ENV"
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
+RUN pip3 install kittenml --break-system-packages
 
 RUN npm i -g pnpm@latest
 
