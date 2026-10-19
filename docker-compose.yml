@@ -41,8 +41,7 @@ services:
       prometheus:
         condition: service_healthy
     networks:
-      app_network:
-        ipv4_address: 172.25.0.13
+      app_network
   prometheus:
     image: prom/prometheus
     restart: unless-stopped
@@ -60,8 +59,7 @@ services:
       - "9090"                             # Port accessible only within the Docker network
     # No ports are open to the outside; Prometheus can only be reached through Grafana.
     networks:
-      app_network:
-        ipv4_address: 172.25.0.12
+      app_network
     healthcheck:
       test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:9090/-/healthy || exit 1"]
       interval: 30s
