@@ -4,6 +4,8 @@
   "service": "devenv",
   "workspaceFolder": "/work",
   "shutdownAction": "stopCompose",
+  "forwardPorts": [3000, 9090, 1111],
+  "runServices": ["devenv", "prometheus", "grafana"], 
 
   "customizations": {
     "vscode": {

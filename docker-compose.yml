@@ -25,6 +25,8 @@ services:
     environment:
       GF_SECURITY_ADMIN_USER: AAAAAAAA          # Login from .env
       GF_SECURITY_ADMIN_PASSWORD: AAAAAAAA   # Password from .env
+      GRAFANA_PASSWORD: AAAAAAAA
+      GRAFANA_ADMIN: AAAAAAAA
       GF_USERS_ALLOW_SIGN_UP: "false"                   # Disable registration
       # Brute-force protection
       GF_SECURITY_DISABLE_BRUTE_FORCE_LOGIN_PROTECTION: "false"
@@ -40,8 +42,6 @@ services:
     depends_on:
       prometheus:
         condition: service_healthy
-    networks:
-      app_network:
   prometheus:
     image: prom/prometheus
     restart: unless-stopped
@@ -55,11 +55,9 @@ services:
       - '--storage.tsdb.path=/prometheus'
       - '--storage.tsdb.retention.time=30d' # Retain metrics for 30 days
       - '--web.enable-lifecycle'            # Allows config reload without restart
-    expose:
-      - "9090"                             # Port accessible only within the Docker network
+    ports:
+      - "9090:9090"                            
     # No ports are open to the outside; Prometheus can only be reached through Grafana.
-    networks:
-      app_network:
     healthcheck:
       test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:9090/-/healthy || exit 1"]
       interval: 30s
@@ -69,5 +67,3 @@ services:
 volumes:
   prometheus_data:     # Prometheus TSDB storage
   grafana_data:        # Grafana settings, dashboards, plugins
-networks:
-  app_network:
