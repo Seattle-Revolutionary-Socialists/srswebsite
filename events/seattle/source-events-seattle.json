@@ -1,62 +1,131 @@
 {
     "events": [
         {
-            "title": "BLACK LIBERATION DAY",
-            "date": "2026-05-24",
-            "image": "blackliberation.png",
-            "image_alt": "A flyer depicting an African man breaking free from his chains. This event happened on May 24, 2026.",
-            "location": "720TH E ST"
-        },
-        {
-            "title": "EMERGENCY TRANS RALLY",
-            "date": "2026-05-23",
-            "image": "emergencytrans.jpg",
-            "image_alt": "A flyer with pink and blue tones has humans calling out to the reader. This event was May 23, 2026.",
-            "location": "CAL ANDERSON PARK"
-        },
-        {
-            "title": "GEORGA FLOYD DAY",
-            "date": "2026-05-25",
-            "image": "georgefloyd.png",
-            "image_alt": "A flyer depicting black martyr George Floyd calls the reader to join a rally. This event was on May 25th, 2026.",
-            "location": "OTHELLO LIGHT RAIL"
-        },
-        {
-            "title": "JUSTICE FOR NEGROS 19 RALLY",
-            "date": "2026-05-19",
-            "image": "justicefornegros19.png",
-            "image_alt": "A flyer depicting leftist militant martyrs of the heinous massacre ordered by dictator Marcos JR. This event was on May 19th, 2026.",
-            "location": "CONVENTION CENTER"
+            "title": "Weekly SRS Meeting",
+            "date": "2026-09-29",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Marxist Economics 101",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
         },
         {
             "title": "Weekly SRS Meeting",
-            "dayOfWeek": "Tuesday",
-            "recurring": true,
-            "image": "justicefornegros19.png",
-            "image_alt": "TODO",
+            "date": "2026-10-06",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "State of the Philippines: A Marxist Perspective",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-10-13",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Enemy Feminisms: Introduction and Chapter 1",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-10-20",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "What is Democratic Socialism?",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-10-27",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Enemy Feminisms: Chapter 2",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-11-03",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Enemy Feminisms: Chapter 3",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-11-10",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Legacy of the October Revolution",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-11-17",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Sexual relations and the working class",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly SRS Meeting",
+            "date": "2026-11-24",
+            "image": "srs_logo.png",
+            "image_alt": "",
+            "topic": "Enemy Feminisms: Chapter 4",
+            "time": "7:00 PM - 9:00 PM",
             "location": "https://bit.ly/srszoomlink"
         },
         {
             "title": "Weekly Marxist Fundamentals Reading Group",
+            "startDate": "2026-09-14",
+            "endDate": "2026-10-26",
             "dayOfWeek": "Monday",
             "recurring": true,
-            "image": "justicefornegros19.png",
+            "image": "peoples_guide.jpeg",
             "image_alt": "A flyer listing syllabus in SRS' weekly Marxist fundamentals study group",
+            "topic": "The People's Guide to Capitalism by Hadas Thier",
+            "time": "7:00 PM - 9:00 PM",
             "location": "https://bit.ly/srszoomlink"
         },
         {
-            "title": "Weekly Marxist Rhetoric Club",
+            "title": "Weekly Marxist Fundamentals Reading Group",
+            "startDate": "2026-11-02",
+            "endDate": "2026-11-16",
+            "dayOfWeek": "Monday",
+            "recurring": true,
+            "image": "utopian_and_scientific.jpg",
+            "image_alt": "Socialism: Utopian and Scientific by Friedrich Engels book cover",
+            "topic": "Socialism: Utopian and Scientific by Friedrich Engels",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly Marxist Fundamentals Reading Group",
+            "startDate": "2026-11-23",
+            "dayOfWeek": "Monday",
+            "recurring": true,
+            "image": "fascism_what_it_is.png",
+            "image_alt": "Fascism: What It Is and How to Fight It by Leon Trotsky book cover",
+            "topic": "Fascism: What It Is and How to Fight It by Leon Trotsky",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Rhetoric Club",
             "dayOfWeek": "Sunday",
             "recurring": true,
-            "image": "justicefornegros19.png",
-            "image_alt": "TODO",
-            "location": "https://bit.ly/srszoomlink"
-        },
-        {
-            "title": "Fuck America 250",
-            "date": "2026-07-07",
-            "image": "justicefornegros19.png",
-            "image_alt": "TODO",
+            "startDate": "2026-10-18",
+            "intervalWeeks": 2,
+            "image": "lenin_speech.jpg",
+            "image_alt": "",
+            "topic": "",
+            "time": "1:00 PM - 2:00PM",
             "location": "https://bit.ly/srszoomlink"
         }
     ]
