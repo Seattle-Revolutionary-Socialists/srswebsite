@@ -229,7 +229,9 @@ struct Event {
     date: String,
     image_alt: String,
     location: String,
-    image_name: String,
+    image: String,
+    topic: String,
+    time: String,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -267,7 +269,7 @@ pub async fn open_events_pr(
     Extension(env): Extension<Env>,
     mut multipart: Multipart,
 ) -> Response {
-    let mut input = Event{ title: "".to_owned(), date: "".to_owned(), image_alt: "".to_owned(), location: "".to_owned(), image_name: "".to_owned() };
+    let mut input = Event{ title: "".to_owned(), date: "".to_owned(), image_alt: "".to_owned(), location: "".to_owned(), image: "".to_owned(), topic: "".to_owned(), time: "".to_owned() };
     let mut cf_res = "".to_owned();
     let mut image_content = Bytes::new();
     let mut image_type = "jpg".to_owned();
@@ -290,7 +292,7 @@ pub async fn open_events_pr(
             image_content = data.clone();
             image_type = file_name_res.unwrap().to_string().split(".").collect::<Vec<&str>>().last().unwrap().to_string();
             // let content_type = field.content_type().unwrap().to_string();
-            input.image_name = timestamp.to_string() + "." + &image_type;
+            input.image = timestamp.to_string() + "." + &image_type;
         } else if name == "cf-turnstile-response" {
             cf_res = str::from_utf8(&data).unwrap().to_string();
         } else if name == "title" {
@@ -299,11 +301,17 @@ pub async fn open_events_pr(
         } else if name == "date" {
             input.date = str::from_utf8(&data).unwrap().to_string();
 
-        } else if name == "image-alt" {
+        } else if name == "image_alt" {
             input.image_alt = str::from_utf8(&data).unwrap().to_string();
 
         } else if name == "location" {
             input.location = str::from_utf8(&data).unwrap().to_string();
+
+        } else if name == "topic" {
+            input.topic = str::from_utf8(&data).unwrap().to_string();
+
+        } else if name == "time" {
+            input.time = str::from_utf8(&data).unwrap().to_string();
 
         }
     }

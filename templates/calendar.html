@@ -13,12 +13,13 @@
     <!-- we need to add .title, extra.location .date .extra.image .extra.image_alt -->
     <section class="p-1 flex flex-row justify-baseline items-center align-center w-1/2" style="margin: 0 auto;">
         <div class="p-1 flex items-center min-size-lg-screen-article-image-container-smal"><a class="block" href="#">
-                <img width="75" class="article-image" style="max-width: none; max-height: none;"
-                    src="{% if config.base_url | ending_with(pat="/") or config.base_url == "/" %}/{% endif %}events/{{config.extra.group_location}}-{{event.image}}" alt="{{event.image_alt}}" />
+                <img width="120" class="article-image" style="max-width: none; max-height: none;"
+                    src="{% if event.image is starting_with('http') %}{{ event.image }}{% else %}{{ get_url(path='events/' ~ config.extra.group_location ~ '-' ~ event.image) }}{% endif %}" alt="{{event.image_alt}}" />
             </a></div>
         <div class="p-1 article-image">
             <strong> <a href="#">{{ event.title }}</strong>
-            <div>{{event.date}} <em>{{event.location}}</em></div>
+            {% if event.topic %}<div><em>{{ event.topic }}</em></div>{% endif %}
+            <div>{{ event.date }}{% if event.time %} · {{ event.time }}{% endif %} <em>{{event.location}}</em></div>
             <!-- could add a rvsp section -->
         </div>
     </section>
