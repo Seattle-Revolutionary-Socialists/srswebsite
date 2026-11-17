@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    uid: prometheus
+    access: proxy           # Grafana proxies requests to Prometheus
+    url: http://prometheus:9090
+    isDefault: true         # Prometheus as the default datasource
+    editable: true
