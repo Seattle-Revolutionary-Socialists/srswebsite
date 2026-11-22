@@ -108,11 +108,24 @@
         {
             "title": "Weekly Marxist Fundamentals Reading Group",
             "startDate": "2026-11-23",
+            "endDate": "2026-11-30",
             "dayOfWeek": "Monday",
             "recurring": true,
             "image": "fascism_what_it_is.png",
             "image_alt": "Fascism: What It Is and How to Fight It by Leon Trotsky book cover",
             "topic": "Fascism: What It Is and How to Fight It by Leon Trotsky",
+            "time": "7:00 PM - 9:00 PM",
+            "location": "https://bit.ly/srszoomlink"
+        },
+        {
+            "title": "Weekly Marxist Fundamentals Reading Group",
+            "startDate": "2026-12-07",
+            "endDate": "2027-01-04",
+            "dayOfWeek": "Monday",
+            "recurring": true,
+            "image": "imperialism.jpg",
+            "image_alt": "Imperialism: The Highest Stage of Capitalism by Vladimir Lenin book cover",
+            "topic": "Imperialism: The Highest Stage of Capitalism by Vladimir Lenin",
             "time": "7:00 PM - 9:00 PM",
             "location": "https://bit.ly/srszoomlink"
         },

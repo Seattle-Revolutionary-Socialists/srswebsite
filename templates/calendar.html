@@ -7,19 +7,20 @@
             <h2 style="font-family: 'Anton'; color: white;">Events</h2>
             <div style="color: black;">We plan on having a presence at these events. Join us here to meet us in the
                 streets.</div>
+        </div>
     </section>
     {% set data = load_data(path="events.json") -%}
     {% for event in data.events %}
     <!-- we need to add .title, extra.location .date .extra.image .extra.image_alt -->
-    <section class="p-1 flex flex-row justify-baseline items-center align-center w-1/2" style="margin: 0 auto;">
-        <div class="p-1 flex items-center min-size-lg-screen-article-image-container-smal"><a class="block" href="#">
-                <img width="120" class="article-image" style="max-width: none; max-height: none;"
+    <section class="mx-auto flex w-full max-w-2xl flex-row items-center gap-4 p-2">
+        <div class="p-1 flex w-[120px] shrink-0 items-center justify-center"><a class="block" href="#">
+                <img width="120" class="article-image" style="max-width: none; max-height: none; width: 120px; height: auto;"
                     src="{% if event.image is starting_with('http') %}{{ event.image }}{% else %}{{ get_url(path='events/' ~ config.extra.group_location ~ '-' ~ event.image) }}{% endif %}" alt="{{event.image_alt}}" />
             </a></div>
-        <div class="p-1 article-image">
-            <strong> <a href="#">{{ event.title }}</strong>
+        <div class="p-1 min-w-0 flex-1 break-words text-left">
+            <strong><a href="#">{{ event.title }}</a></strong>
             {% if event.topic %}<div><em>{{ event.topic }}</em></div>{% endif %}
-            <div>{{ event.date }}{% if event.time %} · {{ event.time }}{% endif %} <em>{{event.location}}</em></div>
+            <div class="break-all">{{ event.date }}{% if event.time %} · {{ event.time }}{% endif %} <em>{{event.location}}</em></div>
             <!-- could add a rvsp section -->
         </div>
     </section>
