@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s       # Default scrape interval: every 15 seconds
+  evaluation_interval: 15s   # How often to check recording and alerting rules
+
+scrape_configs:
+  # Prometheus tracks itself — basic system metrics
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Our bot — the primary scrape target
+  - job_name: 'bot'
+    static_configs:
+      - targets: ['bot:9091']   # Docker DNS: service name + port
+    scrape_interval: 10s        # Scrape the application more often — 10s instead of 15s
